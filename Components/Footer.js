@@ -30,21 +30,21 @@ const Footer = () => {
             <a href="/" aria-current="page" className="footer-link w--current">
               HOME
             </a>
-            <a href="/#roadmap" className="footer-link w--current">
+            <a href="#" className="footer-link w--current">
               ROADMAP
               <br />
             </a>
-            <a href="/bloodlines" className="footer-link">
+            <a href="#" className="footer-link">
               BLOODLINES
               <br />
             </a>
-            <a href="/#team" className="footer-link">
+            <a href="#" className="footer-link">
               TEAM
             </a>
             <a href="#" target="_blank" className="footer-link hide">
               CONTRACT
             </a>
-            <a href="/terms-of-service" className="footer-link">
+            <a href="#" className="footer-link">
               TERMS&nbsp;OF&nbsp;SERVICE
             </a>
           </div>
