@@ -16,7 +16,7 @@ const TeamSection = () => {
         >
           <div className="center-block mb-40 centered-team">
             <div className="text-highlight primary mb-10 big">
-              DIVINE&nbsp;ANARCHY TEAM
+              Zencho&nbsp;TEAM
             </div>
           </div>
           <div className="nft-team-container">

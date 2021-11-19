@@ -17,12 +17,12 @@ const secondSection = () => {
         >
           <h2 className="heading-28">A Social Game Theory Experiment </h2>
           <p className="text-black-opacity mb-40 text-large">
-            Divine Anarchy is a decentralized NFT experiment where we combine
-            sandbox game theory and community choice to bring forth innovative
-            utility, community building, and an epic adventure for all players.
-            By obtaining a Divine Anarchy NFT collectibles, you can participate
-            in creating the story narrative, combat other bloodlines for
-            ascension, and so much more.
+            Zencho is a decentralized NFT experiment where we combine sandbox
+            game theory and community choice to bring forth innovative utility,
+            community building, and an epic adventure for all players. By
+            obtaining a Zencho NFT collectibles, you can participate in creating
+            the story narrative, combat other bloodlines for ascension, and so
+            much more.
           </p>
         </div>
         <div

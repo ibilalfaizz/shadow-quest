@@ -13,10 +13,10 @@ const HeroBanner = () => {
               alt=""
               className="mb-20 red"
             />
+
             <p className="text-black-opacity mb-40 none-margin">
-              Divine Anarchy is the first attempt at an in game governance NFT
-              that will act as an experimental catalyst for open source tribe
-              formation.
+              Zencho is the first attempt at an in game governance NFT that will
+              act as an experimental catalyst for open source tribe formation.
             </p>
             <a href="#" className="soldout w-inline-block">
               <h1 className="mb-10-3 sold-text">
