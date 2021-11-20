@@ -1,7 +1,7 @@
 import { Col, Nav, Row, Tab } from "react-bootstrap";
 import NavItem from "./NavItem";
 import NavContent from "./NavContent";
-const CategorySection = () => {
+const Heros = () => {
   return (
     <div id="basics" className="section-33 dark-copy wf-section">
       <div
@@ -40,9 +40,6 @@ const CategorySection = () => {
                 <NavItem eventKey="fourth" count="4" title="fourth" />
                 <NavItem eventKey="fifth" count="5" title="fifth" />
                 <NavItem eventKey="sixth" count="6" title="sixth" />
-                <NavItem eventKey="seventh" count="7" title="seventh" />
-                <NavItem eventKey="Eighth" count="8" title="Eighth" />
-                <NavItem eventKey="Ninth" count="9" title="Ninth" />
               </Nav>
             </Col>
             <Col md={7}>
@@ -64,4 +61,4 @@ const CategorySection = () => {
     </div>
   );
 };
-export default CategorySection;
+export default Heros;

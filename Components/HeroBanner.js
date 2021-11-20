@@ -18,13 +18,13 @@ const HeroBanner = () => {
               Zencho is the first attempt at an in game governance NFT that will
               act as an experimental catalyst for open source tribe formation.
             </p>
-            <a href="#" className="soldout w-inline-block">
+            {/* <a href="#" className="soldout w-inline-block">
               <h1 className="mb-10-3 sold-text">
                 WASTELAND&nbsp;COLLECTION
                 <span />
               </h1>
               <div className="corner-black bottom-right small" />
-            </a>
+            </a> */}
             <div className="button-group mb-10 stretch">
               <a
                 href="https://discord.com/invite/fgsF2dBRhW"
@@ -35,7 +35,7 @@ const HeroBanner = () => {
                 <div className="corner-black bottom-right small" />
                 <div className="custom-button-text-3 _2">DISCORD</div>
               </a>
-              <a
+              {/* <a
                 href="https://opensea.io/collection"
                 className="custom-button primary secondary top w-inline-block"
               >
@@ -43,7 +43,7 @@ const HeroBanner = () => {
                 <div className="corner-black top-left small" />
                 <div className="corner-black bottom-right small" />
                 <div className="custom-button-text-2-copy">OPENSEA</div>
-              </a>
+              </a> */}
             </div>
           </div>
           <div className="right-hero">

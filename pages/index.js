@@ -1,7 +1,7 @@
 import Head from "next/head";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import CategorySection from "../Components/CategorySection/CategorySection";
+import Heros from "../Components/HerosSection/Heros";
 import EighthSection from "../Components/EighthSection";
 import FaqSection from "../Components/faq/FaqSection";
 import FifthSection from "../Components/FifthSection";
@@ -53,10 +53,10 @@ const Home = () => {
         <Navbar />
         <HeroBanner />
         <SecondSection />
-        <CategorySection />
+        <Heros />
         <FourthSection />
         <FifthSection />
-        <SixthSection />
+        {/* <SixthSection /> */}
         {/* <SliderSection /> */}
         <EighthSection />
         <TeamSection />

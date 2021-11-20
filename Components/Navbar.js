@@ -12,39 +12,8 @@ const Navbar = () => {
   // style={{ display: "none", height: "10828.3px", display: "block" }}
   return (
     <>
-      <div className="div-block-20">
-        <p className="text-black-opacity mb-40 _0margin centered">
-          Zenchō&nbsp;IS&nbsp;NOW&nbsp;SOLD&nbsp;OUT&nbsp;10,011/10,011
-        </p>
-        <div id="js-clock" className="js-clock">
-          <div className="box">
-            <div id="js-clock-days" className="clock-number">
-              00
-            </div>
-            <h1 className="heading-14">:</h1>
-          </div>
-          <div className="box">
-            <div id="js-clock-hours" className="clock-number">
-              00
-            </div>
-            <h1 className="heading-14">:</h1>
-          </div>
-          <div className="box">
-            <div id="js-clock-minutes" className="clock-number">
-              00
-            </div>
-            <h1 className="heading-14">:</h1>
-          </div>
-          <div className="box">
-            <div id="js-clock-seconds" className="clock-number">
-              00
-            </div>
-          </div>
-        </div>
-      </div>
-
       <div className="hero-2 withbg wf-section">
-        <div data-collapse="medium" className="navbar-3 w-nav">
+        <div data-collapse="medium" className="navbar-3 w-nav  mt-0">
           <div className="navbar-container">
             <div className="navbar-container-left">
               <a href="#" className="navbar-brand company w-nav-brand">
