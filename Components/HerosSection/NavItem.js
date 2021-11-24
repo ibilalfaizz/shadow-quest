@@ -6,6 +6,7 @@ const NavItem = (props) => {
       <Nav.Link
         eventKey={props.eventKey}
         className="strategy-basics-tabs-menu-item-2 w-inline-block w-tab-link"
+        style={{ opacity: "1", backgroundColor: "#19181D" }}
       >
         <div className="strategy-basics-tabs-menu-item-header-2">
           <div className="strategy-basics-tabs-menu-item-number-2">

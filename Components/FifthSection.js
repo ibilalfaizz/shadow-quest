@@ -18,7 +18,7 @@ const FifthSection = () => {
           <div className="column-10 w-col w-col-5">
             <h3 className="hero-text mb-20">ヒーローズ</h3>
             <h3 className="text-white mb-20">HEROES</h3>
-            <p className="text-white-opacity mb-40">
+            <p className="text-white mb-40">
               Honor, dignity, and loyalty mark the ways of a hero. All nations
               have an opposing force to darkness. When awakened will impart
               justice, peace, and equanimity.

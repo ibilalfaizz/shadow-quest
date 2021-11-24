@@ -5,7 +5,7 @@ const Heros = () => {
   return (
     <div id="basics" className="section-33 dark-copy wf-section">
       <div
-        data-w-id="0987849d-ac35-26b8-2621-8d155a644e89"
+        id="nations"
         style={{
           opacity: 1,
           transform:
@@ -16,8 +16,8 @@ const Heros = () => {
       >
         <div className="center-block mb-60">
           <h3 className="hero-text mb-20">血統</h3>
-          <h4 className="text-white-5">Divine&nbsp;Bloodlines</h4>
-          <p className="text-white-opacity text-small">
+          <h4 className="text-dark">Divine&nbsp;Bloodlines</h4>
+          <p className="text-dark text-small">
             Check out the character guide below to discover the available
             faction choices and begin preparing for an epic battle for
             sovereignty, governance, and glory. Each bloodline character will
@@ -45,13 +45,22 @@ const Heros = () => {
             <Col md={7}>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-                  <NavContent supply="250" image="1.png" />
+                  <NavContent supply="250" image="team1.jpeg" />
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">
-                  <NavContent supply="280" image="2.png" />
+                  <NavContent supply="280" image="team2.jpeg" />
                 </Tab.Pane>
                 <Tab.Pane eventKey="third">
-                  <NavContent supply="180" image="3.png" />
+                  <NavContent supply="180" image="team3.jpeg" />
+                </Tab.Pane>
+                <Tab.Pane eventKey="fourth">
+                  <NavContent supply="180" image="team4.jpeg" />
+                </Tab.Pane>
+                <Tab.Pane eventKey="fifth">
+                  <NavContent supply="180" image="team5.jpeg" />
+                </Tab.Pane>
+                <Tab.Pane eventKey="sixth">
+                  <NavContent supply="180" image="team6.jpeg" />
                 </Tab.Pane>
               </Tab.Content>
             </Col>

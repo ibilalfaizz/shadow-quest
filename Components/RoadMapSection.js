@@ -22,7 +22,7 @@ const RoadMapSection = () => {
             <div className="custom-button-text-3">DEVELOPMENT&nbsp;ROADMAP</div>
           </a>
         </div>
-        <div
+        {/* <div
           data-w-id="93510166-6783-abb6-edcd-01402d17811a"
           style={{
             opacity: 1,
@@ -127,7 +127,7 @@ const RoadMapSection = () => {
               </ul>
             </div>
           </div>
-        </div>
+        </div> */}
         <div
           data-w-id="93510166-6783-abb6-edcd-01402d178166"
           style={{
@@ -159,13 +159,13 @@ const RoadMapSection = () => {
             </div>
             <div className="roadmap-info">
               <h6 className="text-white-copy _1st _0">Achievements to Date</h6>
-              <p className="mb-0-2 text-small road-desc">
+              <p className="mb-0-2 text-small road-desc text-dark">
                 First off, thank you for being a part of the community. We are
                 excited to see how much organic growth and engagement the
                 community here is experiencing. Here are some community stats
                 and updates:
               </p>
-              <h6 className="text-white-copy">Community updates:</h6>
+              <h6 className="text-dark-copy">Community updates:</h6>
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
                   • Discord Members: 126,918+
@@ -184,7 +184,7 @@ const RoadMapSection = () => {
                   <br />
                 </p>
               </div>
-              <h6 className="text-white-copy">GROWTH&nbsp;RATE:</h6>
+              <h6 className="text-dark-copy">GROWTH&nbsp;RATE:</h6>
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
                   • 2,519.8% Since Last Week
@@ -214,10 +214,10 @@ const RoadMapSection = () => {
             </div>
             <div className="roadmap-info">
               <h6 className="text-white-copy _1st">SUCCESSFUL Events</h6>
-              <h6 className="text-white-copy">
+              <h6 className="text-dark-copy">
                 Influencer news &amp; Partners:
               </h6>
-              <p className="mb-0-2 text-small road-desc">
+              <p className="mb-0-2 text-small road-desc text-dark">
                 We're excited announce successful strategic partnerships and
                 influencers we've onboarded:
               </p>
@@ -258,8 +258,8 @@ const RoadMapSection = () => {
             </div>
             <div className="roadmap-info">
               <h6 className="text-white-copy _1st">Future EVENTS</h6>
-              <h6 className="text-white-copy">PIPELINE updates:</h6>
-              <p className="mb-0-2 text-small road-desc">
+              <h6 className="text-dark-copy">PIPELINE updates:</h6>
+              <p className="mb-0-2 text-small road-desc text-dark">
                 As we continue to grow, our goal is to keep you guys updated
                 with all relevant details and up coming roadmap achievements:
               </p>
@@ -323,14 +323,14 @@ const RoadMapSection = () => {
               </div>
             </div>
             <div className="roadmap-info">
-              <h6 className="text-white-copy _1st _0">Achievements to Date</h6>
+              <h6 className="text-dark-copy _1st _0">Achievements to Date</h6>
               <p className="mb-0-2 text-small road-desc">
                 First off, thank you for being a part of the community. We are
                 excited to see how much organic growth and engagement the
                 community here is experiencing. Here are some community stats
                 and updates:
               </p>
-              <h6 className="text-white-copy">Community updates:</h6>
+              <h6 className="text-dark-copy">Community updates:</h6>
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
                   • Discord Members: 97,112+
@@ -349,7 +349,7 @@ const RoadMapSection = () => {
                   <br />
                 </p>
               </div>
-              <h6 className="text-white-copy">GROWTH&nbsp;RATE:</h6>
+              <h6 className="text-dark-copy">GROWTH&nbsp;RATE:</h6>
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
                   • 2,519.8% Since Last Week
@@ -369,7 +369,7 @@ const RoadMapSection = () => {
                 </p>
               </div>
               <h6 className="text-white-copy _1st">SUCCESSFUL Events</h6>
-              <h6 className="text-white-copy">
+              <h6 className="text-dark-copy">
                 Influencer news &amp; Partners:
               </h6>
               <p className="mb-0-2 text-small road-desc">
@@ -395,7 +395,7 @@ const RoadMapSection = () => {
                 </p>
               </div>
               <h6 className="text-white-copy _1st">Future EVENTS</h6>
-              <h6 className="text-white-copy">PIPELINE updates:</h6>
+              <h6 className="text-dark-copy">PIPELINE updates:</h6>
               <p className="mb-0-2 text-small road-desc">
                 As we continue to grow, our goal is to keep you guys updated
                 with all relevant details and up coming roadmap achievements:

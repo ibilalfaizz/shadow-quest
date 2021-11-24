@@ -18,10 +18,10 @@ const EighthSection = () => {
             <div className="w-col w-col-4 w-col-stack">
               <div className="mb-40">
                 <div className="text-highlight primary mb-10">PERKS</div>
-                <h5 className="text-white-2-copy">
+                <h5 className="text-dark-2-copy">
                   PERKS&nbsp;OF&nbsp;OWNING&nbsp;
                   <br />
-                  A&nbsp;DIVINE&nbsp;ANARCHY
+                  A&nbsp;Zencho
                   <br />
                 </h5>
                 <img

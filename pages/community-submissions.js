@@ -1,22 +1,9 @@
 import Head from "next/head";
-import Image from "next/image";
-import { useState, useEffect } from "react";
-import Heros from "../Components/HerosSection/Heros";
-import EighthSection from "../Components/EighthSection";
-import FaqSection from "../Components/faq/FaqSection";
-import FifthSection from "../Components/FifthSection";
+import Archives from "../Components/Archives/Archives";
 import Footer from "../Components/Footer";
-import FourthSection from "../Components/FourthSection";
-import HeroBanner from "../Components/HeroBanner";
 import Navbar from "../Components/Navbar";
-import RoadMapSection from "../Components/RoadMapSection";
 
-import SecondSection from "../Components/SecondSection";
-import SixthSection from "../Components/SixthSection";
-import SliderSection from "../Components/SliderSection";
-import TeamSection from "../Components/TeamSection";
-
-const Home = () => {
+const communitySubmissions = () => {
   return (
     <div>
       <Head>
@@ -49,22 +36,12 @@ const Home = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <div className="container-fluid p-0 ">
+      <div className="container-fluid p-0 body-7">
         <Navbar />
-        <HeroBanner />
-        {/* <SecondSection /> */}
-        <Heros />
-        <FourthSection />
-        <FifthSection />
-        {/* <SixthSection /> */}
-        {/* <SliderSection /> */}
-        <EighthSection />
-        <TeamSection />
-        <RoadMapSection />
-        <FaqSection />
+        <Archives />
         <Footer />
       </div>
     </div>
   );
 };
-export default Home;
+export default communitySubmissions;

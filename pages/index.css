@@ -6,6 +6,12 @@
 body {
   font-family: Chakra Petch !important;
 }
+#roadmap {
+  background-color: white !important;
+}
+.cursor {
+  cursor: pointer;
+}
 .active {
   height: auto;
   background-color: #19181d !important;
@@ -2885,7 +2891,8 @@ body {
 }
 
 .corner-black.top-left.small._2 {
-  background-color: #eeeff6;
+  background-color: #383838;
+  /* background-color: #eeeff6; */
 }
 
 .corner-black.top-left.small._2.dark {
@@ -2897,7 +2904,8 @@ body {
 }
 
 .corner-black.top-left.small.black {
-  background-color: #19181d;
+  background-color: white;
+  /* background-color: #19181d; */
 }
 
 .corner-black.top-left.small.black.white {
@@ -2967,7 +2975,9 @@ body {
 
 .corner-black.bottom-right.small {
   z-index: 2;
-  background-color: #edecf3;
+  background-color: #383838;
+
+  /* background-color: #edecf3; */
   background-image: none;
   -webkit-transform: translate(63%, 54%) rotate(45deg);
   -ms-transform: translate(63%, 54%) rotate(45deg);
@@ -2990,7 +3000,8 @@ body {
 }
 
 .corner-black.bottom-right.small.black {
-  background-color: #19181d;
+  background-color: white;
+  /* background-color: #19181d; */
 }
 
 .corner-black.bottom-right.small.white {
@@ -4040,7 +4051,7 @@ body {
 
 .section-inner.dark.season.dilema {
   background-color: rgba(255, 255, 255, 0.03);
-  /* background-image: url("../618877b00941cdc9538750d5_test.png"); */
+  background-image: url("/assets/images/dottedbg.png");
   background-position: 50% 50%;
   background-size: auto;
 }
@@ -5819,7 +5830,8 @@ body {
 }
 
 .nemesis2._0-padding {
-  background-color: #eeeff6;
+  background-color: #19181d;
+  /* background-color: #eeeff6; */
   color: #eeeff6;
 }
 
@@ -9143,6 +9155,11 @@ body {
   font-size: 32px;
   line-height: 1.4em;
 }
+.text-dark-2-copy {
+  color: black;
+  font-size: 32px;
+  line-height: 1.4em;
+}
 
 .text-white-2-copy.mb-0 {
   font-size: 28px;
@@ -10231,6 +10248,14 @@ body {
 .text-white-copy {
   margin-top: 20px;
   color: #f2f3f5;
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+}
+
+.text-dark-copy {
+  margin-top: 20px;
+  color: black;
   font-size: 18px;
   line-height: 24px;
   text-transform: uppercase;
@@ -11598,7 +11623,7 @@ body {
 .hero-2.withbg {
   max-height: 700px;
   min-height: auto;
-  background-image: -webkit-gradient(
+  /* background-image: -webkit-gradient(
       linear,
       left top,
       left bottom,
@@ -11619,11 +11644,16 @@ body {
       rgba(238, 240, 247, 0.85)
     ),
     url("/assets/images/61814292496622c013429aac_bg-3.jpg"),
-    linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    linear-gradient(180deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); */
+  background-color: #383838;
   background-position: 0px 0px, 0px 0px, 50% 50%, 0px 0px;
   background-size: auto, auto, cover, auto;
   background-repeat: repeat, repeat, no-repeat, repeat;
   background-attachment: scroll, scroll, scroll, scroll;
+}
+.hero-2.withbg h1,
+.hero-2.withbg p {
+  color: white;
 }
 
 .dropdown-link-copy-2 {
@@ -11825,13 +11855,15 @@ body {
 }
 
 .section-33.light.survival-about {
-  background-color: #19181d;
+  background-color: white;
+  /* background-color: #19181d; */
   background-image: none;
   background-size: auto;
 }
 
 .section-33.dark-copy {
-  background-color: #19181d;
+  background-color: white;
+  /* background-color: #19181d; */
   background-image: none;
   background-position: 0px 0px;
   background-size: auto;
@@ -12913,7 +12945,9 @@ body {
   -ms-flex-align: center;
   align-items: center;
   border-bottom: 2px solid rgba(32, 33, 37, 0.03);
-  background-color: rgba(33, 32, 37, 0.97);
+  background-color: #19181d;
+
+  /* background-color: rgba(33, 32, 37, 0.97); */
   line-height: 80px;
 }
 
@@ -13029,7 +13063,8 @@ body {
   overflow: hidden;
   padding-top: 144px;
   padding-bottom: 102px;
-  background-color: #19181d;
+  background: rgba(223, 204, 179, 0.95);
+  /* background-color: #19181d; */
   background-image: none;
   background-position: 0px 0px;
   background-size: auto;
@@ -13147,7 +13182,8 @@ body {
   align-items: center;
   border-radius: 19px;
   background-color: #202125;
-  box-shadow: 1px 1px 35px 18px #19181d;
+  box-shadow: 1px 1px 35px 18px #a2a2a2;
+  /* box-shadow: 1px 1px 35px 18px #19181d; */
 }
 
 .indent-2 {
