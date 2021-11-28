@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Archives from "../Components/Archives/Archives";
+import CommunitySubmissions_ from "../Components/Archives/CommunitySubmissions";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 
@@ -38,7 +38,7 @@ const communitySubmissions = () => {
 
       <div className="container-fluid p-0 body-7">
         <Navbar />
-        <Archives />
+        <CommunitySubmissions_ />
         <Footer />
       </div>
     </div>

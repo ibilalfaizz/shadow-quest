@@ -15,19 +15,12 @@ const HeroBanner = () => {
             />
 
             <p className="text-black-opacity mb-40 none-margin">
-              Zencho is an ambitious experimental project for writers (and
-              readers/poets/lyricists/wordsmiths/anyone with some beautiful
-              words) that aims to do two things:
-            </p>
-            <p>
-              1. Encourage, support, and empower writers of all backgrounds,
-              skills, and talents by providing a welcoming platform to showcase
-              and celebrate their work.
-            </p>
-            <p>
-              2. Create an open ended community driven over-arching storyline
-              where members decide what their NFT-characters do in scenarios
-              that are presented as part of the storyline thus far.
+              6 warring nations call on you, their elite warriors, as a
+              legendary battle looms. Will you join the fray to hone your skills
+              in the battlegrounds? Will you defeat your enemies and be rewarded
+              with $OMEN? Or will you grow stronger with each lesson learned?
+              Perhaps you’ll rise to the top and reap the spoils of war?
+              Whatever you do, BEWARE THE OMEN
             </p>
 
             <div className="button-group mb-10 stretch">
