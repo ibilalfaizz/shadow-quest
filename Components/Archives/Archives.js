@@ -75,10 +75,10 @@ const Archives = () => {
 
               {/* Midsurin */}
               <div className="row">
-                <div className="col-md-6 col-sm-12 p-md-0">
+                <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
                   <img src="/assets/images/team5.jpeg" alt="Kiroh" />
                 </div>
-                <div className="col-md-6 col-sm-12">
+                <div className="col-md-6 col-sm-12 order-sm-1 order-md-1">
                   <h1 className="gametheorykanji _20bottom">
                     <a href="#" className="link-3 dilema hide">
                       MIDSURIN
@@ -139,10 +139,10 @@ const Archives = () => {
 
               {/* Engand */}
               <div className="row">
-                <div className="col-md-6 col-sm-12 p-md-0">
+                <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
                   <img src="/assets/images/team1.jpeg" alt="Kiroh" />
                 </div>
-                <div className="col-md-6 col-sm-12">
+                <div className="col-md-6 col-sm-12 order-sm-1 order-md-2">
                   <h1 className="gametheorykanji _20bottom">
                     <a href="#" className="link-3 dilema hide">
                       ENGAND
