@@ -11,7 +11,7 @@ import HeroBanner from "../Components/HeroBanner";
 import Navbar from "../Components/Navbar";
 import RoadMapSection from "../Components/RoadMapSection";
 
-import SecondSection from "../Components/SecondSection";
+import FightToEarn from "../Components/FightToEarn";
 import SixthSection from "../Components/SixthSection";
 import SliderSection from "../Components/SliderSection";
 import TeamSection from "../Components/TeamSection";
@@ -52,15 +52,17 @@ const Home = () => {
       <div className="container-fluid p-0 ">
         <Navbar />
         <HeroBanner />
+        <FightToEarn />
         {/* <SecondSection /> */}
         <Heros />
-        <FourthSection />
-        <FifthSection />
+        {/* <FourthSection />
+        <FifthSection /> */}
         {/* <SixthSection /> */}
         {/* <SliderSection /> */}
-        <EighthSection />
-        <TeamSection />
+        {/* <EighthSection /> */}
         <RoadMapSection />
+        <TeamSection />
+
         <FaqSection />
         <Footer />
       </div>

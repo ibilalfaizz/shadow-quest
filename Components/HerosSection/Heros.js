@@ -3,7 +3,11 @@ import NavItem from "./NavItem";
 import NavContent from "./NavContent";
 const Heros = () => {
   return (
-    <div id="basics" className="section-33 dark-copy wf-section">
+    <div
+      id="basics"
+      className="section-33 wf-section "
+      style={{ background: "#151515" }}
+    >
       <div
         id="nations"
         style={{
@@ -14,10 +18,10 @@ const Heros = () => {
         }}
         className="container"
       >
-        <div className="center-block mb-60">
+        <div className="center-block mb-60 ">
+          <h2 className="text-white">Warring &nbsp;Nations</h2>
           <h3 className="hero-text mb-20">国家</h3>
-          <h4 className="text-dark">Warring &nbsp;Nations</h4>
-          <p className="text-dark text-small">
+          <p className="text-white text-small">
             Tensions build as five dominant nations struggle for supremacy in a
             world where the old and new collide. What training strategy will you
             employ to be fully prepared for the legendary battle and claim the
@@ -34,7 +38,7 @@ const Heros = () => {
           defaultActiveKey="first"
           className="strategy-basics-tabs w-tabs"
         >
-          <Row>
+          <Row className="bg-red">
             <Col md={5}>
               <Nav variant="pills" className="flex-column">
                 <NavItem eventKey="first" count="1" title="Kiroh " />

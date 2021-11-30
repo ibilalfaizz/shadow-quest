@@ -3,10 +3,10 @@ import { Container } from "react-bootstrap";
 const TeamSection = () => {
   return (
     <>
-      <div id="team" className="team-section-2 wf-section">
+      <div id="team" className="team-section-2 wf-section bg-grey">
         <div
-          data-w-id="fe609885-3724-9794-ad3a-f80dee80881e"
           style={{
+            border: "20px solid white",
             opacity: 1,
             transform:
               "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
@@ -14,12 +14,15 @@ const TeamSection = () => {
           }}
           className="container"
         >
-          <div className="center-block mb-40 centered-team">
-            <div className="text-highlight primary mb-10 big">
-              Zencho&nbsp;TEAM
-            </div>
+          <div className="text-center">
+            <h2 style={{ color: "white" }}>Team</h2>
+            <h3 className="hero-text mb-20">チーム</h3>
           </div>
-          <div className="nft-team-container">
+
+          <div
+            className="nft-team-container"
+            style={{ justifyContent: "space-around" }}
+          >
             <div className="div-block-17">
               <a href="#" className="assetbender w-inline-block">
                 <div className="corner-white-copy bottom-right small" />
@@ -28,21 +31,110 @@ const TeamSection = () => {
                   Team&nbsp;1
                 </div>
               </a>
-            </div>
-            <div className="grxxnt">
-              <div className="corner-white-copy bottom-right small" />
-              <div className="corner-white-copy bottom-right small _32" />
-              <div className="text-highlight primary mb-10 team">
-                {" "}
-                Team&nbsp;2
+              <div className="d-flex justify-content-center color-red">
+                <h3>Role</h3>
+                <a
+                  href="#"
+                  className="div-block-40 w-inline-block team-icons-container"
+                >
+                  <svg
+                    className="team-icons"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 30 30"
+                    width="30px"
+                    height="30px"
+                  >
+                    {" "}
+                    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z" />
+                  </svg>
+                </a>
               </div>
             </div>
-            <div className="diversity">
-              <div className="corner-white-copy bottom-right small" />
-              <div className="corner-white-copy bottom-right small _32" />
-              <div className="text-highlight primary mb-10 team">
-                {" "}
-                Team&nbsp;3
+            <div className="div-block-17">
+              <a href="#" className="assetbender w-inline-block">
+                <div className="corner-white-copy bottom-right small" />
+                <div className="corner-white-copy bottom-right small _32" />
+                <div className="text-highlight primary mb-10 team">
+                  Team&nbsp;2
+                </div>
+              </a>
+              <div className="d-flex justify-content-center color-red">
+                <h3>Role</h3>
+                <a
+                  href="#"
+                  className="div-block-40 w-inline-block team-icons-container"
+                >
+                  <svg
+                    className="team-icons"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 30 30"
+                    width="30px"
+                    height="30px"
+                  >
+                    {" "}
+                    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div
+            className="nft-team-container mt-5"
+            style={{ justifyContent: "space-around" }}
+          >
+            <div className="div-block-17">
+              <a href="#" className="assetbender w-inline-block">
+                <div className="corner-white-copy bottom-right small" />
+                <div className="corner-white-copy bottom-right small _32" />
+                <div className="text-highlight primary mb-10 team">
+                  Team&nbsp;1
+                </div>
+              </a>
+              <div className="d-flex justify-content-center color-red">
+                <h3>Role</h3>
+                <a
+                  href="#"
+                  className="div-block-40 w-inline-block team-icons-container"
+                >
+                  <svg
+                    className="team-icons"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 30 30"
+                    width="30px"
+                    height="30px"
+                  >
+                    {" "}
+                    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z" />
+                  </svg>
+                </a>
+              </div>
+            </div>
+            <div className="div-block-17">
+              <a href="#" className="assetbender w-inline-block">
+                <div className="corner-white-copy bottom-right small" />
+                <div className="corner-white-copy bottom-right small _32" />
+                <div className="text-highlight primary mb-10 team">
+                  Team&nbsp;2
+                </div>
+              </a>
+              <div className="d-flex justify-content-center color-red">
+                <h3>Role</h3>
+                <a
+                  href="#"
+                  className="div-block-40 w-inline-block team-icons-container"
+                >
+                  <svg
+                    className="team-icons"
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 0 30 30"
+                    width="30px"
+                    height="30px"
+                  >
+                    {" "}
+                    <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z" />
+                  </svg>
+                </a>
               </div>
             </div>
           </div>

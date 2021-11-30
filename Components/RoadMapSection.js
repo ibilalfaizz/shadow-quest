@@ -15,10 +15,17 @@ const RoadMapSection = () => {
           <a
             href="/dev-roadmap"
             className="custom-button primary w-inline-block"
+            style={{ backgroundColor: "#8bffff", color: "black" }}
           >
             <div className="custom-button-hover white" />
-            <div className="corner-black top-left small black" />
-            <div className="corner-black bottom-right small black" />
+            <div
+              className="corner-black top-left small black"
+              style={{ backgroundColor: "#600000" }}
+            />
+            <div
+              className="corner-black bottom-right small black"
+              style={{ backgroundColor: "#600000" }}
+            />
             <div className="custom-button-text-3">BATTLE &nbsp;STRATEGY</div>
           </a>
         </div>
@@ -36,7 +43,7 @@ const RoadMapSection = () => {
                 After minting your Gen0 Zencho on the gasless ImmutableX, you
                 have two options:
               </h6> */}
-              <h6 className="text-dark-copy">
+              <h6 className="text-white">
                 {" "}
                 After minting your Gen0 Zencho on the gasless ImmutableX, you
                 have two options:
@@ -70,7 +77,7 @@ const RoadMapSection = () => {
             </div>
             <div className="roadmap-info">
               {/* <h6 className="text-white-copy _1st">SUCCESSFUL Events</h6> */}
-              <h6 className="text-dark-copy">If you choose to Fight (stake)</h6>
+              <h6 className="text-white">If you choose to Fight (stake)</h6>
 
               <div className="indent-2 mt-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
@@ -109,8 +116,8 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-dark-copy">Fighting Locations</h6>
-              <p className="mb-0-2 text-small road-desc text-dark">
+              <h6 className="text-white">Fighting Locations</h6>
+              <p className="mb-0-2 text-small road-desc text-white">
                 When you stake, you have a choice of different staking
                 locations. They are different battlegrounds with different
                 risks/rewards depending on whether you win or lose your battle
@@ -161,8 +168,8 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-dark-copy">OMEN economy</h6>
-              <p className="mb-0-2 text-small road-desc text-dark">
+              <h6 className="text-white">OMEN economy</h6>
+              <p className="mb-0-2 text-small road-desc text-white">
                 As you win battles, and accumulate $OMEN and can do 2 things
                 with it
               </p>
@@ -206,8 +213,8 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-dark-copy">Warrior Leaderboard and perks</h6>
-              <p className="mb-0-2 text-small road-desc text-dark">
+              <h6 className="text-white">Warrior Leaderboard and perks</h6>
+              <p className="mb-0-2 text-small road-desc text-white">
                 Additionally, the number of battle wins are recorded and shown
                 on a leaderboard. The Warrior with the most wins at a certain
                 time every week
@@ -218,7 +225,7 @@ const RoadMapSection = () => {
                 </p>
               </div>
 
-              <p className="mb-0-2 text-small road-desc text-dark">
+              <p className="mb-0-2 text-small road-desc text-white">
                 The Warrior with the most wins at the end of the month will
               </p>
               <div className="indent-2">
@@ -230,6 +237,29 @@ const RoadMapSection = () => {
               </div>
             </div>
           </div>
+        </div>
+        <div
+          className="justify-content-center mt-5"
+          style={{ justifyContent: "center", display: "flex" }}
+        >
+          <a
+            href="/dev-roadmap"
+            className="custom-button primary w-inline-block"
+            style={{
+              color: "white",
+              backgroundColor: "black",
+            }}
+          >
+            <div
+              className="corner-black top-left small black"
+              style={{ backgroundColor: "#600000" }}
+            />
+            <div
+              className="corner-black bottom-right small black"
+              style={{ backgroundColor: "#600000" }}
+            />
+            <div className="custom-button-text-3">FIGHT ON DISCORD</div>
+          </a>
         </div>
       </div>
     </div>

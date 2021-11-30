@@ -4,10 +4,11 @@ const HeroBanner = () => {
       <div className="container">
         <div className="div-block-6 reversed">
           <div className="left-hero-2">
-            <h1 className="mb-10-3">
+            <h1 className="">
               BEWARE&nbsp;THE&nbsp;OMEN
               <span />
             </h1>
+            <h3 className="mt-0 mb-10-3 color-red">オーメンに注意</h3>
             <img
               src="/assets/images/divider.svg"
               alt=""
