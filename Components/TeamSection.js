@@ -4,16 +4,7 @@ const TeamSection = () => {
   return (
     <>
       <div id="team" className="team-section-2 wf-section bg-grey">
-        <div
-          style={{
-            border: "20px solid white",
-            opacity: 1,
-            transform:
-              "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
-            transformStyle: "preserve-3d",
-          }}
-          className="container"
-        >
+        <div className="container team-container">
           <div className="text-center">
             <h2 style={{ color: "white" }}>Team</h2>
             <h3 className="hero-text mb-20">チーム</h3>

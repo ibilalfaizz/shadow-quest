@@ -46,8 +46,13 @@ body {
   margin-bottom: 0;
 }
 .f2e-inner {
+  background-image: url("/assets/icons/F2E.png");
   border: 20px solid #600000;
   padding: 2rem 2rem;
+
+  background-size: 40rem;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .f2e-inner::before {
   top: 0;
@@ -74,6 +79,14 @@ body {
   background-repeat: no-repeat;
   z-index: 9999;
   background-size: contain;
+}
+.team-container {
+  border: 20px solid white;
+
+  background-size: 40rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/assets/icons/team.png");
 }
 #roadmap {
   background-color: #600000 !important;
