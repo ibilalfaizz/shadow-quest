@@ -43,26 +43,16 @@ const RoadMapSection = () => {
                 After minting your Gen0 Zencho on the gasless ImmutableX, you
                 have two options:
               </h6> */}
-              <h6 className="text-white">
-                {" "}
-                After minting your Gen0 Zencho on the gasless ImmutableX, you
-                have two options:
-              </h6>
+              <h6 className="text-white"> 10K Gen0 Warrior NFTs are minted</h6>
 
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
-                  • Shirk your duties and sell your Zencho on
-                  <a href=" https://market.x.immutable.com">
-                    {" "}
-                    https://market.x.immutable.com{" "}
-                  </a>{" "}
-                  or
-                  <a href=" https://tokentrove.com"> https://tokentrove.com</a>
-                  <br />
-                </p>
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
-                  • Stake your Zencho for $OMEN, increased stats, and the spoils
-                  of war.
+                  • Every Warrior is unique hand-drawn limited edition art{" "}
+                  <br />• Each unique NFT has 5 stats: Skill, Speed, Strength,
+                  Magic, Health - better stats means better chance of winning in
+                  battle <br />
+                  • 1K are Dark Samsar - a mysterious, ultra rare army that can
+                  steal $HONR
                   <br />
                 </p>
               </div>
@@ -77,33 +67,11 @@ const RoadMapSection = () => {
             </div>
             <div className="roadmap-info">
               {/* <h6 className="text-white-copy _1st">SUCCESSFUL Events</h6> */}
-              <h6 className="text-white">If you choose to Fight (stake)</h6>
+              <h6 className="text-white">BATTLE your Warrior!</h6>
 
               <div className="indent-2 mt-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
-                  • Your chosen warrior enters the battleground and is able to
-                  battle other Zenchos every 3 hours.
-                  <br />
-                </p>
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
-                  • A Zencho with better stats will be more likely to win. But
-                  you’ll have to be strategic as every warrior’s skills are
-                  different.
-                  <br />
-                </p>
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    • If you win a battle, you will be rewarded with ERC-20
-                    $OMEN
-                  </p>
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    • If you lose a battle, then you will have learnt an
-                    important lesson, and receive a permanent boost to your
-                    stats. You will grow with each hard loss.
-                  </p>
+                  • Stake your Warrior to earn precious $HONR in battle <br />
                 </p>
               </div>
             </div>
@@ -116,43 +84,13 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-white">Fighting Locations</h6>
-              <p className="mb-0-2 text-small road-desc text-white">
-                When you stake, you have a choice of different staking
-                locations. They are different battlegrounds with different
-                risks/rewards depending on whether you win or lose your battle
-              </p>
+              <h6 className="text-white">Choose where to battle!</h6>
+
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • Training ground
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    • Win: Receive 1,666 $OMEN
-                  </p>
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    • Lose: Receive large stats boost
-                  </p>
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • Colosseum
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    • Win: Receive 3,332 $OMEN
-                  </p>
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    • Lose: Receive large stats boost
-                  </p>
+                  • Training Ground: Safely earn 3,000 $HONR per day <br />
+                  • Battlefield: Earn UP TO 1,000 $HONR per HOUR depending on
+                  your stats and luck. <br />
                 </p>
               </div>
             </div>
@@ -168,36 +106,26 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-white">OMEN economy</h6>
-              <p className="mb-0-2 text-small road-desc text-white">
-                As you win battles, and accumulate $OMEN and can do 2 things
-                with it
-              </p>
+              <h6 className="text-white">Retreat to safety! [Unstaking]</h6>
+
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • Use it to mint a “Gen1” NFT
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
+                  • If training you can simply leave training and unstake
+                  whenever.
+                  <br />• If battling you must either FLEE or FIGHT from the
+                  Dark Samsar Army:
                   <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    • 15,000 $OMEN cost for the first 6,666 Gen1s,
+                    i. If you FLEE, then you drop 15% of your earned $HONR{" "}
+                    <br />
+                    ii.If you choose to FIGHT the Samsar, then <br />
+                    <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
+                      1. If you are defeated: you lose ALL your newly
+                      accumulated $HONR, but <br />
+                      2. If you are victorious: you DOUBLE your $HONR!
+                    </p>
                   </p>
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    • 30,000 $OMEN cost for the second 6,666 Gen1s
-                  </p>
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    • 60,000 $OMEN cost for the final 6,666 Gen1s.
-                  </p>
-                </p>
-
-                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • Exchange it for eth in the liquidity pool
+                  • Any $HONR dropped / won by the Dark Samsar Army is shared
+                  amongst those currently fighting in the game.
                 </p>
               </div>
             </div>
@@ -213,26 +141,44 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-white">Warrior Leaderboard and perks</h6>
-              <p className="mb-0-2 text-small road-desc text-white">
-                Additionally, the number of battle wins are recorded and shown
-                on a leaderboard. The Warrior with the most wins at a certain
-                time every week
-              </p>
+              <h6 className="text-white">Valiant Fighters are honored!</h6>
+              <p className="mb-0-2 text-small road-desc text-white"></p>
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • Receives a prize of 1eth
+                  • Soon after battle commences, stories of our greatest
+                  fighters and largest $HONR winners will fill the kingdom.{" "}
+                  <br />• $HONR rewards and glorious honors will be bestowed
+                  upon those fighters who develop a reputation...
                 </p>
               </div>
+            </div>
+          </div>
 
-              <p className="mb-0-2 text-small road-desc text-white">
-                The Warrior with the most wins at the end of the month will
-              </p>
+          {/* 06 */}
+
+          <div className="div-block-26">
+            <div className="div-block-27">
+              <div className="centre_icon_wrap-2">
+                <div className="centre_step-2">06</div>
+              </div>
+              <div className="completed-bar-6 _95" />
+            </div>
+            <div className="roadmap-info">
+              <h6 className="text-white">$HONR Tokenomics</h6>
+              <p className="mb-0-2 text-small road-desc text-white"></p>
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • Choose the community submitted lore that will be
-                  immortalised as a graphic novel which will be airdropped to
-                  all holders.
+                  • Use $HONR to:
+                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
+                    i. Mint Gen1 Warriors to fight for you and earn more rewards
+                    - there are only 18K reinforcements available to mint with
+                    1.8K being Dark Samsar Army. <br />
+                    ii. Mint weapons & armour that give you greater chance of
+                    victory and more $HONR. <br />
+                    iii. Future mint battleland - all revealed soon.
+                  </p>
+                  • Although 1 $HONR = 1 $HONR always, we will provide liquidity
+                  on Uniswap to allow more users to enter the ShadowQuest world.
                 </p>
               </div>
             </div>
@@ -243,7 +189,9 @@ const RoadMapSection = () => {
           style={{ justifyContent: "center", display: "flex" }}
         >
           <a
-            href="/dev-roadmap"
+            href="https://discord.gg/kZquzB6Aes"
+            target="_blank"
+            rel="noOpener"
             className="custom-button primary w-inline-block"
             style={{
               color: "white",

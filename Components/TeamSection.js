@@ -15,17 +15,21 @@ const TeamSection = () => {
             style={{ justifyContent: "space-around" }}
           >
             <div className="div-block-17">
-              <a href="#" className="assetbender w-inline-block">
+              <a
+                href="#"
+                className="assetbender w-inline-block"
+                style={{ backgroundImage: `url('/assets/images/zencho1.png')` }}
+              >
                 <div className="corner-white-copy bottom-right small" />
                 <div className="corner-white-copy bottom-right small _32" />
                 <div className="text-highlight primary mb-10 team">
-                  Team&nbsp;1
+                  Derkizzle
                 </div>
               </a>
               <div className="d-flex justify-content-center color-red">
-                <h3>Role</h3>
+                <h3>Founder, Tokenomics</h3>
                 <a
-                  href="#"
+                  href="https://twitter.com/derkizzle"
                   className="div-block-40 w-inline-block team-icons-container"
                 >
                   <svg
@@ -42,7 +46,11 @@ const TeamSection = () => {
               </div>
             </div>
             <div className="div-block-17">
-              <a href="#" className="assetbender w-inline-block">
+              <a
+                href="#"
+                className="assetbender w-inline-block"
+                style={{ backgroundImage: `url('/assets/images/zencho2.png')` }}
+              >
                 <div className="corner-white-copy bottom-right small" />
                 <div className="corner-white-copy bottom-right small _32" />
                 <div className="text-highlight primary mb-10 team">
@@ -50,7 +58,7 @@ const TeamSection = () => {
                 </div>
               </a>
               <div className="d-flex justify-content-center color-red">
-                <h3>Role</h3>
+                <h3>Dev </h3>
                 <a
                   href="#"
                   className="div-block-40 w-inline-block team-icons-container"
@@ -75,7 +83,11 @@ const TeamSection = () => {
             style={{ justifyContent: "space-around" }}
           >
             <div className="div-block-17">
-              <a href="#" className="assetbender w-inline-block">
+              <a
+                href="#"
+                className="assetbender w-inline-block"
+                style={{ backgroundImage: `url('/assets/images/zencho3.png')` }}
+              >
                 <div className="corner-white-copy bottom-right small" />
                 <div className="corner-white-copy bottom-right small _32" />
                 <div className="text-highlight primary mb-10 team">
@@ -83,7 +95,7 @@ const TeamSection = () => {
                 </div>
               </a>
               <div className="d-flex justify-content-center color-red">
-                <h3>Role</h3>
+                <h3>Artist</h3>
                 <a
                   href="#"
                   className="div-block-40 w-inline-block team-icons-container"
@@ -102,7 +114,11 @@ const TeamSection = () => {
               </div>
             </div>
             <div className="div-block-17">
-              <a href="#" className="assetbender w-inline-block">
+              <a
+                href="#"
+                className="assetbender w-inline-block"
+                style={{ backgroundImage: `url('/assets/images/zencho4.png')` }}
+              >
                 <div className="corner-white-copy bottom-right small" />
                 <div className="corner-white-copy bottom-right small _32" />
                 <div className="text-highlight primary mb-10 team">
@@ -110,7 +126,7 @@ const TeamSection = () => {
                 </div>
               </a>
               <div className="d-flex justify-content-center color-red">
-                <h3>Role</h3>
+                <h3>Community Manager</h3>
                 <a
                   href="#"
                   className="div-block-40 w-inline-block team-icons-container"

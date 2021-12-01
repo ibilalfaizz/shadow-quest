@@ -1,40 +1,34 @@
 import Head from "next/head";
 import Image from "next/image";
-import { useState, useEffect } from "react";
-import Heros from "../Components/HerosSection/Heros";
-import EighthSection from "../Components/EighthSection";
+import Nations from "../Components/HerosSection/Nations";
 import FaqSection from "../Components/faq/FaqSection";
-import FifthSection from "../Components/FifthSection";
 import Footer from "../Components/Footer";
-import FourthSection from "../Components/FourthSection";
 import HeroBanner from "../Components/HeroBanner";
 import Navbar from "../Components/Navbar";
 import RoadMapSection from "../Components/RoadMapSection";
 
 import FightToEarn from "../Components/FightToEarn";
-import SixthSection from "../Components/SixthSection";
-import SliderSection from "../Components/SliderSection";
 import TeamSection from "../Components/TeamSection";
 
 const Home = () => {
   return (
     <div>
       <Head>
-        <title>Zenchō | 前兆 </title>
+        <title>SHADOW QUEST | シャドウクエスト </title>
 
         <meta
-          content="Zenchō | 前兆 - Join 9,996 hand-drawn anime warriors for the fight that will end all other fights. Launching November."
+          content="SHADOW QUEST | シャドウクエスト - Join 9,996 hand-drawn anime warriors for the fight that will end all other fights. Launching November."
           name="description"
         />
-        <meta content="Zenchō" property="og:title" />
+        <meta content="SHADOW QUEST" property="og:title" />
         <meta
-          content="Zenchō | 前兆 - Join 9,996 hand-drawn anime warriors for the fight that will end all other fights. Launching November."
+          content="SHADOW QUEST | シャドウクエスト - Join 9,996 hand-drawn anime warriors for the fight that will end all other fights. Launching November."
           property="og:description"
         />
         <meta property="og:image" content="/assets/images/meta-image.png" />
-        <meta property="twitter:title" content="Zenchō" />
+        <meta property="twitter:title" content="SHADOW QUEST" />
         <meta
-          content="Zenchō | 前兆 - Join 9,996 hand-drawn anime warriors for the fight that will end all other fights. Launching November."
+          content="SHADOW QUEST | シャドウクエスト - Join 9,996 hand-drawn anime warriors for the fight that will end all other fights. Launching November."
           property="twitter:description"
         />
         <meta
@@ -53,13 +47,9 @@ const Home = () => {
         <Navbar />
         <HeroBanner />
         <FightToEarn />
-        {/* <SecondSection /> */}
-        <Heros />
-        {/* <FourthSection />
-        <FifthSection /> */}
-        {/* <SixthSection /> */}
-        {/* <SliderSection /> */}
-        {/* <EighthSection /> */}
+
+        <Nations />
+
         <RoadMapSection />
         <TeamSection />
 

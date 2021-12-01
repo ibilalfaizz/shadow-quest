@@ -1,5 +1,5 @@
 import Head from "next/head";
-import Archives from "../Components/Archives/Archives";
+import Archives from "../Components/Others/Archives";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 

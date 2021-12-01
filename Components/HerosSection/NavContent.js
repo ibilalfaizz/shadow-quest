@@ -7,7 +7,7 @@ const NavItem = (props) => {
         className="genesis _1 w-tab-pane w--tab-active"
         id="w-tabs-0-data-w-pane-0"
       >
-        <img src={`/assets/images/${props.image}`} />
+        <img src={`/assets/images/nations/${props.image}`} />
         <div className="corner-dark bottom-right dark" />
         {/* <div className="div-block-21">
           <div className="div-block-55">

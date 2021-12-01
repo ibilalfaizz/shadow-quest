@@ -28,24 +28,24 @@ const Footer = () => {
               <img src="#" width={40} alt="" className="image-16" />
             </a>
             <a href="/" aria-current="page" className="footer-link w--current">
-              HOME
+              SHADOWQUEST
             </a>
             <a href="#" className="footer-link w--current">
-              ROADMAP
+              STACKING GAME
               <br />
             </a>
             <a href="#" className="footer-link">
-              BLOODLINES
+              NATIONS
               <br />
             </a>
             <a href="#" className="footer-link">
-              TEAM
+              ARCHIVE
             </a>
-            <a href="#" target="_blank" className="footer-link hide">
-              CONTRACT
+            <a href="#" className="footer-link hide">
+              COMMUNITY LORE
             </a>
             <a href="#" className="footer-link">
-              TERMS&nbsp;OF&nbsp;SERVICE
+              WHITEPAPERS
             </a>
           </div>
           <div className="subscribe-socials community">

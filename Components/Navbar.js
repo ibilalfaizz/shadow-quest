@@ -26,7 +26,10 @@ const Navbar = () => {
               </a> */}
               <Link href="/">
                 <span className="navbar-brand game w-nav-brand cursor">
-                  <h1 className="heading cursor"> Zenchō&nbsp; | &nbsp;前兆</h1>
+                  <h1 className="heading cursor">
+                    {" "}
+                    SHADOW QUEST&nbsp; | &nbsp;シャドウクエスト
+                  </h1>
                 </span>
               </Link>
               <nav
@@ -34,32 +37,46 @@ const Navbar = () => {
                 className="nav-menu w-nav-menu"
                 style={{ transform: "translateY(0px) translateX(0px)" }}
               >
-                <Link href="/">
+                {/* <Link href="/">
                   <span className="div-block-40 w-inline-block w--current cursor">
-                    <h1 className="heading-10">HOME</h1>
+                    <h1 className="heading-10">ShadowQuest </h1>
                   </span>
-                </Link>
+                </Link> */}
+                <a
+                  href="#stacking-game"
+                  className="div-block-40 w-inline-block"
+                >
+                  <h1 className="heading-10">STACKING GAME</h1>
+                </a>
                 <a href="#nations" className="div-block-40 w-inline-block">
                   <h1 className="heading-10">NATIONS</h1>
                 </a>
                 <Link href="/archives">
                   <span className="div-block-40 w-inline-block cursor">
-                    <h1 className="heading-10 ">ARCHIVES</h1>
+                    <h1 className="heading-10 ">ARCHIVE</h1>
                   </span>
                 </Link>
-                <Link href="/community-submissions">
+                <Link href="/community-lore">
                   <span className="div-block-40 w-inline-block cursor">
-                    <h1 className="heading-10">COMMUNITY SUBMISSIONS</h1>
+                    <h1 className="heading-10">COMMUNITY LORE</h1>
                   </span>
                 </Link>
-                <a href="#" className="div-block-40 w-inline-block">
-                  <h1 className="heading-10">ROADMAP</h1>
-                </a>
+                <Link
+                  href="/whitepaper"
+                  className="div-block-40 w-inline-block"
+                >
+                  <h1 className="heading-10">WHITEPAPER</h1>
+                </Link>
 
-                <a href="#" className="div-block-40 w-inline-block">
+                {/* <a href="#" className="div-block-40 w-inline-block">
                   <h1 className="heading-10">FAQ</h1>
-                </a>
-                <a href="#" className="div-block-40 w-inline-block">
+                </a> */}
+                <a
+                  href="https://twitter.com/ZenCho_NFT"
+                  target="_blank"
+                  rel="noOpener"
+                  className="div-block-40 w-inline-block"
+                >
                   <svg
                     className="navbar-icons"
                     xmlns="http://www.w3.org/2000/svg"
@@ -72,7 +89,12 @@ const Navbar = () => {
                   </svg>
                 </a>
 
-                <a href="#" className="div-block-40 w-inline-block">
+                <a
+                  href="https://discord.gg/kZquzB6Aes"
+                  target="_blank"
+                  rel="noOpener"
+                  className="div-block-40 w-inline-block"
+                >
                   <svg
                     className="navbar-icons"
                     xmlns="http://www.w3.org/2000/svg"

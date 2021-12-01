@@ -2,10 +2,43 @@
   font-family: Chakra Petch;
   src: url(/assets/fonts/ChakraPetch-Regular.ttf);
 }
+@font-face {
+  font-family: edosz;
+  src: url(/assets/fonts/edosz.ttf);
+}
 
 body {
   font-family: Chakra Petch !important;
 }
+.banner-video {
+  position: relative;
+  height: 100vh !important;
+  object-position: top;
+}
+.video-inner-container {
+  position: absolute;
+  top: 78px;
+  width: 100%;
+}
+
+#myVideo {
+  object-fit: cover;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+}
+.subtitles {
+  text-align: center;
+  color: #b4b4b4;
+
+  font-family: edosz;
+}
+.subtitles h5 {
+  font-size: 2rem;
+}
+
 .font-16 {
   font-size: 16px !important;
 }
@@ -34,7 +67,7 @@ body {
   background-color: #c7c7c7 !important;
 }
 .fight-to-earn {
-  padding-top: 7rem;
+  padding-top: 5rem;
   padding-bottom: 7rem;
 }
 .fight-to-earn p {
@@ -9047,7 +9080,7 @@ body {
   -ms-flex-align: center;
   align-items: center;
   background-color: #17161b;
-  background-image: url("/assets/images/3.png");
+  /* background-image: url("/assets/images/zencho1.png"); */
   background-position: 50% 50%;
   background-size: cover;
   text-decoration: none;
