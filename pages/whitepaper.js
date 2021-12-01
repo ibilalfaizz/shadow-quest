@@ -1,5 +1,5 @@
 import Head from "next/head";
-import WhitePaper_ from "../Components/Others/WhitePaper";
+import WhitePaper_ from "../Components/Others/whitepaper";
 import Footer from "../Components/Footer";
 import Navbar from "../Components/Navbar";
 
