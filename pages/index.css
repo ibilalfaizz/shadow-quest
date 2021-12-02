@@ -20,6 +20,9 @@ body {
   top: 78px;
   width: 100%;
 }
+.cursor-pointer {
+  cursor:pointer
+}
 
 #myVideo {
   object-fit: cover;
