@@ -89,7 +89,7 @@ const AccordionItem = () => {
             • Additional weapons to boost your stats will be available to purchase using $HONR</br>
             • Stats boosts for Warriors to help them win more battles and protect your precious $HONR</br>
             • An innovative mechanic which will result in increased competition for the leaderboard top spot and the prizes up for grabs each week.</br>
-            • Exciting mechanics to team up with other Warriors to boost your stats and win more battles! (But you’ll have to be strategic with who you team up with as certain pairings may not be the most advantageous!)
+            • Exciting mechanics to team up with other Warriors to boost your stats and win more battles! (But you’ll have to be strategic with who you team up with as certain pairings may not be the most advantageous.)
             </br>`,
     },
   ];
