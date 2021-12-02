@@ -17,16 +17,9 @@ const Navbar = () => {
         <div data-collapse="medium" className="navbar-3 w-nav  mt-0">
           <div className="navbar-container">
             <div className="navbar-container-left">
-              {/* <a
-                href="#"
-                className="navbar-brand company w-nav-brand "
-                style={{ color: "white" }}
-              >
-                Zenchō | 前兆
-              </a> */}
               <Link href="/">
                 <span className="navbar-brand game w-nav-brand cursor">
-                  <h1 className="heading cursor">
+                  <h1 className="heading site-title cursor">
                     {" "}
                     SHADOW QUEST&nbsp; | &nbsp;シャドウクエスト
                   </h1>
