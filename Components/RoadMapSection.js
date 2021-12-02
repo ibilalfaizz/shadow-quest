@@ -48,11 +48,11 @@ const RoadMapSection = () => {
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
                   • Every Warrior is unique hand-drawn limited edition art{" "}
-                  <br />• Each unique NFT has 5 stats: Skill, Speed, Strength,
-                  Magic, Health - better stats means better chance of winning in
-                  battle <br />
-                  • 1K are Dark Samsar - a mysterious, ultra rare army that can
-                  steal $HONR
+                  <br />• Each Warrior can be strategically staked in a choice
+                  of TWO battle locations to earn precious $HONR.
+                  <br />
+                  • Warriors with the most FIGHTs won against the Dark Samsar
+                  Army will receive glorious $HONR prizes EACH WEEK
                   <br />
                 </p>
               </div>
@@ -67,11 +67,20 @@ const RoadMapSection = () => {
             </div>
             <div className="roadmap-info">
               {/* <h6 className="text-white-copy _1st">SUCCESSFUL Events</h6> */}
-              <h6 className="text-white">BATTLE your Warrior!</h6>
+              <h6 className="text-white">
+                TWO new battle locations are added!
+              </h6>
 
               <div className="indent-2 mt-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
-                  • Stake your Warrior to earn precious $HONR in battle <br />
+                  • Interstice - Warriors who dare, can travel to the Samsar
+                  homeland that borders on the astral planes. Here the rewards
+                  are legendary but the Samsar are even more deadly so beware of
+                  your $HONR! <br />• Eclipse - Little is known of this event,
+                  but whispers warn it is where heroes are born and broken. Are
+                  you brave enough to venture into this unknown space? Will you
+                  go down in the annals of history as the greatest warrior? Will
+                  you return a god? Will you return at all?
                 </p>
               </div>
             </div>
@@ -84,13 +93,19 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-white">Choose where to battle!</h6>
+              <h6 className="text-white">
+                Boost your stats with weapons and armor!
+              </h6>
 
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • Training Ground: Safely earn 3,000 $HONR per day <br />
-                  • Battlefield: Earn UP TO 1,000 $HONR per HOUR depending on
-                  your stats and luck. <br />
+                  • Warriors will be able to commission unique weapons and armor
+                  from master blacksmiths from around the world.
+                  <br />
+                  • The weapons and armor will be paid for using $HONR, and will
+                  boost the stats of your Warriors to increase your winnings in
+                  battle!
+                  <br />
                 </p>
               </div>
             </div>
@@ -106,26 +121,19 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-white">Retreat to safety! [Unstaking]</h6>
+              <h6 className="text-white">PvP Battle mechanics upgrade</h6>
 
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • If training you can simply leave training and unstake
-                  whenever.
-                  <br />• If battling you must either FLEE or FIGHT from the
-                  Dark Samsar Army:
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    i. If you FLEE, then you drop 15% of your earned $HONR{" "}
-                    <br />
-                    ii.If you choose to FIGHT the Samsar, then <br />
-                    <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                      1. If you are defeated: you lose ALL your newly
-                      accumulated $HONR, but <br />
-                      2. If you are victorious: you DOUBLE your $HONR!
-                    </p>
-                  </p>
-                  • Any $HONR dropped / won by the Dark Samsar Army is shared
-                  amongst those currently fighting in the game.
+                  • The mechanics will be upgraded so that you will be able to
+                  battle other warriors head to head and see the damage done
+                  with each attack.
+                  <br />• There will be $HONR rewards for winning PvP battles.
+                  And for those who lose PvP battles, the tough lessons learnt
+                  in the battlefield will result in stats boosts so you can come
+                  back stronger next time! <br />• If you receive any stats
+                  boosts, then YOU will be able to choose whether you improve
+                  your Skill, Speed, Strength, Magic, or Health!
                 </p>
               </div>
             </div>
@@ -141,14 +149,19 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-white">Valiant Fighters are honored!</h6>
+              <h6 className="text-white">
+                Only Number 2 may challenge Number 1
+              </h6>
               <p className="mb-0-2 text-small road-desc text-white"></p>
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • Soon after battle commences, stories of our greatest
-                  fighters and largest $HONR winners will fill the kingdom.{" "}
-                  <br />• $HONR rewards and glorious honors will be bestowed
-                  upon those fighters who develop a reputation...
+                  • Inspired by an epic creation, we’ll introduce systems where
+                  whoever is Number 1 on the Leaderboard may ONLY be challenged
+                  by Number 2.
+                  <br />• But these mythical clashes are rare events and will
+                  not happen as often as normal battles. Competition will be
+                  fierce. Rewards will be magnificent. Only the greatest will
+                  rise.
                 </p>
               </div>
             </div>
@@ -164,21 +177,42 @@ const RoadMapSection = () => {
               <div className="completed-bar-6 _95" />
             </div>
             <div className="roadmap-info">
-              <h6 className="text-white">$HONR Tokenomics</h6>
+              <h6 className="text-white">Team battles</h6>
               <p className="mb-0-2 text-small road-desc text-white"></p>
               <div className="indent-2">
                 <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                  • Use $HONR to:
-                  <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
-                    i. Mint Gen1 Warriors to fight for you and earn more rewards
-                    - there are only 18K reinforcements available to mint with
-                    1.8K being Dark Samsar Army. <br />
-                    ii. Mint weapons & armour that give you greater chance of
-                    victory and more $HONR. <br />
-                    iii. Future mint battleland - all revealed soon.
-                  </p>
-                  • Although 1 $HONR = 1 $HONR always, we will provide liquidity
-                  on Uniswap to allow more users to enter the ShadowQuest world.
+                  • We’ll introduce the ability to team up with another Warrior
+                  to do battle.
+                  <br />• This will boost your stats and enable you to win more
+                  battles, earn more $HONR, and rise up the ranks!
+                  <br />
+                  •But you’ll have to be strategic with who you team up with as
+                  certain pairings may not be the most advantageous!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          {/* 07 */}
+
+          <div className="div-block-26">
+            <div className="div-block-27">
+              <div className="centre_icon_wrap-2">
+                <div className="centre_step-2">07</div>
+              </div>
+              <div className="completed-bar-6 _95" />
+            </div>
+            <div className="roadmap-info">
+              <h6 className="text-white">Community Suggestions</h6>
+              <p className="mb-0-2 text-small road-desc text-white"></p>
+              <div className="indent-2">
+                <p className="text-white-opacity-2 mb-40 task-text margin-bottom small2">
+                  • We have huge plans, and epic dreams, but ultimately we’re
+                  guided by the community.
+                  <br />• Join the Discord to give us suggestions on what you
+                  want us to focus in, and what else we should build into this
+                  world we’re creating together.
+                  <br />• Who knows where this will take us!
                 </p>
               </div>
             </div>

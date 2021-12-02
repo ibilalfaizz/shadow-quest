@@ -1,5 +1,5 @@
 import { Accordion } from "react-bootstrap";
-
+import Link from "next/link";
 const Footer = () => {
   return (
     <div className="section footer wf-section">
@@ -27,43 +27,36 @@ const Footer = () => {
             <a href="#" className="footer-logo w-inline-block">
               <img src="#" width={40} alt="" className="image-16" />
             </a>
-            <a href="/" aria-current="page" className="footer-link w--current">
+            <Link
+              href="/"
+              aria-current="page"
+              className="footer-link w--current"
+            >
               SHADOWQUEST
-            </a>
-            <a href="#" className="footer-link w--current">
+            </Link>
+            <a href="#stacking-game" className="footer-link w--current">
               STACKING GAME
               <br />
             </a>
-            <a href="#" className="footer-link">
+            <a href="#nations" className="footer-link">
               NATIONS
               <br />
             </a>
-            <a href="#" className="footer-link">
+            <Link href="/archive" className="footer-link">
               ARCHIVE
-            </a>
-            <a href="#" className="footer-link hide">
+            </Link>
+            <Link href="community-lore" className="footer-link hide">
               COMMUNITY LORE
-            </a>
-            <a href="#" className="footer-link">
+            </Link>
+            <Link href="/whitepaper" className="footer-link">
               WHITEPAPERS
-            </a>
+            </Link>
           </div>
           <div className="subscribe-socials community">
             <a
-              href="#"
+              href="https://twitter.com/ZenCho_NFT"
               target="_blank"
-              className="footer-social community w-inline-block"
-            >
-              <img
-                src="/assets/images/opensea.png"
-                width={29}
-                alt=""
-                className="image-9"
-              />
-            </a>
-            <a
-              href="#"
-              target="_blank"
+              rel="noOpener"
               className="footer-social community w-inline-block"
             >
               <img
@@ -73,21 +66,11 @@ const Footer = () => {
                 className="image-9"
               />
             </a>
+
             <a
-              href="#"
+              href="https://discord.gg/kZquzB6Aes"
               target="_blank"
-              className="footer-social community w-inline-block"
-            >
-              <img
-                src="/assets/images/medium.png"
-                width={30}
-                alt=""
-                className="image-9"
-              />
-            </a>
-            <a
-              href="#"
-              target="_blank"
+              rel="noOpener"
               className="footer-social community w-inline-block"
             >
               <img
