@@ -242,6 +242,7 @@ const Archives = () => {
                     not tell the difference. My voice a little higher, my body a
                     little softer, but the differences are too small for those
                     in power to bother to notice.
+                    <br />
                     <br />I set out on to the road, gripping my sword tighter
                     than usual today. The road to the palace feels dangerous,
                     uneasy, as though everyone is waiting for a sign. Perhaps it
@@ -255,6 +256,7 @@ const Archives = () => {
                     quad. Energy fizzes with uncertainty, a new darkness that
                     clogs the corners of the corridors, hooded men glancing
                     anxiously at one another.
+                    <br />
                     <br />
                     By the time I get to the hall, the councillors are ready to
                     meet. I stand at the edge of the room, waiting. If I am
@@ -343,6 +345,7 @@ const Archives = () => {
                     started calling Haruto that, he was one of the kindest men I
                     knew. He often helped villager is his passing by.
                     <br />
+                    <br />
                     During the time of turmoil back in the days ‘Sakura wars’.
                     This very village were you stand today was saved by him.
                     Many soldiers from the Hanoko clan came to our village
@@ -358,6 +361,7 @@ const Archives = () => {
                     soldiers approached him with pure evil intent. Haruto swung
                     his blade with the speed of lightning. That is the first
                     time I saw the evil of that sword.
+                    <br />
                     <br />
                     As the first slash connected with the attacking soldier.
                     That cursed sword seemed to change. The blood that was left
@@ -390,10 +394,12 @@ const Archives = () => {
                     smile took over his face. I would not have recognized him if
                     it wasn’t for his clothing.
                     <br />
+                    <br />
                     That was the first time I was afraid of my friend. There
                     were at least 100 Hanoko soldiers in our village that day,
                     none stood at the end. He was made a hero of our village
                     that day.
+                    <br />
                     <br />
                     “After telling this story I can understand why some call him
                     a monster. But to me he was a friend and a hero.”
