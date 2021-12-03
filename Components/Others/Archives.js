@@ -8,7 +8,7 @@ const Archives = () => {
           <div>
             <div className="div-block-11 flex">
               <h1 className="heading-32">
-                <strong className="bold-text-63">Archives</strong>
+                <strong className="bold-text-63">Lore</strong>
                 <br />
               </h1>
             </div>
@@ -49,7 +49,7 @@ const Archives = () => {
                   <div>
                     <h1 className="gametheorykanji _20bottom">
                       <a href="#" className="link-3 dilema hide">
-                        KIROH
+                        Kiroh
                       </a>
                     </h1>
                     <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
@@ -81,7 +81,7 @@ const Archives = () => {
                 <div className="col-md-6 col-sm-12 order-sm-1 order-md-1">
                   <h1 className="gametheorykanji _20bottom">
                     <a href="#" className="link-3 dilema hide">
-                      MIDSURIN
+                      Midsurin
                     </a>
                   </h1>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
@@ -136,7 +136,7 @@ const Archives = () => {
                 <div className="col-md-6 col-sm-12 ">
                   <h1 className="gametheorykanji _20bottom">
                     <a href="#" className="link-3 dilema hide">
-                      SHIRYO
+                      Shiryo
                     </a>
                   </h1>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
@@ -171,7 +171,7 @@ const Archives = () => {
  <div>
             <div className="div-block-11 flex">
               <h1 className="heading-32">
-                <strong className="bold-text-63">The Jester of Yama</strong>
+                <strong className="bold-text-63">Community Lore Submissions</strong>
                 <br />- Derkizzle
                 <a href="#" className="div-block-40 w-inline-block d-inline">
                   <svg
