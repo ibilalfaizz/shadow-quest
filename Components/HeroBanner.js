@@ -1,52 +1,84 @@
-const HeroBanner = () => {
+import { Accordion } from "react-bootstrap";
+import Link from "next/link";
+const Footer = () => {
   return (
-    <div className=" wf-section banner-video ">
-      <video
-        playsInline
-        autoPlay
-        muted
-        loop
-        id="myVideo"
-        poster="/assets/images/banner-bg.jpg"
-      >
-        <source src="/assets/videos/banner-bg.mp4" type="video/mp4" />
-      </video>
-      <div className="video-inner-container">
-        <div className="container ">
-          <img
-            src="/assets/images/shadow-quest.png"
-            style={{ margin: "auto" }}
-          />
-          <div className="row mt-5">
-            <div className="col subtitles">
-              <h5>
-                5 ARMIES <br />
-                <br /> 1 MYSTERIOUS ENEMY <br />
-                <br /> 10K GEN0 SOLDIERS <br /> <br />
-                <span className="color-red">
-                  5 BILLION <span className="dollar-sign">$</span>HONR <br />
-                  <br />
-                  TO BE WON{" "}
-                </span>
-              </h5>
-            </div>
-            <div className="col"></div>
-            <div className="col subtitles">
-              <h5>
-                A NEW STYLE <br />
-                <br /> OF <br />
-                <br /> STAKING GAME <br />
-                <br />{" "}
-                <span className="color-red">
-                  WITH STATS. TACTICS <br />
-                  <br /> & ART{" "}
-                </span>{" "}
-              </h5>
-            </div>
+    <div className="section footer wf-section">
+      <div className="container">
+        <div className="row mb-40 w-row">
+          <div className="column-8 w-col w-col-3">
+            <a href="#" className="w-inline-block">
+              <img
+                src="/assets/images/logo.png"
+                width={200}
+                alt=""
+                className="mb-10-2 invert"
+              />
+            </a>
+          </div>
+          <div className="w-col w-col-12">
+            <p className="text-extra-small align-left text-white-opacity mb-10">
+              ShadowQuest. All Rights Reserved.{" "}
+            </p>
+          </div>
+        </div>
+        <div className="divider mb-40" />
+        <div className="footer-links">
+          <div className="footer-lonks-left">
+            <a href="#" className="footer-logo w-inline-block">
+              <img src="#" width={40} alt="" className="image-16" />
+            </a>
+            <Link
+              href="/"
+              aria-current="page"
+              className="footer-link w--current"
+            >
+              SHADOWQUEST
+            </Link>
+            <a href="#stacking-game" className="footer-link w--current">
+              STAKE TO EARN
+            </a>
+            <a href="#nations" className="footer-link">
+              NATIONS
+            </a>
+            <Link href="/archive" className="footer-link">
+              LORE
+            </Link>
+            <Link href="/whitepaper" className="footer-link">
+              WHITEPAPER
+            </Link>
+          </div>
+          <div className="subscribe-socials community">
+            <a
+              href="https://twitter.com/ZenCho_NFT"
+              target="_blank"
+              rel="noOpener"
+              className="footer-social community w-inline-block"
+            >
+              <img
+                src="/assets/images/twitter.png"
+                width={30}
+                alt=""
+                className="image-9"
+              />
+            </a>
+
+            <a
+              href="https://discord.gg/kZquzB6Aes"
+              target="_blank"
+              rel="noOpener"
+              className="footer-social community w-inline-block"
+            >
+              <img
+                src="/assets/images/discord.png"
+                width={30}
+                alt=""
+                className="image-10"
+              />
+            </a>
           </div>
         </div>
       </div>
     </div>
   );
 };
-export default HeroBanner;
+export default Footer;
