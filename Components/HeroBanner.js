@@ -2,7 +2,7 @@ const HeroBanner = () => {
   return (
     <div className=" wf-section banner-video ">
       <video playsInline autoPlay muted loop id="myVideo">
-        <source src="/assets/videos/banner-bg.mp4" type="video/mp4" />
+        <source src="/assets/videos/Banner_BG_LowQuality.mp4" type="video/mp4" />
       </video>
       <div className="video-inner-container">
         <div className="container ">
@@ -15,7 +15,7 @@ const HeroBanner = () => {
               <h5>
                 5 ARMIES <br />
                 <br /> 1 MYSTERIOUS ENEMY <br />
-                <br /> 10K Gen0 SOLDIERS <br />
+                <br /> 10K WARRIORS <br />
                 <br /> 5 BILLION $HONR <br />
                 <br /> TO BE WON <br />
               </h5>
