@@ -85,19 +85,9 @@ const Archives = () => {
                     </a>
                   </h1>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                    The people of Midsurin reside in forests with ancient trees
-                    that have moulded the landscape for millenia. They were
-                    always beguiled by these uniquely gnarled trees that
-                    continued to flower even in the harshest of seasons, but it
-                    was the shamans who discovered why. As shamanic skills
-                    improved and knowledge was passed from generation to
-                    generation the Midsurins discovered more and more. Now the
-                    trees are central to daily life and contribute medicine,
-                    enlightenment, and became adept at that these trees have
-                    draw a steady stream of magic from the shamans The oldest of
-                    the trees have learnt not to reach for the sun, but search
-                    deep down where great seams of crystal run through the
-                    earth.
+                    The people of Midsurin reside in grand forests with ancient trees that have moulded the landscape for millennia. Amongst the towering canopies were certain smaller, but uniquely gnarled, trees that continued to flower even in the harshest of seasons and seemed to instil a sense of calm with their rich musky scent. As curiosity grew and shamanic knowledge improved, the Midsurins discovered that these trees have learnt not to stretch for the sun, but to reach deep down where great seams of crystal run through the earth.
+                    <br /><br />
+                    Again the Midsurins interest was piqued and the whole nation entered a fervent drive to discover what these subterranean rivers of crystal bestowed upon their sacred trees. They tried digging and excavating, but none of their tools could crack the crystal. Ultimately only the trees’ roots were able to draw on the underground power, and through the trees sap, bark, and leaves, the Midsurins could begin to wield the strange powers that came from the earth. 
                     <br />
                   </p>
                 </div>
@@ -112,21 +102,7 @@ const Archives = () => {
                     </a>
                   </h1>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                    Velit sint dolor tempor esse. Ex occaecat aliqua qui minim
-                    et irure ad esse aute et tempor dolor. Et esse proident ut
-                    incididunt ut enim aliqua reprehenderit adipisicing do enim
-                    eiusmod esse magna. Irure irure laborum enim id adipisicing
-                    velit ad. Nostrud amet excepteur ad Lorem qui pariatur quis
-                    nisi pariatur aute reprehenderit adipisicing enim. Aute
-                    cillum deserunt ex ad velit fugiat proident irure ex ea
-                    enim. Sint ut fugiat sint dolore commodo esse nisi mollit
-                    proident in. Nulla labore ut aliqua excepteur proident
-                    incididunt Lorem nostrud ad do cupidatat reprehenderit.
-                    Culpa aliquip est nulla consequat eiusmod et. Occaecat duis
-                    labore consectetur ut duis excepteur consectetur nulla
-                    officia consequat duis quis qui sunt. Deserunt minim
-                    occaecat quis consectetur. Consectetur aliqua non eu id sit
-                    aliqua adipisicing qui cillum ut consectetur nostrud veniam.
+                     A land of scored earth and fiery vents has resulted in the Yamans becoming the most resilient nation. Despite the unforgiving environment, great value is released in the lava flows as innumerable molten metals rise to the surface. This unending supply of valuable materials provided a lifeline for the Yamans because it gave bargaining power and opened up trade routes. The arid land could never support a significant population, but when metals were traded for food and produce with a bountiful country like Kiroh, the population grew. As confidence, pride and wealth exploded, the leaders formed a strategic alliance with Engan who had an insatiable thirst for rare metals with undecipherable designs. This meant that the fragile dependence they had on Kiroh would not be so easily shattered. 
                     <br />
                   </p>
                 </div>
@@ -147,21 +123,9 @@ const Archives = () => {
                     </a>
                   </h1>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                    Velit sint dolor tempor esse. Ex occaecat aliqua qui minim
-                    et irure ad esse aute et tempor dolor. Et esse proident ut
-                    incididunt ut enim aliqua reprehenderit adipisicing do enim
-                    eiusmod esse magna. Irure irure laborum enim id adipisicing
-                    velit ad. Nostrud amet excepteur ad Lorem qui pariatur quis
-                    nisi pariatur aute reprehenderit adipisicing enim. Aute
-                    cillum deserunt ex ad velit fugiat proident irure ex ea
-                    enim. Sint ut fugiat sint dolore commodo esse nisi mollit
-                    proident in. Nulla labore ut aliqua excepteur proident
-                    incididunt Lorem nostrud ad do cupidatat reprehenderit.
-                    Culpa aliquip est nulla consequat eiusmod et. Occaecat duis
-                    labore consectetur ut duis excepteur consectetur nulla
-                    officia consequat duis quis qui sunt. Deserunt minim
-                    occaecat quis consectetur. Consectetur aliqua non eu id sit
-                    aliqua adipisicing qui cillum ut consectetur nostrud veniam.
+                    Engan was once ruled by a fearsome queen who conquered enough lands to rival Kiroh for might. However, she quickly lost interest in marching to far off lands with her army. Instead she busied herself with books, meeting eccentric people with singed hair and dirty aprons, and building orphanages. 
+                    <br /><br />
+                    When her son assumed the throne many years later, his impatience caused him to lead a hasty campaign aiming to best his mother’s successes. Unfortunately his armies were demolished and the Engan borders were pushed all the way back to the sealine. With no king, no army, the Engan people retreated to the seas, and sought refuge in their books and research. Their free thinking, highly trained minds developed fantastical inventions, some capable of incredible speed, others of terrifying destructive powers. Their skill in technology and at the sea is unparalleled and has solidified them as a force to be reckoned with once more.
                     <br />
                   </p>
                 </div>
@@ -176,21 +140,7 @@ const Archives = () => {
                     </a>
                   </h1>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                    Velit sint dolor tempor esse. Ex occaecat aliqua qui minim
-                    et irure ad esse aute et tempor dolor. Et esse proident ut
-                    incididunt ut enim aliqua reprehenderit adipisicing do enim
-                    eiusmod esse magna. Irure irure laborum enim id adipisicing
-                    velit ad. Nostrud amet excepteur ad Lorem qui pariatur quis
-                    nisi pariatur aute reprehenderit adipisicing enim. Aute
-                    cillum deserunt ex ad velit fugiat proident irure ex ea
-                    enim. Sint ut fugiat sint dolore commodo esse nisi mollit
-                    proident in. Nulla labore ut aliqua excepteur proident
-                    incididunt Lorem nostrud ad do cupidatat reprehenderit.
-                    Culpa aliquip est nulla consequat eiusmod et. Occaecat duis
-                    labore consectetur ut duis excepteur consectetur nulla
-                    officia consequat duis quis qui sunt. Deserunt minim
-                    occaecat quis consectetur. Consectetur aliqua non eu id sit
-                    aliqua adipisicing qui cillum ut consectetur nostrud veniam.
+                    The Shiryo clan was exiled to the bleak tundra and icy mountains long ago. Their wanton brutality struck fear into the hearts of their neighbouring clans who cooperated to drive the Shiryo as far away as possible. 
                     <br />
                   </p>
                 </div>
@@ -211,21 +161,7 @@ const Archives = () => {
                     </a>
                   </h1>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                    Velit sint dolor tempor esse. Ex occaecat aliqua qui minim
-                    et irure ad esse aute et tempor dolor. Et esse proident ut
-                    incididunt ut enim aliqua reprehenderit adipisicing do enim
-                    eiusmod esse magna. Irure irure laborum enim id adipisicing
-                    velit ad. Nostrud amet excepteur ad Lorem qui pariatur quis
-                    nisi pariatur aute reprehenderit adipisicing enim. Aute
-                    cillum deserunt ex ad velit fugiat proident irure ex ea
-                    enim. Sint ut fugiat sint dolore commodo esse nisi mollit
-                    proident in. Nulla labore ut aliqua excepteur proident
-                    incididunt Lorem nostrud ad do cupidatat reprehenderit.
-                    Culpa aliquip est nulla consequat eiusmod et. Occaecat duis
-                    labore consectetur ut duis excepteur consectetur nulla
-                    officia consequat duis quis qui sunt. Deserunt minim
-                    occaecat quis consectetur. Consectetur aliqua non eu id sit
-                    aliqua adipisicing qui cillum ut consectetur nostrud veniam.
+                    Little is known of the Samsar history, their far off lands were often embroiled in horrifying wars between tribes that wielded incomprehensible and often uncontrollable powers. The danger and volatility of the lands meant that most traders and travellers steered well clear.
                     <br />
                   </p>
                 </div>
