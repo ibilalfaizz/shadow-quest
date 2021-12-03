@@ -3,7 +3,7 @@ const HeroBanner = () => {
     <div className=" wf-section banner-video ">
       <video playsInline autoPlay muted loop id="myVideo">
         <source
-          src="/assets/videos/Banner_BG_LowQuality.mp4"
+          src="/assets/videos/Banner_BG_HighQuality.mp4"
           type="video/mp4"
         />
       </video>
