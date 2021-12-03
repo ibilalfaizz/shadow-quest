@@ -73,7 +73,6 @@ const RoadMapSection = () => {
       >
         <div className="div-block-19-copy-copy">
           <a
-            href="/dev-roadmap"
             className="custom-button primary w-inline-block"
             style={{ backgroundColor: "#8bffff", color: "black" }}
           >
