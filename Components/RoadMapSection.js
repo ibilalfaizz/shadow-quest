@@ -86,7 +86,7 @@ const RoadMapSection = () => {
               className="corner-black bottom-right small black"
               style={{ backgroundColor: "#600000" }}
             />
-            <div className="custom-button-text-3">BATTLE &nbsp;STRATEGY</div>
+            <div className="custom-button-text-3">GAME &nbsp;ROADMAP</div>
           </a>
         </div>
 
