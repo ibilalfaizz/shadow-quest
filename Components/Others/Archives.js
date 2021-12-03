@@ -76,7 +76,7 @@ const Archives = () => {
               {/* Midsurin */}
               <div className="row">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
-                  <img src="/assets/images/nations/Midsurin.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/nations/Midsurin.jpeg" alt="Midsurin" />
                 </div>
                 <div className="col-md-6 col-sm-12 order-sm-1 order-md-1">
                   <h1 className="gametheorykanji _20bottom">
@@ -107,14 +107,14 @@ const Archives = () => {
                   </p>
                 </div>
                 <div className="col-md-6 col-sm-12 p-md-0">
-                  <img src="/assets/images/nations/Yama.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/nations/Yama.jpeg" alt="Yama" />
                 </div>
               </div>
 
               {/* Engan */}
               <div className="row">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
-                  <img src="/assets/images/nations/Engan.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/nations/Engan.jpeg" alt="Engan" />
                 </div>
                 <div className="col-md-6 col-sm-12 order-sm-1 order-md-2">
                   <h1 className="gametheorykanji _20bottom">
@@ -145,14 +145,14 @@ const Archives = () => {
                   </p>
                 </div>
                 <div className="col-md-6 col-sm-12 p-md-0">
-                  <img src="/assets/images/shiryo.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/nations/shiryo.jpeg" alt="Shiryo" />
                 </div>
               </div>
 
               {/* Samsar */}
               <div className="row">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
-                  <img src="/assets/images/nations/Samsar.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/nations/Samsar.jpeg" alt="Samsar" />
                 </div>
                 <div className="col-md-6 col-sm-12 order-sm-1 order-md-2">
                   <h1 className="gametheorykanji _20bottom">
@@ -163,6 +163,8 @@ const Archives = () => {
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
                     Little is known of the Samsar history, their far off lands were often embroiled in horrifying wars between tribes that wielded incomprehensible and often uncontrollable powers. The danger and volatility of the lands meant that most traders and travellers steered well clear.
                     <br />
+                       <br />
+                       <br />
                   </p>
                 </div>
               </div>
@@ -171,7 +173,8 @@ const Archives = () => {
  <div>
             <div className="div-block-11 flex">
               <h1 className="heading-32">
-                <strong className="bold-text-63">Community Lore Submissions</strong>
+                 <br />
+                 <br /><strong className="bold-text-63">Community Lore Submissions</strong>
                 <br />- Derkizzle
                 <a href="#" className="div-block-40 w-inline-block d-inline">
                   <svg
@@ -203,6 +206,11 @@ const Archives = () => {
                 <br />
               </h1>
             </div>
+                  <h1 className="gametheorykanji _20bottom">
+                    <a href="#" className="link-3 dilema hide">
+                      - Derkizzle
+                    </a>
+                  </h1>
             <div className="split flex-v2">
               <div className="row mt-3">
                 <div className="col-md-6 col-sm-12 ">
