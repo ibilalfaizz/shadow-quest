@@ -9,7 +9,10 @@ const HeroBanner = () => {
         id="myVideo"
         poster="/assets/videos/banner-bg-fallback.png"
       >
-        <source src="/assets/videos/banner-bg.mp4" type="video/mp4" />
+        <source
+          src="/assets/videos/Banner_BG_HighQuality.mp4"
+          type="video/mp4"
+        />
       </video>
       <div className="video-inner-container">
         <div className="container ">
