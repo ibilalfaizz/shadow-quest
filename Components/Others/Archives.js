@@ -152,7 +152,7 @@ const Archives = () => {
               {/* Samsar */}
               <div className="row">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
-                  <img src="/assets/images/nations/Samsar.jpeg" alt="Samsar" />
+                  <img src="/assets/images/nations/DarkSamsar.jpg" alt="Samsar" />
                 </div>
                 <div className="col-md-6 col-sm-12 order-sm-1 order-md-2">
                   <h1 className="gametheorykanji _20bottom">
