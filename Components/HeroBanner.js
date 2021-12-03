@@ -29,11 +29,9 @@ const HeroBanner = () => {
                 A NEW STYLE <br />
                 <br /> OF <br />
                 <br /> STAKING GAME <br />
+                <br /> WITH STATS, TACTICS <br />
+                <br /> & ART <br />
                 <br />{" "}
-                <span className="color-red">
-                  WITH STATS. TACTICS <br />
-                  <br /> & ART{" "}
-                </span>{" "}
               </h5>
             </div>
           </div>
