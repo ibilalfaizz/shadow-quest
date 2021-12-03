@@ -1,3 +1,5 @@
+import renderHTML from "react-render-html";
+
 const RoadMapSection = () => {
   const roadMapData = [
     {
@@ -12,8 +14,8 @@ const RoadMapSection = () => {
       title: `TWO NEW BATTLE LOCATIONS ARE ADDED!
       `,
       description: [
-        `Interstice - Warriors who dare, can travel to the Samsar homeland that borders on the astral planes. Here the rewards are legendary but the Samsar are even more deadly so beware of your $HONR! `,
-        `Eclipse - Little is known of this event, but whispers warn it is where heroes are born and broken. Are you brave enough to venture into this unknown space? Will you go down in the annals of history as the greatest warrior? Will you return a god? Will you return at all?`,
+        `<span className="text-decoration-underline">Interstice</span> - Warriors who dare, can travel to the Samsar homeland that borders on the astral planes. Here the rewards are legendary but the Samsar are even more deadly so beware of your $HONR! `,
+        `<span className="text-decoration-underline">Eclipse</span> - Little is known of this event, but whispers warn it is where heroes are born and broken. Are you brave enough to venture into this unknown space? Will you go down in the annals of history as the greatest warrior? Will you return a god? Will you return at all?`,
       ],
     },
     {
@@ -107,7 +109,7 @@ const RoadMapSection = () => {
                     <p className="text-white-opacity-2 mb-40 task-text margin-bottom">
                       <ul>
                         {el.description.map((subEl, i) => {
-                          return <li key={i}>{subEl}</li>;
+                          return <li key={i}>{renderHTML(subEl)}</li>;
                         })}
                       </ul>
                     </p>

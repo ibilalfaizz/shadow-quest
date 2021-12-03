@@ -1,14 +1,19 @@
 import { Accordion } from "react-bootstrap";
+import renderHTML from "react-render-html";
 
 const AccordionItem = () => {
   const data = [
     {
       title: `Minting Date`,
-      description: [`Official launch date will be announced soon. Follow on Discord and Twitter to be the first to know.`],
+      description: [
+        `Official launch date will be announced soon. Follow on <a href="https://discord.gg/kZquzB6Aes" target="_blank" rel="noOpener">Discord</a> and <a href="https://twitter.com/ZenCho_NFT" target="_blank" rel="noOpener">Twitter</a> to be the first to know.`,
+      ],
     },
     {
       title: `Minting Price`,
-      description: [`Official launch price will also be announced soon. Follow on Discord and Twitter to be the first to know.`],
+      description: [
+        `Official launch price will also be announced soon. Follow on Discord and Twitter to be the first to know.`,
+      ],
     },
     {
       title: `How many Gen0 Warriors are there available to mint?`,
@@ -23,7 +28,9 @@ const AccordionItem = () => {
     },
     {
       title: `What can I use $HONR for?`,
-      description: [`From Day 1: Minting Gen1 Warriors. In the future, weapons and armor for stats boosts. `],
+      description: [
+        `From Day 1: Minting Gen1 Warriors. In the future, weapons and armor for stats boosts. `,
+      ],
     },
     {
       title: `How much Liquidity backing will the project provide for $HONR`,
@@ -94,7 +101,7 @@ const AccordionItem = () => {
                 <p>
                   <ul>
                     {el.description.map((el, i) => {
-                      return <li>{el}</li>;
+                      return <li>{renderHTML(el)}</li>;
                     })}
                   </ul>
                 </p>

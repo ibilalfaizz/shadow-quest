@@ -10,6 +10,10 @@
 body {
   font-family: Chakra Petch !important;
 }
+.dollar-sign {
+  font-family: Chakra Petch !important;
+}
+
 .banner-video {
   position: relative;
   height: 100vh !important;
@@ -969,6 +973,12 @@ textarea.w-select {
     width: 100%;
     left: auto;
     right: auto;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .pr-md-0 {
+    padding-right: 0px !important;
   }
 }
 @media screen and (max-width: 767px) {
@@ -3912,8 +3922,8 @@ body {
 }
 
 .section.footer {
-  padding-top: 68px;
-  padding-bottom: 68px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: #e3e6f1;
 }
 

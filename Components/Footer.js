@@ -1,38 +1,18 @@
-import { Accordion } from "react-bootstrap";
+import { Accordion, Col, Row } from "react-bootstrap";
 import Link from "next/link";
 const Footer = () => {
   return (
     <div className="section footer wf-section">
       <div className="container">
-        <div className="row mb-40 w-row">
-          <div className="column-8 w-col w-col-3">
-            <a href="#" className="w-inline-block">
-              <img
-                src="/assets/images/logo.png"
-                width={200}
-                alt=""
-                className="mb-10-2 invert"
-              />
-            </a>
-          </div>
-          <div className="w-col w-col-9">
+        <Row>
+          <Col md="3">
             <p className="text-extra-small align-left text-white-opacity mb-10">
               Zenchō. All Rights Reserved.{" "}
             </p>
-          </div>
-        </div>
-        <div className="divider mb-40" />
-        <div className="footer-links">
-          <div className="footer-lonks-left">
-            <a href="#" className="footer-logo w-inline-block">
-              <img src="#" width={40} alt="" className="image-16" />
-            </a>
-            <Link
-              href="/"
-              aria-current="page"
-              className="footer-link w--current"
-            >
-              SHADOWQUEST
+          </Col>
+          <Col md="7">
+            <Link href="/">
+              <span className="footer-link "> SHADOWQUEST </span>
             </Link>
             <a href="#stacking-game" className="footer-link w--current">
               STACKING GAME
@@ -42,46 +22,49 @@ const Footer = () => {
               NATIONS
               <br />
             </a>
-            <Link href="/archive" className="footer-link">
-              ARCHIVE
+            <Link href="/archive">
+              <span className="footer-link "> ARCHIVE </span>
             </Link>
-            <Link href="community-lore" className="footer-link hide">
-              COMMUNITY LORE
+            <Link href="community-lore">
+              <span className="footer-link "> COMMUNITY LORE </span>
             </Link>
-            <Link href="/whitepaper" className="footer-link">
-              WHITEPAPERS
+            <Link href="/whitepaper">
+              <span className="footer-link "> WHITEPAPERS </span>
             </Link>
-          </div>
-          <div className="subscribe-socials community">
-            <a
-              href="https://twitter.com/ZenCho_NFT"
-              target="_blank"
-              rel="noOpener"
-              className="footer-social community w-inline-block"
-            >
-              <img
-                src="/assets/images/twitter.png"
-                width={30}
-                alt=""
-                className="image-9"
-              />
-            </a>
+          </Col>
+          <Col md="2">
+            {" "}
+            <div className="subscribe-socials community justify-content-end">
+              <a
+                href="https://twitter.com/ZenCho_NFT"
+                target="_blank"
+                rel="noOpener"
+                className="footer-social community w-inline-block"
+              >
+                <img
+                  src="/assets/images/twitter.png"
+                  width={30}
+                  alt=""
+                  className="image-9"
+                />
+              </a>
 
-            <a
-              href="https://discord.gg/kZquzB6Aes"
-              target="_blank"
-              rel="noOpener"
-              className="footer-social community w-inline-block"
-            >
-              <img
-                src="/assets/images/discord.png"
-                width={30}
-                alt=""
-                className="image-10"
-              />
-            </a>
-          </div>
-        </div>
+              <a
+                href="https://discord.gg/kZquzB6Aes"
+                target="_blank"
+                rel="noOpener"
+                className="footer-social community w-inline-block"
+              >
+                <img
+                  src="/assets/images/discord.png"
+                  width={30}
+                  alt=""
+                  className="image-10"
+                />
+              </a>
+            </div>
+          </Col>
+        </Row>
       </div>
     </div>
   );

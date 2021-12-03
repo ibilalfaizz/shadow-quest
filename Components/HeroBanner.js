@@ -1,7 +1,14 @@
 const HeroBanner = () => {
   return (
     <div className=" wf-section banner-video ">
-      <video playsInline autoPlay muted loop id="myVideo">
+      <video
+        playsInline
+        autoPlay
+        muted
+        loop
+        id="myVideo"
+        poster="/assets/images/banner-bg.jpg"
+      >
         <source src="/assets/videos/banner-bg.mp4" type="video/mp4" />
       </video>
       <div className="video-inner-container">
@@ -15,9 +22,12 @@ const HeroBanner = () => {
               <h5>
                 5 ARMIES <br />
                 <br /> 1 MYSTERIOUS ENEMY <br />
-                <br /> 10K Gen0 SOLDIERS <br />
-                <br /> 5 BILLION $HONR <br />
-                <br /> TO BE WON <br />
+                <br /> 10K GEN0 SOLDIERS <br /> <br />
+                <span className="color-red">
+                  5 BILLION <span className="dollar-sign">$</span>HONR <br />
+                  <br />
+                  TO BE WON{" "}
+                </span>
               </h5>
             </div>
             <div className="col"></div>
@@ -26,9 +36,11 @@ const HeroBanner = () => {
                 A NEW STYLE <br />
                 <br /> OF <br />
                 <br /> STAKING GAME <br />
-                <br /> WITH STATS, TACTICS <br />
-                <br /> & ART <br />
                 <br />{" "}
+                <span className="color-red">
+                  WITH STATS. TACTICS <br />
+                  <br /> & ART{" "}
+                </span>{" "}
               </h5>
             </div>
           </div>

@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const HeroBanner = () => {
   return (
-    <div className="  wf-section bg-grey fight-to-earn" id="stacking-game">
+    <div className="  wf-section bg-grey fight-to-earn" id="stake-to-earn">
       <div className="container">
         <div className="row text-center">
           <div className="col-10">
@@ -15,9 +15,10 @@ const HeroBanner = () => {
                 <h3 className="color-red">10K Gen0 Warrior NFTs are minted</h3>
                 <p>
                   Each unique NFT has 5 stats: <br />
-                  Skill, Speed, Strength, Magic, and Health  <br />
+                  Skill, Speed, Strength, Magic, and Health <br />
                   - better stats means better chance of winning in battle <br />
-                  1K are Dark Samsar - a mysterious, ultra rare army that can steal $HONR <br />
+                  1K are Dark Samsar - a mysterious, ultra rare army that can
+                  steal $HONR <br />
                 </p>
                 <h3 className="color-red ">BATTLE your Warrior!</h3>
                 <p>Stake your Warrior to earn precious $HONR in battle</p>
@@ -26,8 +27,8 @@ const HeroBanner = () => {
                 <p>
                   TRAINING GROUND: Safely earn 3,000 $HONR per day
                   <br />
-                  BATTLEFIELD: Earn UP TO 1,000 $HONR per HOUR depending on
-                  your stats and luck.
+                  BATTLEFIELD: Earn UP TO 1,000 $HONR per HOUR depending on your
+                  stats and luck.
                 </p>
 
                 <h3 className="color-red"> Retreat to safety! [Unstaking]</h3>
@@ -35,18 +36,18 @@ const HeroBanner = () => {
                   In the Training Ground: you can simply leave training and
                   unstake with no risk.
                   <br />
-                  In the Battlefield: you must choose to FLEE or FIGHT from
-                  the Dark Samsar Army!
+                  In the Battlefield: you must choose to FLEE or FIGHT from the
+                  Dark Samsar Army!
                   <br />
                 </p>
 
                 <h3 className="color-red"> Valiant Fighters are honored!</h3>
                 <p>
-                  Soon after battle commences, stories of our greatest
-                  fighters and largest $HONR winners will fill the kingdom
+                  Soon after battle commences, stories of our greatest fighters
+                  and largest $HONR winners will fill the kingdom
                   <br />
-                  Glorious $HONR rewards will be bestowed upon
-                  those fighters who develop a reputation...
+                  Glorious $HONR rewards will be bestowed upon those fighters
+                  who develop a reputation...
                   <br />
                 </p>
 

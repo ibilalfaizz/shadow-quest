@@ -54,7 +54,7 @@ const Nations = () => {
                 <NavItem eventKey="sixth" count="6" title="Samsar" />
               </Nav>
             </Col>
-            <Col md={7}>
+            <Col md={7} className="pr-md-0">
               <Tab.Content>
                 <Tab.Pane eventKey="first">
                   <NavContent supply="250" image="Kiroh.jpeg" />
