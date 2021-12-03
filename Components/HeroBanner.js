@@ -18,6 +18,7 @@ const HeroBanner = () => {
                 <br /> 10K WARRIORS <br />
                 <br /> 5 BILLION $HONR <br />
                 <br /> TO BE WON <br />
+                <br />
               </h5>
             </div>
             <div className="col"></div>
