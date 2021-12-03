@@ -4,22 +4,17 @@ const AccordionItem = () => {
   const data = [
     {
       title: `Minting Date`,
-      description: [`Unconfirmed`],
+      description: [`Official launch date will be announced soon. Follow on Discord and Twitter to be the first to know.`],
     },
     {
       title: `Minting Price`,
-      description: [`Unconfirmed`],
+      description: [`Official launch price will also be announced soon. Follow on Discord and Twitter to be the first to know.`],
     },
     {
-      title: `Number of Gen0 mints available`,
+      title: `How many Gen0 Warriors are there available to mint?`,
       description: [
-        `9,996. 999 of these will be the powerful Dark Samsar warriors!`,
-      ],
-    },
-    {
-      title: `Number of Gen1 mints available`,
-      description: [
-        `18,000. 1,800 of these will be Dark Samsar reinforcements.`,
+        `There will be 9,996 Gen0 Warriors, of which 999 will be Dark Samsar warriors`,
+        `There will be 18,000 Gen1 Warriors that are mintable. Of these, there will be 1,800 Dark Samsar warriors.`,
       ],
     },
     {
@@ -28,11 +23,7 @@ const AccordionItem = () => {
     },
     {
       title: `What can I use $HONR for?`,
-      description: [`Minting Gen1 Warriors`],
-    },
-    {
-      title: `Where can I buy and sell $HONR?`,
-      description: [`https://app.uniswap.org/#/swap`],
+      description: [`From Day 1: Minting Gen1 Warriors. In the future, weapons and armor for stats boosts. `],
     },
     {
       title: `How much Liquidity backing will the project provide for $HONR`,
@@ -55,7 +46,9 @@ const AccordionItem = () => {
     {
       title: `What determines a Warrior’s stats?`,
       description: [
-        `Stats are split into 5 attributes each with their own use in battle. They are generated during minting and designed to be balanced but vary greatly from Warrior to Warrior. As a result each Warrior will have different strengths and weaknesses in battle.`,
+        `Stats are split into 5 attributes each with their own use in battle.`,
+        `They are generated during minting and designed to be balanced but vary greatly from Warrior to Warrior.`,
+        `As a result each Warrior will have different strengths and weaknesses in battle.`,
       ],
     },
     {
@@ -65,16 +58,10 @@ const AccordionItem = () => {
       ],
     },
     {
-      title: `How many Gen0 Warriors are there available to mint?`,
-      description: [
-        `There will be 9,996 Gen0 Warriors, of which 999 will be Dark Samsar warriors`,
-        `There will be 18,000 Gen1 Warriors that are mintable. Of these, there will be 1,800 Dark Samsar warriors.`,
-      ],
-    },
-    {
       title: `Can I really submit any type of writing as lore?`,
       description: [
-        `Yes! We welcome all forms of writing as lore and will work to incorporate it into the over-arching storyline. This includes: short stories, flash fiction, snippets, poems, haikus, songs, limericks, riddles, and anything in between!`,
+        `Yes! We welcome all forms of writing as lore and will work to incorporate it into the over-arching storyline.`,
+        `This includes: short stories, flash fiction, snippets, poems, haikus, songs, limericks, riddles, and anything in between!`,
       ],
     },
     {
@@ -82,18 +69,6 @@ const AccordionItem = () => {
       description: [
         `The best place is in the Discord server, specifically in the #fan-lore channel.`,
         `We will always have mods (and lots of the community) keeping an eye out for any new lore.`,
-      ],
-    },
-    {
-      title: `What plans do you have for the future?
-            `,
-      description: [
-        `We are already working on plans to expand the game, and add new layers for strategic innovation. For example we’re looking to add:`,
-        `Two extra battlegrounds with even higher risk/reward opportunities!`,
-        `Additional weapons to boost your stats will be available to purchase using $HONR`,
-        `Stats boosts for Warriors to help them win more battles and protect your precious $HONR`,
-        `An innovative mechanic which will result in increased competition for the leaderboard top spot and the prizes up for grabs each week.`,
-        `Exciting mechanics to team up with other Warriors to boost your stats and win more battles! (But you’ll have to be strategic with who you team up with as certain pairings may not be the most advantageous.) `,
       ],
     },
   ];
