@@ -15,9 +15,9 @@ const Footer = () => {
               />
             </a>
           </div>
-          <div className="w-col w-col-9">
+          <div className="w-col w-col-1">
             <p className="text-extra-small align-left text-white-opacity mb-10">
-              Zenchō. All Rights Reserved.{" "}
+              ShadowQuest. All Rights Reserved.{" "}
             </p>
           </div>
         </div>
@@ -35,7 +35,7 @@ const Footer = () => {
               SHADOWQUEST
             </Link>
             <a href="#stacking-game" className="footer-link w--current">
-              STACKING GAME
+              STAKE TO EARN
               <br />
             </a>
             <a href="#nations" className="footer-link">
@@ -43,13 +43,12 @@ const Footer = () => {
               <br />
             </a>
             <Link href="/archive" className="footer-link">
-              ARCHIVE
-            </Link>
-            <Link href="community-lore" className="footer-link hide">
-              COMMUNITY LORE
+              LORE
+              <br />
             </Link>
             <Link href="/whitepaper" className="footer-link">
-              WHITEPAPERS
+              WHITEPAPER
+              <br />
             </Link>
           </div>
           <div className="subscribe-socials community">
