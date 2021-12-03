@@ -19,7 +19,8 @@ const HeroBanner = () => {
                 5 ARMIES <br />
                 <br /> 1 MYSTERIOUS ENEMY <br />
                 <br /> 10K WARRIORS <br />
-                <br /> 5 BILLION $HONR <br />
+                <br /> 5 BILLION <span className="dollar-sign">$</span>HONR{" "}
+                <br />
                 <br /> TO BE WON <br />
                 <br />
               </h5>
