@@ -58,7 +58,7 @@ const TeamSection = () => {
                 </div>
               </a>
               <div className="d-flex justify-content-center color-red">
-                <h3>Dev </h3>
+                <h3>Lead Developer </h3>
                 <a
                   href="#"
                   className="div-block-40 w-inline-block team-icons-container"
@@ -96,11 +96,6 @@ const TeamSection = () => {
               </a>
               <div className="d-flex justify-content-center color-red">
                 <h3>Artist</h3>
-                <a
-                  href="#"
-                  className="div-block-40 w-inline-block team-icons-container"
-                >
-                </a>
               </div>
             </div>
             <div className="div-block-17">
@@ -117,11 +112,6 @@ const TeamSection = () => {
               </a>
               <div className="d-flex justify-content-center color-red">
                 <h3>Community Manager</h3>
-                <a
-                  href="#"
-                  className="div-block-40 w-inline-block team-icons-container"
-                >
-                </a>
               </div>
             </div>
           </div>
