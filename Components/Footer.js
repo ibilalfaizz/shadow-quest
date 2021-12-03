@@ -30,25 +30,20 @@ const Footer = () => {
             <Link
               href="/"
               aria-current="page"
-              className="footer-link w--current"
-            >
+              className="footer-link w--current">
               SHADOWQUEST
             </Link>
             <a href="#stacking-game" className="footer-link w--current">
               STAKE TO EARN
-              <br />
             </a>
             <a href="#nations" className="footer-link">
               NATIONS
-              <br />
             </a>
             <Link href="/archive" className="footer-link">
               LORE
-              <br />
             </Link>
             <Link href="/whitepaper" className="footer-link">
               WHITEPAPER
-              <br />
             </Link>
           </div>
           <div className="subscribe-socials community">
