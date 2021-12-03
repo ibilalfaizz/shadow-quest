@@ -5,7 +5,7 @@ const HeroBanner = () => {
     <div className="  wf-section bg-grey fight-to-earn" id="stake-to-earn">
       <div className="container">
         <div className="row text-center">
-          <div className="col-10">
+          <div className="col-md-10">
             <div className="f2e-inner">
               <div>
                 <h1 className="color-red">FIGHT TO EARN</h1>
@@ -15,7 +15,10 @@ const HeroBanner = () => {
                 <h3 className="color-red">10K Gen0 Warrior NFTs are minted</h3>
                 <p>
                   Each unique NFT has 5 stats: <br />
-                  Skill, Speed, Strength, Magic, and Health <br />
+                  <span className="font-weight-bold">
+                    Skill, Speed, Strength, Magic, and Health{" "}
+                  </span>
+                  <br />
                   - better stats means better chance of winning in battle <br />
                   1K are Dark Samsar - a mysterious, ultra rare army that can
                   steal $HONR <br />
@@ -25,10 +28,16 @@ const HeroBanner = () => {
 
                 <h3 className="color-red"> Choose where to battle!</h3>
                 <p>
-                  TRAINING GROUND: Safely earn 3,000 $HONR per day
+                  <span className="text-decoration-underline">
+                    TRAINING GROUND:
+                  </span>{" "}
+                  Safely earn 3,000 $HONR per day
                   <br />
-                  BATTLEFIELD: Earn UP TO 1,000 $HONR per HOUR depending on your
-                  stats and luck.
+                  <span className="text-decoration-underline">
+                    BATTLEFIELD:{" "}
+                  </span>{" "}
+                  Earn UP TO 1,000 $HONR per HOUR depending on your stats and
+                  luck.
                 </p>
 
                 <h3 className="color-red"> Retreat to safety! [Unstaking]</h3>

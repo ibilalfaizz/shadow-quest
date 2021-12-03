@@ -1,11 +1,15 @@
 const HeroBanner = () => {
   return (
     <div className=" wf-section banner-video ">
-      <video playsInline autoPlay muted loop id="myVideo">
-        <source
-          src="/assets/videos/Banner_BG_LowQuality.mp4"
-          type="video/mp4"
-        />
+      <video
+        playsInline
+        autoPlay
+        muted
+        loop
+        id="myVideo"
+        poster="/assets/videos/banner-bg-fallback.png"
+      >
+        <source src="/assets/videos/banner-bg.mp4" type="video/mp4" />
       </video>
       <div className="video-inner-container">
         <div className="container ">

@@ -27,7 +27,9 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
-
+.font-weight-bold {
+  font-weight: bold !important;
+}
 #myVideo {
   object-fit: cover;
   position: relative;
@@ -977,6 +979,10 @@ textarea.w-select {
 }
 
 @media screen and (min-width: 767px) {
+  #myVideo {
+    object-position: 0px 2rem;
+  }
+
   .pr-md-0 {
     padding-right: 0px !important;
   }
@@ -15869,11 +15875,11 @@ body {
   .nft-team-container {
     margin-right: 0px;
     margin-left: 0px;
-    -webkit-box-orient: vertical;
+    /* -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
-    flex-direction: column;
+    flex-direction: column; */
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -15919,7 +15925,7 @@ body {
 
   .assetbender {
     width: 100%;
-    height: 750px;
+    height: 460px;
     background-size: cover;
     background-repeat: no-repeat;
   }
@@ -16000,7 +16006,9 @@ body {
   }
 
   .div-block-17 {
-    width: 100%;
+    padding: 1rem;
+    /* width: 100%; */
+    width: 50%;
   }
 
   .paragraph {
@@ -16933,7 +16941,8 @@ body {
   }
 
   .assetbender {
-    height: 600px;
+    height: 280px;
+    /* height: 600px; */
   }
 
   .grxxnt {
@@ -18152,7 +18161,7 @@ body {
 
   .assetbender {
     width: 100%;
-    height: 350px;
+    height: 340px;
   }
 
   .breri {
