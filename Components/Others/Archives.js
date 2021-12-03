@@ -69,14 +69,14 @@ const Archives = () => {
                 </div>
                 <div className="col-md-6 col-sm-12 p-md-0">
                   {" "}
-                  <img src="/assets/images/nations/kiroh.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/nations/Kiroh.jpeg" alt="Kiroh" />
                 </div>
               </div>
 
               {/* Midsurin */}
               <div className="row">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
-                  <img src="/assets/images/nations/midsurin.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/nations/Midsurin.jpeg" alt="Kiroh" />
                 </div>
                 <div className="col-md-6 col-sm-12 order-sm-1 order-md-1">
                   <h1 className="gametheorykanji _20bottom">
@@ -114,7 +114,7 @@ const Archives = () => {
               {/* Engan */}
               <div className="row">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
-                  <img src="/assets/images/nations/engan.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/nations/Engan.jpeg" alt="Kiroh" />
                 </div>
                 <div className="col-md-6 col-sm-12 order-sm-1 order-md-2">
                   <h1 className="gametheorykanji _20bottom">
@@ -145,14 +145,14 @@ const Archives = () => {
                   </p>
                 </div>
                 <div className="col-md-6 col-sm-12 p-md-0">
-                  <img src="/assets/images/team2.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/shiryo.jpeg" alt="Kiroh" />
                 </div>
               </div>
 
               {/* Samsar */}
               <div className="row">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
-                  <img src="/assets/images/nations/samsar.jpeg" alt="Kiroh" />
+                  <img src="/assets/images/nations/Samsar.jpeg" alt="Kiroh" />
                 </div>
                 <div className="col-md-6 col-sm-12 order-sm-1 order-md-2">
                   <h1 className="gametheorykanji _20bottom">
