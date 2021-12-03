@@ -47,11 +47,6 @@ const Navbar = () => {
                     <h1 className="heading-10 ">LORE</h1>
                   </span>
                 </Link>
-                <Link href="/community-lore">
-                  <span className="div-block-40 w-inline-block cursor">
-                    <h1 className="heading-10">COMMUNITY LORE</h1>
-                  </span>
-                </Link>
                 <Link href="/whitepaper">
                   <span className="div-block-40 w-inline-block cursor-pointer">
                     <h1 className="heading-10">WHITEPAPER</h1>{" "}

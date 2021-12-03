@@ -27,6 +27,7 @@ const Nations = () => {
             approaching, whilst the scientists advance unhindered by such things
             they refuse to comprehend.
             <br />
+            <br />
             What strategy will you employ to be prepared for the legendary
             battle and claim the prizes that await?
             <br />
@@ -34,6 +35,7 @@ const Nations = () => {
             risk more in the Battlefield?
             <br />
             Where do you belong, and who will you fight for?
+            <br />
             <br />
             Only you can decide.
           </p>
@@ -72,7 +74,7 @@ const Nations = () => {
                   <NavContent supply="180" image="shiryo.png" />
                 </Tab.Pane>
                 <Tab.Pane eventKey="sixth">
-                  <NavContent supply="180" image="Samsar.jpeg" />
+                  <NavContent supply="180" image="DarkSamsar.jpg" />
                 </Tab.Pane>
               </Tab.Content>
             </Col>

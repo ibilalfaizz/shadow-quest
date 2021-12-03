@@ -75,7 +75,6 @@ const RoadMapSection = () => {
       >
         <div className="div-block-19-copy-copy">
           <a
-            href="/dev-roadmap"
             className="custom-button primary w-inline-block"
             style={{ backgroundColor: "#8bffff", color: "black" }}
           >
@@ -88,7 +87,7 @@ const RoadMapSection = () => {
               className="corner-black bottom-right small black"
               style={{ backgroundColor: "#600000" }}
             />
-            <div className="custom-button-text-3">BATTLE &nbsp;STRATEGY</div>
+            <div className="custom-button-text-3">GAME &nbsp;ROADMAP</div>
           </a>
         </div>
 
