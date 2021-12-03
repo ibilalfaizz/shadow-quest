@@ -44,7 +44,6 @@ const Navbar = () => {
                 <a href="#nations" className="div-block-40 w-inline-block">
                   <h1 className="heading-10">NATIONS</h1>
                 </a>
-                </a>
                 <a href="#roadmap" className="div-block-40 w-inline-block">
                   <h1 className="heading-10">ROADMAP</h1>
                 </a>
@@ -52,7 +51,7 @@ const Navbar = () => {
                   <span className="div-block-40 w-inline-block cursor">
                     <h1 className="heading-10 ">LORE</h1>
                   </span>
-'                </Link>
+                </Link>
 '                <Link href="/community-lore">
 '                  <span className="div-block-40 w-inline-block cursor">
 '                    <h1 className="heading-10">COMMUNITY LORE</h1>
