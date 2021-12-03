@@ -15,7 +15,7 @@ const Footer = () => {
               />
             </a>
           </div>
-          <div className="w-col w-col-2">
+          <div className="w-col w-col-12">
             <p className="text-extra-small align-left text-white-opacity mb-10">
               ShadowQuest. All Rights Reserved.{" "}
             </p>
@@ -41,6 +41,7 @@ const Footer = () => {
             </a>
             <Link href="/archive" className="footer-link">
               LORE
+              <br />
             </Link>
             <br />
             <Link href="/whitepaper" className="footer-link">
