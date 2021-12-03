@@ -14,50 +14,49 @@ const HeroBanner = () => {
               <div>
                 <h3 className="color-red">10K Gen0 Warrior NFTs are minted</h3>
                 <p>
-                  a. Each unique NFT has 5 stats: Skill, Speed, Strength, Magic,
-                  Health - better stats means better chance of winning in
-                  battle. b.1K are Dark Samsar - a mysterious, ultra rare army
-                  that can steal $HONR
+                  Each unique NFT has 5 stats: <br />
+                  Skill, Speed, Strength, Magic, and Health  <br />
+                  - better stats means better chance of winning in battle <br />
+                  1K are Dark Samsar - a mysterious, ultra rare army that can steal $HONR <br />
                 </p>
                 <h3 className="color-red ">BATTLE your Warrior!</h3>
-                <p>a. Stake your Warrior to earn precious $HONR in battle</p>
-                <h3 className="color-red">Choose where to fight!</h3>
+                <p>Stake your Warrior to earn precious $HONR in battle</p>
 
                 <h3 className="color-red"> Choose where to battle!</h3>
                 <p>
-                  a. Training Ground: Safely earn 3,000 $HONR per day
+                  TRAINING GROUND: Safely earn 3,000 $HONR per day
                   <br />
-                  b. Battlefield: Earn UP TO 1,000 $HONR per HOUR depending on
+                  BATTLEFIELD: Earn UP TO 1,000 $HONR per HOUR depending on
                   your stats and luck.
                 </p>
 
                 <h3 className="color-red"> Retreat to safety! [Unstaking]</h3>
                 <p>
-                  a.In the Training Ground: you can simply leave training and
+                  In the Training Ground: you can simply leave training and
                   unstake with no risk.
                   <br />
-                  b.In the Battlefield: you must choose to FLEE or FIGHT from
+                  In the Battlefield: you must choose to FLEE or FIGHT from
                   the Dark Samsar Army!
                   <br />
                 </p>
 
                 <h3 className="color-red"> Valiant Fighters are honored!</h3>
                 <p>
-                  a. Soon after battle commences, stories of our greatest
+                  Soon after battle commences, stories of our greatest
                   fighters and largest $HONR winners will fill the kingdom
                   <br />
-                  b. $HONR rewards and glorious rewards will be bestowed upon
+                  Glorious $HONR rewards will be bestowed upon
                   those fighters who develop a reputation...
                   <br />
                 </p>
 
                 <h3 className="color-red"> $HONR Tokenomics</h3>
                 <p>
-                  a. Use $HONR to
+                  Use $HONR to:
                   <br />
-                  i. Grow your battalion! <br />
-                  ii. Upgrade your weapons and armour <br />
-                  iii. future mint battleland - all revealed soon
+                  Grow your battalion! <br />
+                  Upgrade your weapons and armour <br />
+                  Future mint battleland - all revealed soon
                 </p>
               </div>
               <div className="button-group mb-10 stretch mt-5">
