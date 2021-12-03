@@ -42,7 +42,6 @@ const Footer = () => {
             <Link href="/archive" className="footer-link">
               LORE
             </Link>
-            <br />
             <Link href="/whitepaper" className="footer-link">
               WHITEPAPER
             </Link>
