@@ -15,12 +15,9 @@ const HeroBanner = () => {
               <h5>
                 5 ARMIES <br />
                 <br /> 1 MYSTERIOUS ENEMY <br />
-                <br /> 10K GEN0 SOLDIERS <br /> <br />
-                <span className="color-red">
-                  5 BILLION $HONR <br />
-                  <br />
-                  TO BE WON{" "}
-                </span>
+                <br /> 10K Gen0 SOLDIERS <br />
+                <br /> 5 BILLION $HONR <br />
+                <br /> TO BE WON <br />
               </h5>
             </div>
             <div className="col"></div>
