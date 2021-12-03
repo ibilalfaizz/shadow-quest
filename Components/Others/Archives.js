@@ -392,6 +392,7 @@ const Archives = () => {
                 </div>
               </div>
             </div>
+           </div>
 
           </div>
         </div>
