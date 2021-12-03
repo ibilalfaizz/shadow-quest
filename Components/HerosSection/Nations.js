@@ -74,7 +74,7 @@ const Nations = () => {
                   <NavContent supply="180" image="shiryo.png" />
                 </Tab.Pane>
                 <Tab.Pane eventKey="sixth">
-                  <NavContent supply="180" image="Samsar.jpeg" />
+                  <NavContent supply="180" image="DarkSamsar.jpg" />
                 </Tab.Pane>
               </Tab.Content>
             </Col>
