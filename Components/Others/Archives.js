@@ -221,7 +221,7 @@ const Archives = () => {
             </div>
 
             <div>
-              <div className="div-block-11 flex mt-5">
+              <div className="div-block-11 flex">
                 <h1 className="heading-32">
                   <strong className="bold-text-63">
                     Community Lore Submissions
