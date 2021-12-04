@@ -42,14 +42,14 @@ const HeroBanner = () => {
 
                 <h3 className="color-red"> Retreat to safety! [Unstaking]</h3>
                 <p>
-                  In the 
+                  In the{" "} 
                   <span className="text-decoration-underline">
                     TRAINING GROUND
                   </span>
                   : you can simply leave training and
                   unstake with no risk.
                   <br />
-                  BUT, in the 
+                  BUT, in the{" "}
                   <span className="text-decoration-underline">
                     BATTLEFIELD
                   </span>
