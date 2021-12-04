@@ -1004,6 +1004,9 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
+  .subtitles h5 {
+    font-size: 25px;
+  }
   .banner-video {
     min-height: 100vh !important;
   }
