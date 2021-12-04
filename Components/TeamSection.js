@@ -18,7 +18,7 @@ const TeamSection = () => {
               <a
                 href="#"
                 className="assetbender w-inline-block"
-                style={{ backgroundImage: `url('/assets/images/zencho1.png')` }}
+                style={{ backgroundImage: `url('/assets/images/Derkpunk4293.png')` }}
               >
                 <div className="corner-white-copy bottom-right small" />
                 <div className="corner-white-copy bottom-right small _32" />
@@ -49,7 +49,7 @@ const TeamSection = () => {
               <a
                 href="#"
                 className="assetbender w-inline-block"
-                style={{ backgroundImage: `url('/assets/images/zencho2.png')` }}
+                style={{ backgroundImage: `url('/assets/images/PavsCat.jpeg')` }}
               >
                 <div className="corner-white-copy bottom-right small" />
                 <div className="corner-white-copy bottom-right small _32" />
