@@ -42,12 +42,20 @@ const HeroBanner = () => {
 
                 <h3 className="color-red"> Retreat to safety! [Unstaking]</h3>
                 <p>
-                  In the Training Ground: you can simply leave training and
+                  In the 
+                  <span className="text-decoration-underline">
+                    TRAINING GROUND
+                  </span>
+                  : you can simply leave training and
                   unstake with no risk.
                   <br />
-                  In the Battlefield: you must choose to 
+                  BUT, in the 
+                  <span className="text-decoration-underline">
+                    BATTLEFIELD
+                  </span>
+                  : you must choose to 
                   <span className="font-weight-bold">
-                     FLEE or FIGHT{" "}
+                     {" "}FLEE or FIGHT{" "}
                   </span>   
                   from the Dark Samsar Army!
                   <br />
