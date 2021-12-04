@@ -16,10 +16,10 @@ const HeroBanner = () => {
                 <p>
                   Each unique NFT has 5 stats: <br />
                   <span className="font-weight-bold">
-                    Skill, Speed, Strength, Magic, and Health{" "}
+                    Skill + Speed + Strength + Magic + Health{" "}
                   </span>
                   <br />
-                  - better stats means better chance of winning in battle <br />
+                  Better stats means better chance of winning in battle <br />
                   1K are Dark Samsar - a mysterious, ultra rare army that can
                   steal $HONR <br />
                 </p>
@@ -29,13 +29,13 @@ const HeroBanner = () => {
                 <h3 className="color-red"> Choose where to battle!</h3>
                 <p>
                   <span className="text-decoration-underline">
-                    TRAINING GROUND:
-                  </span>{" "}
+                    TRAINING GROUND
+                  </span>{": "}
                   Safely earn 3,000 $HONR per day
                   <br />
                   <span className="text-decoration-underline">
-                    BATTLEFIELD:{" "}
-                  </span>{" "}
+                    BATTLEFIELD
+                  </span>{": "}
                   Earn UP TO 1,000 $HONR per HOUR depending on your stats and
                   luck.
                 </p>
@@ -45,8 +45,11 @@ const HeroBanner = () => {
                   In the Training Ground: you can simply leave training and
                   unstake with no risk.
                   <br />
-                  In the Battlefield: you must choose to FLEE or FIGHT from the
-                  Dark Samsar Army!
+                  In the Battlefield: you must choose to 
+                  <span className="font-weight-bold">
+                     FLEE or FIGHT{" "}
+                  </span>   
+                  from the Dark Samsar Army!
                   <br />
                 </p>
 
@@ -64,8 +67,14 @@ const HeroBanner = () => {
                 <p>
                   Use $HONR to:
                   <br />
-                  Grow your battalion! <br />
-                  Upgrade your weapons and armour <br />
+                  <span className="font-weight-bold">
+                    Grow
+                  </span>{" "}
+                  your battalion! <br />
+                  <span className="font-weight-bold">
+                    Upgrade
+                  </span>{" "}
+                  your weapons and armour! <br />
                   Future mint battleland - all revealed soon
                 </p>
               </div>
