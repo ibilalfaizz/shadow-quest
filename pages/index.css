@@ -11,24 +11,22 @@
   src: url(/assets/fonts/Trincha.ttf);
 }
 
-
 body {
   font-family: Chakra Petch !important;
 }
 .dollar-sign {
   font-family: Trincha !important;
-  font-size:40px
+  font-size: 40px;
 }
 .nation-accordion .accordion-button {
-  padding:0px !important;
-  background-color: #600000  !important;
+  padding: 0px !important;
+  background-color: #600000 !important;
 }
 .text-transform-none {
-  text-transform :none !important;
- 
+  text-transform: none !important;
 }
 .font-14 {
-  font-size:14px
+  font-size: 14px;
 }
 
 .banner-video {
@@ -1006,6 +1004,9 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
+  .banner-video {
+    min-height: 100vh !important;
+  }
   .font-sm-14 {
     font-size: 14px !important;
   }

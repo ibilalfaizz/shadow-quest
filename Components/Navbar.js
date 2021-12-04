@@ -131,15 +131,21 @@ const Navbar = () => {
                   : {}
               }
             >
-              <a href="#stake-to-earn" className="div-block-40 w-inline-block">
-                <h1 className="heading-10">STAKE TO EARN</h1>
-              </a>
-              <a href="#nations" className="div-block-40 w-inline-block">
-                <h1 className="heading-10">NATIONS</h1>
-              </a>
-              <a href="#roadmap" className="div-block-40 w-inline-block">
-                <h1 className="heading-10">GAME ROADMAP</h1>
-              </a>
+              <Link href="#stake-to-earn">
+                <span className="div-block-40 w-inline-block">
+                  <h1 className="heading-10">STAKE TO EARN</h1>
+                </span>
+              </Link>
+              <Link href="/#nations">
+                <span className="div-block-40 w-inline-block">
+                  <h1 className="heading-10">NATIONS</h1>
+                </span>
+              </Link>
+              <Link href="/#roadmap">
+                <span className="div-block-40 w-inline-block">
+                  <h1 className="heading-10">GAME ROADMAP</h1>
+                </span>
+              </Link>
               <Link href="/lore">
                 <span className="div-block-40 w-inline-block cursor">
                   <h1 className="heading-10 ">LORE</h1>

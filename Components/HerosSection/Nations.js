@@ -89,6 +89,7 @@ const Nations = () => {
                 {nationsData.map((el, i) => {
                   return (
                     <NavItem
+                      key={i}
                       eventKey={el.key}
                       count={++i}
                       title={el.title}
@@ -102,7 +103,7 @@ const Nations = () => {
               <Tab.Content>
                 {nationsData.map((el, i) => {
                   return (
-                    <Tab.Pane eventKey={el.key}>
+                    <Tab.Pane eventKey={el.key} key={i}>
                       <NavContent supply="250" image={el.image} />
                     </Tab.Pane>
                   );
