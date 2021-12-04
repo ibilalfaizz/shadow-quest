@@ -21,7 +21,7 @@ const HeroBanner = () => {
             style={{ margin: "auto" }}
           />
           <div className="row mt-5">
-            <div className="col-6  d-flex justify-content-start">
+            <div className="col-md-6  d-flex justify-content-start">
               <div className="subtitles">
                 <h5>
                   5 ARMIES <br />
@@ -36,7 +36,7 @@ const HeroBanner = () => {
               </div>
             </div>
             {/* <div className="col-md-4 d-sm-none"></div> */}
-            <div className="col-6  d-flex justify-content-end">
+            <div className="col-md-6  d-flex justify-content-end">
               <div className="subtitles">
                 <h5>
                   A NEW STYLE <br />
