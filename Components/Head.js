@@ -6,18 +6,18 @@ const HeadCustom = () => {
       <title>SHADOW QUEST | シャドウクエスト </title>
 
       <meta
-        content="SHADOW QUEST | シャドウクエスト - Join 9,996 hand-drawn anime warriors for the fight that will end all other fights. Launching November."
+        content="SHADOW QUEST | シャドウクエスト - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
         name="description"
       />
       <meta content="SHADOW QUEST" property="og:title" />
       <meta
-        content="SHADOW QUEST | シャドウクエスト - Join 9,996 hand-drawn anime warriors for the fight that will end all other fights. Launching November."
+        content="SHADOW QUEST | シャドウクエスト - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
         property="og:description"
       />
       <meta property="og:image" content="/assets/images/meta-image.png" />
       <meta property="twitter:title" content="SHADOW QUEST" />
       <meta
-        content="SHADOW QUEST | シャドウクエスト - Join 9,996 hand-drawn anime warriors for the fight that will end all other fights. Launching November."
+        content="SHADOW QUEST | シャドウクエスト - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
         property="twitter:description"
       />
       <meta content="/assets/images/meta-image.png" property="twitter:image" />

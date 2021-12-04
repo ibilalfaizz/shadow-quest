@@ -2,6 +2,44 @@ import { Col, Nav, Row, Tab } from "react-bootstrap";
 import NavItem from "./NavItem";
 import NavContent from "./NavContent";
 const Nations = () => {
+  const nationsData = [
+    {
+      title: "Kiroh",
+      desc: `Speed and decisiveness thrive in the vast plains and sprawling cities of Kiroh. Are you fast enough to lead the pack?`,
+      image: "Kiroh.jpeg",
+      key: "first",
+    },
+    {
+      title: "Midsurin",
+      desc: `None can summon the chaotic arcane powers as effectively as the Midsurins. Are you able to harness the chaotic forces flowing through you?`,
+      image: "Midsurin.jpeg",
+      key: "second",
+    },
+    {
+      title: "Yama",
+      desc: `Forged in the fires and molten rivers, the Yamans are nigh on indestructible and fiercely loyal fighters. When you go to battle, are you stronger together?`,
+      image: "Yama.jpeg",
+      key: "third",
+    },
+    {
+      title: "Engan",
+      desc: `The Engans are free thinking, highly trained minds developing fantastical and terrifyingly destructive inventions. Do you have a talent for creation?`,
+      image: "Engan.jpeg",
+      key: "fourth",
+    },
+    {
+      title: "SHIRYO",
+      desc: `Feared by their fellow clans due to their thirst for brutality, they are known for their incredible strength and fighting talents. Will you fight to the bitter, bloody end?`,
+      image: "SHIRYO.png",
+      key: "fifth",
+    },
+    {
+      title: "SAMSAR",
+      desc: `Dark myths and legends of fearsome warriors that control unknown energies and command souls… What dark powers do you possess?`,
+      image: "DarkSamsar.jpg",
+      key: "sixth",
+    },
+  ];
   return (
     <div
       id="basics"
@@ -48,34 +86,27 @@ const Nations = () => {
           <Row className="bg-red">
             <Col md={5}>
               <Nav variant="pills" className="flex-column">
-                <NavItem eventKey="first" count="1" title="Kiroh" />
-                <NavItem eventKey="second" count="2" title="Midsurin" />
-                <NavItem eventKey="third" count="3" title="Yama" />
-                <NavItem eventKey="fourth" count="4" title="Engan" />
-                <NavItem eventKey="fifth" count="5" title="Shiryo" />
-                <NavItem eventKey="sixth" count="6" title="Samsar" />
+                {nationsData.map((el, i) => {
+                  return (
+                    <NavItem
+                      eventKey={el.key}
+                      count={++i}
+                      title={el.title}
+                      text={el.desc}
+                    />
+                  );
+                })}
               </Nav>
             </Col>
             <Col md={7} className="pr-md-0">
               <Tab.Content>
-                <Tab.Pane eventKey="first">
-                  <NavContent supply="250" image="Kiroh.jpeg" />
-                </Tab.Pane>
-                <Tab.Pane eventKey="second">
-                  <NavContent supply="280" image="Midsurin.jpeg" />
-                </Tab.Pane>
-                <Tab.Pane eventKey="third">
-                  <NavContent supply="180" image="Yama.jpeg" />
-                </Tab.Pane>
-                <Tab.Pane eventKey="fourth">
-                  <NavContent supply="180" image="Engan.jpeg" />
-                </Tab.Pane>
-                <Tab.Pane eventKey="fifth">
-                  <NavContent supply="180" image="shiryo.png" />
-                </Tab.Pane>
-                <Tab.Pane eventKey="sixth">
-                  <NavContent supply="180" image="DarkSamsar.jpg" />
-                </Tab.Pane>
+                {nationsData.map((el, i) => {
+                  return (
+                    <Tab.Pane eventKey={el.key}>
+                      <NavContent supply="250" image={el.image} />
+                    </Tab.Pane>
+                  );
+                })}
               </Tab.Content>
             </Col>
           </Row>

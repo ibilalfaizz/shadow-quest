@@ -101,7 +101,11 @@ const AccordionItem = () => {
                 <p>
                   <ul>
                     {el.description.map((el, i) => {
-                      return <li>{renderHTML(el)}</li>;
+                      return (
+                        <li className="text-transform-none font-16 font-sm-14">
+                          {renderHTML(el)}
+                        </li>
+                      );
                     })}
                   </ul>
                 </p>

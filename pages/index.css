@@ -6,12 +6,29 @@
   font-family: edosz;
   src: url(/assets/fonts/edosz.ttf);
 }
+@font-face {
+  font-family: Trincha;
+  src: url(/assets/fonts/Trincha.ttf);
+}
+
 
 body {
   font-family: Chakra Petch !important;
 }
 .dollar-sign {
-  font-family: Chakra Petch !important;
+  font-family: Trincha !important;
+  font-size:40px
+}
+.nation-accordion .accordion-button {
+  padding:0px !important;
+  background-color: #600000  !important;
+}
+.text-transform-none {
+  text-transform :none !important;
+ 
+}
+.font-14 {
+  font-size:14px
 }
 
 .banner-video {
@@ -51,6 +68,7 @@ body {
 .font-16 {
   font-size: 16px !important;
 }
+
 .navbar-icons {
   fill: white;
 }
@@ -988,6 +1006,10 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
+  .font-sm-14 {
+    font-size: 14px !important;
+  }
+
   .site-title {
     font-size: 14px !important;
   }
@@ -2713,13 +2735,13 @@ body {
 }
 
 .custom-button.white.nav-button.dilema {
-  background-color: #c7eb49;
+  background-color: #600000;
   color: #19181d;
 }
 
 .custom-button.white.nav-button.dilema:hover {
   background-color: #19181d;
-  color: #c7eb49;
+  color: #600000;
 }
 
 .custom-button.black-secondary {
@@ -6701,8 +6723,8 @@ body {
 }
 
 .div-block-2.dilema:hover {
-  border-bottom-color: #c7eb49;
-  color: #c7eb49;
+  border-bottom-color: #600000;
+  color: #600000;
 }
 
 .link-2 {
@@ -9758,7 +9780,7 @@ body {
 }
 
 .text-span-5.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .text-span-6 {
@@ -9767,7 +9789,7 @@ body {
 }
 
 .text-span-6.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .text-span-7 {
@@ -9776,7 +9798,7 @@ body {
 }
 
 .text-span-7.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .text-span-8 {
@@ -9785,7 +9807,7 @@ body {
 }
 
 .text-span-8.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .text-span-9 {
@@ -9794,7 +9816,7 @@ body {
 }
 
 .text-span-9.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .text-span-10 {
@@ -9803,7 +9825,7 @@ body {
 }
 
 .text-span-10.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-4 {
@@ -9811,7 +9833,7 @@ body {
 }
 
 .bold-text-4.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-5 {
@@ -9819,7 +9841,7 @@ body {
 }
 
 .bold-text-5.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-6 {
@@ -9827,7 +9849,7 @@ body {
 }
 
 .bold-text-6.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-7 {
@@ -9835,7 +9857,7 @@ body {
 }
 
 .bold-text-7.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-8 {
@@ -9843,7 +9865,7 @@ body {
 }
 
 .bold-text-8.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-9 {
@@ -9851,7 +9873,7 @@ body {
 }
 
 .bold-text-9.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-10 {
@@ -9859,7 +9881,7 @@ body {
 }
 
 .bold-text-10.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-11 {
@@ -9867,7 +9889,7 @@ body {
 }
 
 .bold-text-11.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-12 {
@@ -9875,7 +9897,7 @@ body {
 }
 
 .bold-text-12.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-13 {
@@ -9883,7 +9905,7 @@ body {
 }
 
 .bold-text-13.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-14 {
@@ -9891,7 +9913,7 @@ body {
 }
 
 .bold-text-14.dilema {
-  color: #c7eb49;
+  color: #600000;
   text-align: left;
 }
 
@@ -9900,7 +9922,7 @@ body {
 }
 
 .bold-text-15.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-16 {
@@ -9908,7 +9930,7 @@ body {
 }
 
 .bold-text-16.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-17 {
@@ -9916,7 +9938,7 @@ body {
 }
 
 .bold-text-17.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-18 {
@@ -9924,7 +9946,7 @@ body {
 }
 
 .bold-text-18.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-19 {
@@ -9932,7 +9954,7 @@ body {
 }
 
 .bold-text-19.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-20 {
@@ -9940,7 +9962,7 @@ body {
 }
 
 .bold-text-20.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-21 {
@@ -9948,7 +9970,7 @@ body {
 }
 
 .bold-text-21.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-22 {
@@ -9956,7 +9978,7 @@ body {
 }
 
 .bold-text-22.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-23 {
@@ -9964,7 +9986,7 @@ body {
 }
 
 .bold-text-23.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-24 {
@@ -9972,7 +9994,7 @@ body {
 }
 
 .bold-text-24.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-25 {
@@ -9980,7 +10002,7 @@ body {
 }
 
 .bold-text-25.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-26 {
@@ -9988,7 +10010,7 @@ body {
 }
 
 .bold-text-26.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .image-11 {
@@ -10005,7 +10027,7 @@ body {
 }
 
 .bold-text-27.dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .div-block-12 {
@@ -10040,8 +10062,8 @@ body {
 }
 
 .link-3.dilema {
-  color: #c7eb49;
-  text-shadow: 0 0 12px rgba(199, 235, 73, 0.31);
+  color: #600000;
+  text-shadow: 0 0 12px rgba(96, 0, 0, 0.31);
   white-space: normal;
 }
 
@@ -13668,7 +13690,7 @@ body {
 }
 
 .dilema-bar {
-  background-color: #c7eb49;
+  background-color: #600000;
 }
 
 .about-dilema {
@@ -13680,10 +13702,10 @@ body {
 
 .heading-32 {
   margin-top: 0px;
-  color: #c7eb49;
+  color: #600000 !important;
   font-size: 60px;
   line-height: 50px;
-  text-shadow: 0 0 20px rgba(199, 235, 73, 0.22);
+  text-shadow: 0 0 20px rgba(96, 0, 0, 0.22);
 }
 
 .heading-32.title {
@@ -13732,7 +13754,7 @@ body {
 }
 
 .bold-text-39 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .white-headintg {
@@ -13867,7 +13889,7 @@ body {
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   border-radius: 2px;
-  background-color: #c7eb49;
+  background-color: #600000;
   box-shadow: 0 3px 0 0 rgba(32, 32, 32, 0.05);
   -webkit-transition: box-shadow 200ms ease, border-color 200ms ease,
     color 200ms ease, background-color 200ms ease, -webkit-transform 200ms ease;
@@ -13938,7 +13960,7 @@ body {
 }
 
 .heading-34 {
-  color: #c7eb49;
+  color: #600000;
   text-align: center;
   text-shadow: 1px 1px 13px rgba(199, 235, 73, 0.39);
 }
@@ -13952,7 +13974,7 @@ body {
 
 .button-101 {
   border-radius: 3px;
-  background-color: #c7eb49;
+  background-color: #600000;
   box-shadow: 0 0 14px 0 rgba(199, 235, 73, 0.24);
   color: #19181d;
   font-weight: 500;
@@ -13960,114 +13982,114 @@ body {
 
 .close-btn {
   border-radius: 3px;
-  background-color: #c7eb49;
+  background-color: #600000;
   box-shadow: 0 0 14px 0 rgba(199, 235, 73, 0.24);
   color: #19181d;
   font-weight: 500;
 }
 
 .dilema {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-40 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-41 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .text-span-19 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .text-span-20 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-42 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-43 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-44 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-45 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-46 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-47 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-48 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-49 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-50 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-51 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-52 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-53 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-54 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-55 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-56 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-57 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-58 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-59 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-60 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-61 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .bold-text-62 {
-  color: #c7eb49;
+  color: #600000;
 }
 
 .tabs {
