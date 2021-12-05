@@ -228,7 +228,7 @@ const whitepaper = () => {
                     recorded in the annals of history. By the end of every week,
                     whichever Warrior is top of the Leaderboard by winning the
                     most FIGHTs that week, will be bestowed with a glorious
-                    prize of 100k $OMEN!
+                    prize of 100k $HONR!
                   </p>
                   <h3>​$HONR tokenomics</h3>
 
