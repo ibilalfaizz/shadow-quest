@@ -7,7 +7,7 @@ const Footer = () => {
         <Row>
           <Col md="3">
             <p className="text-extra-small align-left text-white-opacity mb-10">
-              Zenchō. All Rights Reserved.{" "}
+              Shadow Quest. All Rights Reserved.{" "}
             </p>
           </Col>
           <Col md="7">
