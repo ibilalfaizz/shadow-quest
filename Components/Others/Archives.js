@@ -481,6 +481,36 @@ const Archives = () => {
                 </div>
               </div>
             </div>
+
+              <h1 className="gametheorykanji _20bottom">
+                <a href="#" className="link-3 dilema hide">
+                  LIMERICKS <br />
+                </a>
+              </h1>
+              <div className="split flex-v2">
+                <div className="row mt-3">
+                  <div className="col-md-6 col-sm-12 ">
+                    <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
+                      There was a knight called Rufus,<br />
+                      His squire thought him a dufus.<br />
+                      With his lazy eye,<br />
+                      He held his guard too high -<br />
+                      In battle he was useless.<br />
+                        {"         -Maxi"}
+                      <br />
+                      <br />
+                       There once was a wizard named Rune,
+                       His wand was a special-type spoon,
+                       One day he farted,
+                       So hard he darted,
+                       O'er the trees, and up to the MOON!
+                        {"         -Derkizzle"}
+                      <br />
+                    </p>
+                  </div>
+                </div>
+              </div>
+
           </div>
         </div>
       </div>
