@@ -115,8 +115,6 @@ const whitepaper = () => {
                     </tbody>
                   </table>
                   <p>
-                    The total cost to mint all of the Warriors and Samsar will
-                    be 840,000,000 $HONR.
                   </p>
                   <h3>Warriors</h3>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
@@ -164,7 +162,7 @@ const whitepaper = () => {
                       </tr>
 
                       <tr>
-                        <td>Enter <span className="text-decoration-underline"> Battlefield </span> (Stake)</td>
+                        <td>Enter <span className="text-decoration-underline"> Battlefield </span> {" "}(Stake)</td>
                         <td>Battlefield</td>
                         <td>
                           Accumulate up to 1,000 $HONR/ hour depending on how
@@ -177,7 +175,7 @@ const whitepaper = () => {
                       </tr>
 
                       <tr>
-                        <td><span className="text-decoration-underline"> Flee </span> for $HONR (Claim)</td>
+                        <td><span className="text-decoration-underline"> Flee</span> {" "}for $HONR (Claim)</td>
                         <td>Battlefield</td>
                         <td>You will receive 85% of your accumulated $HONR</td>
                         <td>
@@ -188,7 +186,7 @@ const whitepaper = () => {
                       </tr>
 
                       <tr>
-                        <td><span className="text-decoration-underline"> Fight </span> for $HONR (Take)</td>
+                        <td><span className="text-decoration-underline"> Fight</span> {" "}for $HONR (Take)</td>
                         <td>Battlefield</td>
                         <td>
                           You have the chance to DOUBLE or NOTHING of your
@@ -290,14 +288,7 @@ const whitepaper = () => {
                         <td>TBA, see <a href="https://discord.gg/kZquzB6Aes" target="_blank" rel="noOpener">Discord</a> or <a href="https://twitter.com/ZenCho_NFT" target="_blank" rel="noOpener">Twitter</a> </td>
                       </tr>
                       <tr>
-                        <td>
-                          {" "}
-                          <tr>
-                            <td></td>
-                            <td>Gen1</td>
-                            <td>20,000 $HONR</td>
-                          </tr>
-                        </td>
+                        <td>9,997 to 15,996</td>
                         <td>Gen1</td>
                         <td>20,000 $HONR</td>
                       </tr>
@@ -319,6 +310,10 @@ const whitepaper = () => {
                     Whilst 1 $HONR will always = 1 $HONR, we will provide
                     liquidity on Uniswap to allow more users to enter the Shadow
                     world.
+                    <br />
+                    <br />
+                    The total cost to mint all of the Warriors and Samsar will
+                    be 840,000,000 $HONR.
                   </p>
                   <h3>Samsar</h3>
 
@@ -354,7 +349,7 @@ const whitepaper = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Enter <span className="text-decoration-underline"> Training Ground </span> (Stake)</td>
+                        <td>Enter <span className="text-decoration-underline"> Training Ground </span> {" "}(Stake)</td>
                         <td>Training Ground</td>
                         <td>Accumulate 3,000 $HONR / day (prorated)</td>
                         <td>No risk</td>
@@ -375,7 +370,7 @@ const whitepaper = () => {
                       </tr>
 
                       <tr>
-                        <td>Enter <span className="text-decoration-underline"> Battlefield </span> (Stake)</td>
+                        <td>Enter <span className="text-decoration-underline"> Battlefield</span> {" "}(Stake)</td>
                         <td>Battlefield</td>
                         <td>
                           Earn your share of the dropped $HONR on the
