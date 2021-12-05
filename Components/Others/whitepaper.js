@@ -73,7 +73,7 @@ const whitepaper = () => {
                         </p>
                       </div>
                     </p>
-                    - When a new Warrior is recruited, the Samsar attempt to
+                    - When a new Warrior is recruited, the Samsar will attempt to
                     steal them. If they’re successful, it’s given to a randomly
                     selected Samsar, instead of the owner who minted it.
                   </div>
