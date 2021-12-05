@@ -43,7 +43,7 @@ const HeroBanner = () => {
                   <br /> OF <br />
                   <br /> STAKING GAME <br />
                   <br /> WITH STATS, TACTICS, <br />
-                  <br /> & ART <br />
+                  <br /> & ANIME ART <br />
                   <br />{" "}
                 </h5>
               </div>
