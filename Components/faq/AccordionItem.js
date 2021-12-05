@@ -29,7 +29,7 @@ const AccordionItem = () => {
     {
       title: `What can I use $HONR for?`,
       description: [
-        `From Day 1: Minting Gen1 Warriors. In the future, weapons and armor for stats boosts. `,
+        `From Day 1: Minting Gen1 Warriors. In the future, weapons and armor for stats boosts. $HONR will also be swappable on Uniswap with significant liquidity backing. `,
       ],
     },
     {
