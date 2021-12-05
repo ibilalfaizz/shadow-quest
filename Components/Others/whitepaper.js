@@ -452,13 +452,8 @@ const whitepaper = () => {
                     decisions!. <br />
                     Contract Addresses
                     <ul>
-                      <li>
-                         Warrior / Samsara NFT: To be revealed at minting date
-                      </li>
-                      <li>
-                         Training Ground / Battlefield Staking: To be revealed
-                        at minting date
-                      </li>
+                      <li>Warrior / Samsara NFT: To be revealed at minting date</li>
+                      <li>Training Ground / Battlefield Staking: To be revealed at minting date</li>
                       <li>$HONR Token: To be revealed at minting date</li>
                     </ul>
                   </p>
