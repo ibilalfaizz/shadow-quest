@@ -10061,12 +10061,12 @@ body {
 }
 
 .link-3 {
-  color: #600000;
+  color: #f00d0d;
   text-decoration: none;
 }
 
 .link-3.dilema {
-  color: #600000;
+  color: #f00d0d;
   text-shadow: 0 0 12px rgba(96, 0, 0, 0.31);
   white-space: normal;
 }
@@ -13706,7 +13706,7 @@ body {
 
 .heading-32 {
   margin-top: 0px;
-  color: #600000 !important;
+  color: #f00d0d !important;
   font-size: 60px;
   line-height: 50px;
   text-shadow: 0 0 20px rgba(96, 0, 0, 0.22);
@@ -13993,7 +13993,7 @@ body {
 }
 
 .dilema {
-  color: #600000;
+  color: #f00d0d;
 }
 
 .bold-text-40 {

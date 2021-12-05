@@ -83,8 +83,8 @@ const Nations = () => {
           defaultActiveKey="first"
           className="strategy-basics-tabs w-tabs"
         >
-          <Row className="bg-red">
-            <Col md={5}>
+          <Row>
+            <Col md={5} className="bg-red">
               <Nav variant="pills" className="flex-column">
                 {nationsData.map((el, i) => {
                   return (

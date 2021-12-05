@@ -30,7 +30,7 @@ const Navbar = () => {
                 className="nav-menu w-nav-menu"
                 style={{ transform: "translateY(0px) translateX(0px)" }}
               >
-                <Link href="#stake-to-earn">
+                <Link href="/#stake-to-earn">
                   <span className="div-block-40 w-inline-block cursor-pointer">
                     <h1 className="heading-10">STAKE TO EARN</h1>{" "}
                   </span>
@@ -131,7 +131,7 @@ const Navbar = () => {
                   : {}
               }
             >
-              <Link href="#stake-to-earn">
+              <Link href="/#stake-to-earn">
                 <span className="div-block-40 w-inline-block">
                   <h1 className="heading-10">STAKE TO EARN</h1>
                 </span>
