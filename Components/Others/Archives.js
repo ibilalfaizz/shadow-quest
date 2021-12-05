@@ -484,7 +484,7 @@ const Archives = () => {
 
               <h1 className="gametheorykanji _20bottom">
                 <a href="#" className="link-3 dilema hide">
-                  LIMERICKS <br />
+                  LIMERICKS! <br />
                 </a>
               </h1>
               <div className="split flex-v2">
@@ -496,15 +496,15 @@ const Archives = () => {
                       With his lazy eye,<br />
                       He held his guard too high -<br />
                       In battle he was useless.<br />
-                        {"         -Maxi"}
+                        {"         "}-Maxi
                       <br />
                       <br />
-                       There once was a wizard named Rune,
-                       His wand was a special-type spoon,
-                       One day he farted,
-                       So hard he darted,
-                       O'er the trees, and up to the MOON!
-                        {"         -Derkizzle"}
+                       There once was a wizard named Rune,<br />
+                       His wand was a special-type spoon,<br />
+                       One day he farted,<br />
+                       So hard he darted,<br />
+                       O'er the trees, and up to the MOON!<br />
+                        {"         "}-Derkizzle
                       <br />
                     </p>
                   </div>
