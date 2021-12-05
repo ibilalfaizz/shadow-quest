@@ -14,19 +14,20 @@ const Footer = () => {
             <Link href="/">
               <span className="footer-link "> SHADOWQUEST </span>
             </Link>
-            <a href="#stacking-game" className="footer-link w--current">
-              STACKING GAME
+            <a href="#stake-to-earn" className="footer-link w--current">
+              STAKE TO EARN
               <br />
             </a>
             <a href="#nations" className="footer-link">
               NATIONS
               <br />
             </a>
-            <Link href="/archive">
-              <span className="footer-link "> ARCHIVE </span>
-            </Link>
-            <Link href="community-lore">
-              <span className="footer-link "> COMMUNITY LORE </span>
+            <a href="#roadmap" className="footer-link">
+              GAME ROADMAP
+              <br />
+            </a>
+            <Link href="/lore">
+              <span className="footer-link "> LORE </span>
             </Link>
             <Link href="/whitepaper">
               <span className="footer-link "> WHITEPAPERS </span>
