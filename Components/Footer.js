@@ -5,8 +5,8 @@ const Footer = () => {
     <div className="section footer wf-section">
       <div className="container">
         <Row>
-          <Col md="3">
-            <p className="text-extra-small align-left text-white-opacity mb-10">
+          <Col md="2">
+            <p className="text-extra-small align-left text-white-opacity mb-5">
               Shadow Quest. All Rights Reserved.{" "}
             </p>
           </Col>
