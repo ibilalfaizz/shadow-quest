@@ -12,7 +12,7 @@ const AccordionItem = () => {
     {
       title: `Minting Price`,
       description: [
-        `Official launch price will also be announced soon. Follow on Discord and Twitter to be the first to know.`,
+        `Official launch price will also be announced soon. Follow on <a href="https://discord.gg/kZquzB6Aes" target="_blank" rel="noOpener">Discord</a> and <a href="https://twitter.com/ZenCho_NFT" target="_blank" rel="noOpener">Twitter</a> to be the first to know.`,
       ],
     },
     {
