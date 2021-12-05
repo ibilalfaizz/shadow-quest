@@ -50,12 +50,13 @@ const AccordionItem = () => {
       description: [
         `Yes! We welcome all forms of writing as lore and will work to incorporate it into the over-arching storyline.`,
         `This includes: short stories, flash fiction, snippets, poems, haikus, songs, limericks, riddles, and anything in between!`,
+        `Check out <a href="https://www.shadowquest.games/lore" target="_blank" rel="noOpener">LORE</a> for what we have so far, and the <a href="https://discord.gg/kZquzB6Aes" target="_blank" rel="noOpener">Discord</a> for more!`,
       ],
     },
     {
       title: `How can I submit lore to be showcased on the website?`,
       description: [
-        `The best place is in the Discord server, specifically in the #fan-lore channel.`,
+        `The best place is in the <a href="https://discord.gg/kZquzB6Aes" target="_blank" rel="noOpener">Discord</a> server, specifically in the #fan-lore channel.`,
         `We will always have mods (and lots of the community) keeping an eye out for any new lore.`,
       ],
     },
