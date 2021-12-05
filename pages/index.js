@@ -23,9 +23,11 @@ const Home = () => {
         <Nations />
 
         <RoadMapSection />
-        <TeamSection />
 
         <FaqSection />
+    
+        <TeamSection />
+
         <Footer />
       </div>
     </div>
