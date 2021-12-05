@@ -9,13 +9,6 @@ const NavItem = (props) => {
       >
         <img src={`/assets/images/nations/${props.image}`} />
         <div className="corner-dark bottom-right dark" />
-        {/* <div className="div-block-21">
-          <div className="div-block-55">
-            <h1 className="heading-13">
-              {props.supply} CIRCULATING&nbsp;SUPPLY
-            </h1>
-          </div>
-        </div> */}
       </div>
     </div>
   );

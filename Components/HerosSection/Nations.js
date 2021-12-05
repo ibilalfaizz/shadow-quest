@@ -1,4 +1,4 @@
-import { Col, Nav, Row, Tab } from "react-bootstrap";
+import { Accordion, Col, Nav, Row, Tab } from "react-bootstrap";
 import NavItem from "./NavItem";
 import NavContent from "./NavContent";
 const Nations = () => {
@@ -86,17 +86,19 @@ const Nations = () => {
           <Row>
             <Col md={5} className="bg-red">
               <Nav variant="pills" className="flex-column">
-                {nationsData.map((el, i) => {
-                  return (
-                    <NavItem
-                      key={i}
-                      eventKey={el.key}
-                      count={++i}
-                      title={el.title}
-                      text={el.desc}
-                    />
-                  );
-                })}
+                <Accordion defaultActiveKey="0" flush>
+                  {nationsData.map((el, i) => {
+                    return (
+                      <NavItem
+                        key={i}
+                        eventKey={el.key}
+                        count={++i}
+                        title={el.title}
+                        text={el.desc}
+                      />
+                    );
+                  })}
+                </Accordion>
               </Nav>
             </Col>
             <Col md={7} className="pr-md-0">
