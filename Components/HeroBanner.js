@@ -10,7 +10,7 @@ const HeroBanner = () => {
         poster="/assets/videos/banner-bg-fallback.png"
       >
         <source
-          src="/assets/videos/Banner_BG_HighQuality.mp4"
+          src="/assets/videos/Banner_BG_HighQualityCrop.mp4"
           type="video/mp4"
         />
       </video>
