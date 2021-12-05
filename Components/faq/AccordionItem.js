@@ -33,39 +33,20 @@ const AccordionItem = () => {
       ],
     },
     {
-      title: `How much Liquidity backing will the project provide for $HONR`,
-      description: [`$300k`],
-    },
-    {
       title: `When can I start staking?`,
       description: [`Staking will be available immediately after minting!`],
     },
     {
-      title: `What can I win from staking?`,
+      title: `What determines a Warrior’s rarity?`,
       description: [
-        `On top of your regular staking rewards, if you have won the most fights that week, then you will be rewarded with an extra prize of 100k $HONR!`,
-      ],
-    },
-    {
-      title: `When will the first 100k $HONR prize be paid?`,
-      description: [`1 week after minting`],
-    },
-    {
-      title: `What determines a Warrior’s stats?`,
-      description: [
+        `Warriors not only have 5 battle stats, but they are high quality generative art with detailed features with inspiration drawn from many classic manga comics.`,
         `Stats are split into 5 attributes each with their own use in battle.`,
         `They are generated during minting and designed to be balanced but vary greatly from Warrior to Warrior.`,
         `As a result each Warrior will have different strengths and weaknesses in battle.`,
       ],
     },
     {
-      title: `What determines a Warrior’s rarity?`,
-      description: [
-        `Warriors not only have 5 attributes, but they are high quality generative art with detailed features with inspiration drawn from many classic manga comics.`,
-      ],
-    },
-    {
-      title: `Can I really submit any type of writing as lore?`,
+      title: `WE LOVE LORE! Can I really submit any type of writing as lore?`,
       description: [
         `Yes! We welcome all forms of writing as lore and will work to incorporate it into the over-arching storyline.`,
         `This includes: short stories, flash fiction, snippets, poems, haikus, songs, limericks, riddles, and anything in between!`,
