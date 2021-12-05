@@ -188,10 +188,13 @@ const Archives = () => {
                     </a>
                   </h1>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                    The Shiryo clan was exiled to the bleak tundra and icy
-                    mountains long ago. Their wanton brutality struck fear into
-                    the hearts of their neighbouring clans who cooperated to
-                    drive the Shiryo as far away as possible.
+                    The Shiryo clan was exiled to the bleak tundra and icy mountains nearly two hundred years ago. In a relentless onslaught from neighbouring clans, they were pushed out of their homes, punishment for their wanton brutality and violence. Depleted in numbers, they struggled to survive in the harsh winters that followed, but their determination drove them on, giving them a strength that few down in the valleys and townships could imagine. 
+                    <br />
+                    <br />
+                    Generation by generation they have been building strength amongst the cold, unforgiving wilds of the mountains. Undeterred by the obstinate cold, they have found ways to find life amongst the permafrost, building homes that grew into settlements and training grounds and camps to create the toughest, strongest warriors the land has ever seen. Men and women alike train for hours each morning, their skin glistening in the blue ice of the mountain. They can traverse the steepest cliffs, hunt in the most barren landscapes, drag their kill for hours with their hands wrapped in the fur of their prey.  
+                    <br />
+                    <br />
+                    And now they are ready. They burn with energy, waiting to charge down the slopes of the mountain, to finally take back what was stolen from them two centuries ago.  
                     <br />
                   </p>
                 </div>
