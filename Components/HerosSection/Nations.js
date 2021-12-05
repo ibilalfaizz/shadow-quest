@@ -43,7 +43,7 @@ const Nations = () => {
   return (
     <div
       id="basics"
-      className="section-33 wf-section "
+      className="section-33 wf-section pt-3"
       style={{ background: "#151515" }}
     >
       <div
