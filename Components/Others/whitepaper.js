@@ -306,7 +306,10 @@ const whitepaper = () => {
                       </tr>
                     </tbody>
                   </table>
-
+  
+                  <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
+                  </p>
+  
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
                     Whilst 1 $HONR will always = 1 $HONR, we will provide
                     liquidity on Uniswap to allow more users to enter the Shadow
