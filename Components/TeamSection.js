@@ -49,7 +49,7 @@ const TeamSection = () => {
               <a
                 href="#"
                 className="assetbender w-inline-block"
-                style={{ backgroundImage: `url('/assets/images/PavsCat.jpeg')` }}
+                style={{ backgroundImage: `url('/assets/images/PavsCCat.jpeg')` }}
               >
                 <div className="corner-white-copy bottom-right small" />
                 <div className="corner-white-copy bottom-right small _32" />
@@ -60,7 +60,7 @@ const TeamSection = () => {
               <div className="d-flex justify-content-center color-red">
                 <h3>Master Developer </h3>
                 <a
-                  href="#"
+                  href="https://twitter.com/block_bond"
                   className="div-block-40 w-inline-block team-icons-container"
                 >
                   <svg
