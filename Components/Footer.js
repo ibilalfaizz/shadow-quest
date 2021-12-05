@@ -5,12 +5,12 @@ const Footer = () => {
     <div className="section footer wf-section">
       <div className="container">
         <Row>
-          <Col md="3">
+          <Col md="4">
             <p className="text-extra-small align-left text-white-opacity mb-10">
-              Zenchō. All Rights Reserved.{" "}
+              Shadow Quest. All Rights Reserved.{" "}
             </p>
           </Col>
-          <Col md="7">
+          <Col md="6">
             <Link href="/">
               <span className="footer-link "> SHADOWQUEST </span>
             </Link>
