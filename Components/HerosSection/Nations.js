@@ -11,13 +11,13 @@ const Nations = () => {
     },
     {
       title: "Midsurin",
-      desc: `None can summon the chaotic arcane powers as effectively as the Midsurins. Are you able to harness the chaotic forces flowing through you?`,
+      desc: `None can summon the arcane powers as effectively as the Midsurins. Are you able to harness the chaotic forces flowing through you?`,
       image: "Midsurin.jpeg",
       key: "second",
     },
     {
       title: "Yama",
-      desc: `Forged in the fires and molten rivers, the Yamans are nigh on indestructible and fiercely loyal fighters. When you go to battle, are you stronger together?`,
+      desc: `Forged in fires and molten rivers, the Yamans are nigh on indestructible and fiercely loyal fighters. When you go to battle, are you stronger together?`,
       image: "Yama.jpeg",
       key: "third",
     },
@@ -35,7 +35,7 @@ const Nations = () => {
     },
     {
       title: "SAMSAR",
-      desc: `Dark myths and legends of fearsome warriors that control unknown energies and command souls… What dark powers do you possess?`,
+      desc: `Mysterious myths and legends of fearsome warriors that control unknown energies and command souls… What dark powers do you possess?`,
       image: "DarkSamsar.jpg",
       key: "sixth",
     },
