@@ -34,13 +34,15 @@ const whitepaper = () => {
                     double your $HONR spoils of war and go down in history,
                     however if you lose, the Samsar will take all of your $HONR.
                     <br />
+                    <br />
                     Finally the danger is not over: when you recruit a new
                     Warrior, there is a chance they will be ruthlessly stolen by
                     the Samsar!
                     <br />
+                    <br />
                     ShadowQuest is an NFT that combines hand-drawn limited
                     edition art and community lore whilst pushing innovative
-                    tokenomics further than before!
+                    tokenomics further than ever before!
                     <br />
                   </p>
                   <h3>Battle Report</h3>
@@ -51,11 +53,11 @@ const whitepaper = () => {
                       Warriors can be staked in the:
                       <div className="indent-2">
                         <p>
-                          - Training Ground to earn 3,000 $HONR per day at no
+                          - <span className="text-decoration-underline"> Training Ground </span> to earn 3,000 $HONR per day at no
                           cost and no risk, OR
                         </p>
                         <p>
-                          - Battlefield to earn up to 1,000 $HONR per hour, but
+                          - <span className="text-decoration-underline"> Battlefield </span> to earn up to 1,000 $HONR per hour, but
                           leaving the field is a risky endeavour.
                         </p>
                       </div>
@@ -64,9 +66,9 @@ const whitepaper = () => {
                       - If a Warrior is unstaked from the Battlefield, you will
                       have to choose between:
                       <div className="indent-2">
-                        <p>- FLEEING and dropping 15% of your earned $HONR</p>
+                        <p>- <span className="text-decoration-underline"> FLEEING </span> and dropping 15% of your earned $HONR</p>
                         <p>
-                          - FIGHTING the fearsome Samsar in battle one final
+                          - <span className="text-decoration-underline"> FIGHTING </span> the fearsome Samsar in battle one final
                           time. If you win, you leave with double your $HONR,
                           however if you lose, the Samsar will take all your
                           $HONR.
@@ -90,7 +92,7 @@ const whitepaper = () => {
                       <tr>
                         <td>1 to 9,996</td>
                         <td>GEN0</td>
-                        <td>Not yet announced</td>
+                        <td>TBA, see <a href="https://discord.gg/kZquzB6Aes" target="_blank" rel="noOpener">Discord</a> or <a href="https://twitter.com/ZenCho_NFT" target="_blank" rel="noOpener">Twitter</a> </td>
                       </tr>
 
                       <tr>
@@ -134,7 +136,7 @@ const whitepaper = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Enter Training Ground (Stake)</td>
+                        <td>Enter <span className="text-decoration-underline"> Training Ground </span> (Stake)</td>
                         <td>Training Ground</td>
                         <td>Accumulate 3,000 $HONR / day (prorated)</td>
                         <td>No risk</td>
@@ -156,13 +158,13 @@ const whitepaper = () => {
 
                       <tr>
                         <td></td>
-                        <td>Training Ground</td>
                         <td></td>
-                        <td>No risk</td>
+                        <td></td>
+                        <td></td>
                       </tr>
 
                       <tr>
-                        <td>Enter Battlefield (Stake)</td>
+                        <td>Enter <span className="text-decoration-underline"> Battlefield </span> (Stake)</td>
                         <td>Battlefield</td>
                         <td>
                           Accumulate up to 1,000 $HONR/ hour depending on how
@@ -175,18 +177,18 @@ const whitepaper = () => {
                       </tr>
 
                       <tr>
-                        <td>Flee for $HONR (Claim)</td>
+                        <td><span className="text-decoration-underline"> Flee </span> for $HONR (Claim)</td>
                         <td>Battlefield</td>
                         <td>You will receive 85% of your accumulated $HONR</td>
                         <td>
                           Fleeing from the battlefield causes you to drop 15% of
-                          your $HONR which will be equally distributed amongst
+                          your $HONR which will be distributed amongst
                           the Samsar.
                         </td>
                       </tr>
 
                       <tr>
-                        <td>Fight for $HONR (Take)</td>
+                        <td><span className="text-decoration-underline"> Fight </span> for $HONR (Take)</td>
                         <td>Battlefield</td>
                         <td>
                           You have the chance to DOUBLE or NOTHING of your
@@ -219,10 +221,12 @@ const whitepaper = () => {
                     your skills impress others and you will earn more $HONR per
                     hour.
                     <br />
+                    <br />
                     If you choose to fight the Samsar, then your stats are
                     compared with the average stats of the staked Samsar in the
                     Battlefield. The better your stats, the more likely you are
                     to win your battle and double your $HONR!
+                    <br />
                     <br />
                     When a Warrior wins a FIGHT against the Samsar it is
                     recorded in the annals of history. By the end of every week,
@@ -241,9 +245,9 @@ const whitepaper = () => {
                         staking, the staking “faucet” turns off.
                       </li>
                       <li>
-                        The developers will receive 600,000,000 $HONR Community
+                        The developers will receive 600,000,000 $HONR
                       </li>
-                      <li>Rewards will be allocated 2,000,000,000 $HONR</li>
+                      <li>Community Rewards will be allocated 2,000,000,000 $HONR</li>
                     </ul>
                   </p>
                   <table class="table text-white">
@@ -283,7 +287,7 @@ const whitepaper = () => {
                       <tr>
                         <td>1 to 9,996</td>
                         <td>Gen0</td>
-                        <td>Not yet announced</td>
+                        <td>TBA, see <a href="https://discord.gg/kZquzB6Aes" target="_blank" rel="noOpener">Discord</a> or <a href="https://twitter.com/ZenCho_NFT" target="_blank" rel="noOpener">Twitter</a> </td>
                       </tr>
                       <tr>
                         <td>
@@ -350,7 +354,7 @@ const whitepaper = () => {
                     </thead>
                     <tbody>
                       <tr>
-                        <td>Enter Training Ground (Stake)</td>
+                        <td>Enter <span className="text-decoration-underline"> Training Ground </span> (Stake)</td>
                         <td>Training Ground</td>
                         <td>Accumulate 3,000 $HONR / day (prorated)</td>
                         <td>No risk</td>
@@ -371,11 +375,11 @@ const whitepaper = () => {
                       </tr>
 
                       <tr>
-                        <td>Enter Battlefield (Stake)</td>
+                        <td>Enter <span className="text-decoration-underline"> Battlefield </span> (Stake)</td>
                         <td>Battlefield</td>
                         <td>
                           Earn your share of the dropped $HONR on the
-                          battlefield from the Warriors
+                          battlefield from the Warriors.
                         </td>
                         <td>No risk</td>
                       </tr>
@@ -392,7 +396,7 @@ const whitepaper = () => {
                       <tr>
                         <td>Battle for $HONR (Claim)</td>
                         <td>Battlefield</td>
-                        <td>Receive all $HONR accrued</td>
+                        <td>Receive all $HONR accrued and remain earning $HONR in the Battlefield. </td>
                         <td>No risk</td>
                       </tr>
                     </tbody>
@@ -449,8 +453,10 @@ const whitepaper = () => {
                     ShadowQuest contracts on Etherscan after minting. But we
                     will create a custom webpage with an efficient UI so it will
                     be easy for everyone to strategize and make their battle
-                    decisions!. <br />
-                    Contract Addresses
+                    decisions!. 
+                    <br />
+                    <br />
+                      Contract Addresses
                     <ul>
                       <li>Warrior / Samsara NFT: To be revealed at minting date</li>
                       <li>Training Ground / Battlefield Staking: To be revealed at minting date</li>
