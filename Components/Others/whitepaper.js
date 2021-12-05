@@ -472,6 +472,9 @@ const whitepaper = () => {
                     more and challenge the Samsar in an epic final battle where
                     losing leaves you without $HONR, but also gives you a chance
                     to earn even more $HONR than ever before!
+                    <br />
+                    <br /)
+                    Whatever your style, we hope you'll enjoy the game, the art, the lore, and the community! We have so much to offer, an awesome roadmap to push the boundaries of what is possible for NFT gaming, and big dreams that we're excited to share with you! Who knows where this journey will take us!
                   </p>
                 </div>
               </div>
