@@ -10,7 +10,7 @@ const Footer = () => {
               Shadow Quest. All Rights Reserved.{" "}
             </p>
           </Col>
-          <Col md="7">
+          <Col md="6">
             <Link href="/">
               <span className="footer-link "> SHADOWQUEST </span>
             </Link>
