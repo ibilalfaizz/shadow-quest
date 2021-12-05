@@ -30,7 +30,7 @@ const Nations = () => {
     {
       title: "SHIRYO",
       desc: `Feared by their fellow clans due to their thirst for brutality, they are known for their incredible strength and fighting talents. Will you fight to the bitter, bloody end?`,
-      image: "SHIRYO.png",
+      image: "shiryo.png",
       key: "fifth",
     },
     {
