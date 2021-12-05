@@ -3,8 +3,6 @@ const whitepaper = () => {
     <div className="about-dilema wf-section">
       <div className="container top2">
         <div className="section-inner dark season dilema">
-          <div className="corner-black large top-right right-dark white dilema" />
-
           <div>
             <div className="div-block-11 flex">
               <h1 className="heading-32">
@@ -53,12 +51,21 @@ const whitepaper = () => {
                       Warriors can be staked in the:
                       <div className="indent-2">
                         <p>
-                          - <span className="text-decoration-underline"> Training Ground </span> to earn 3,000 $HONR per day at no
-                          cost and no risk, OR
+                          -{" "}
+                          <span className="text-decoration-underline">
+                            {" "}
+                            Training Ground{" "}
+                          </span>{" "}
+                          to earn 3,000 $HONR per day at no cost and no risk, OR
                         </p>
                         <p>
-                          - <span className="text-decoration-underline"> Battlefield </span> to earn up to 1,000 $HONR per hour, but
-                          leaving the field is a risky endeavour.
+                          -{" "}
+                          <span className="text-decoration-underline">
+                            {" "}
+                            Battlefield{" "}
+                          </span>{" "}
+                          to earn up to 1,000 $HONR per hour, but leaving the
+                          field is a risky endeavour.
                         </p>
                       </div>
                     </p>
@@ -66,153 +73,211 @@ const whitepaper = () => {
                       - If a Warrior is unstaked from the Battlefield, you will
                       have to choose between:
                       <div className="indent-2">
-                        <p>- <span className="text-decoration-underline"> FLEEING </span> and dropping 15% of your earned $HONR</p>
                         <p>
-                          - <span className="text-decoration-underline"> FIGHTING </span> the fearsome Samsar in battle one final
-                          time. If you win, you leave with double your $HONR,
-                          however if you lose, the Samsar will take all your
-                          $HONR.
+                          -{" "}
+                          <span className="text-decoration-underline">
+                            {" "}
+                            FLEEING{" "}
+                          </span>{" "}
+                          and dropping 15% of your earned $HONR
+                        </p>
+                        <p>
+                          -{" "}
+                          <span className="text-decoration-underline">
+                            {" "}
+                            FIGHTING{" "}
+                          </span>{" "}
+                          the fearsome Samsar in battle one final time. If you
+                          win, you leave with double your $HONR, however if you
+                          lose, the Samsar will take all your $HONR.
                         </p>
                       </div>
                     </p>
-                    - When a new Warrior is recruited, the Samsar will attempt to
-                    steal them. If they’re successful, it’s given to a randomly
-                    selected Samsar, instead of the owner who minted it.
+                    - When a new Warrior is recruited, the Samsar will attempt
+                    to steal them. If they’re successful, it’s given to a
+                    randomly selected Samsar, instead of the owner who minted
+                    it.
                   </div>
+                  <div class="table-responsive">
+                    <table class="table  text-white">
+                      <thead>
+                        <tr>
+                          <th scope="col">Token ID</th>
+                          <th scope="col">GENERATION</th>
+                          <th scope="col">MINTING COST</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1 to 9,996</td>
+                          <td>GEN0</td>
+                          <td>
+                            TBA, see{" "}
+                            <a
+                              href="https://discord.gg/kZquzB6Aes"
+                              target="_blank"
+                              rel="noOpener"
+                            >
+                              Discord
+                            </a>{" "}
+                            or{" "}
+                            <a
+                              href="https://twitter.com/ZenCho_NFT"
+                              target="_blank"
+                              rel="noOpener"
+                            >
+                              Twitter
+                            </a>{" "}
+                          </td>
+                        </tr>
 
-                  <table class="table text-white">
-                    <thead>
-                      <tr>
-                        <th scope="col">Token ID</th>
-                        <th scope="col">GENERATION</th>
-                        <th scope="col">MINTING COST</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1 to 9,996</td>
-                        <td>GEN0</td>
-                        <td>TBA, see <a href="https://discord.gg/kZquzB6Aes" target="_blank" rel="noOpener">Discord</a> or <a href="https://twitter.com/ZenCho_NFT" target="_blank" rel="noOpener">Twitter</a> </td>
-                      </tr>
+                        <tr>
+                          <td>9,997 to 15,996</td>
+                          <td>GEN1</td>
+                          <td>20,000 $HONR</td>
+                        </tr>
 
-                      <tr>
-                        <td>9,997 to 15,996</td>
-                        <td>GEN1</td>
-                        <td>20,000 $HONR</td>
-                      </tr>
+                        <tr>
+                          <td>15,997 to 21,996</td>
+                          <td>GEN1</td>
+                          <td>40,000 $HONR</td>
+                        </tr>
 
-                      <tr>
-                        <td>15,997 to 21,996</td>
-                        <td>GEN1</td>
-                        <td>40,000 $HONR</td>
-                      </tr>
-
-                      <tr>
-                        <td>21,997 to 27,996</td>
-                        <td>GEN1</td>
-                        <td>80,000 $HONR</td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <p>
-                  </p>
+                        <tr>
+                          <td>21,997 to 27,996</td>
+                          <td>GEN1</td>
+                          <td>80,000 $HONR</td>
+                        </tr>
+                      </tbody>
+                    </table>{" "}
+                  </div>
+                  <p></p>
                   <h3>Warriors</h3>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
                     You have a 90% chance of minting a Warrior, each with unique
                     art, attributes, and stats. Here are the actions they can
                     take:
                   </p>
+                  <div class="table-responsive">
+                    <table class="table  text-white">
+                      <thead>
+                        <tr>
+                          <th scope="col">Action</th>
+                          <th scope="col">Location</th>
+                          <th scope="col">Explanation</th>
+                          <th scope="col">Risk</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            Enter{" "}
+                            <span className="text-decoration-underline">
+                              {" "}
+                              Training Ground{" "}
+                            </span>{" "}
+                            (Stake)
+                          </td>
+                          <td>Training Ground</td>
+                          <td>Accumulate 3,000 $HONR / day (prorated)</td>
+                          <td>No risk</td>
+                        </tr>
 
-                  <table class="table text-white">
-                    <thead>
-                      <tr>
-                        <th scope="col">Action</th>
-                        <th scope="col">Location</th>
-                        <th scope="col">Explanation</th>
-                        <th scope="col">Risk</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Enter <span className="text-decoration-underline"> Training Ground </span> (Stake)</td>
-                        <td>Training Ground</td>
-                        <td>Accumulate 3,000 $HONR / day (prorated)</td>
-                        <td>No risk</td>
-                      </tr>
+                        <tr>
+                          <td>Train for $HONR (Claim)</td>
+                          <td>Training Ground</td>
+                          <td>Send home your earned $HONR safely</td>
+                          <td>No risk</td>
+                        </tr>
 
-                      <tr>
-                        <td>Train for $HONR (Claim)</td>
-                        <td>Training Ground</td>
-                        <td>Send home your earned $HONR safely</td>
-                        <td>No risk</td>
-                      </tr>
+                        <tr>
+                          <td>Leave Training Ground (Unstake)</td>
+                          <td>Training Ground</td>
+                          <td>Leave your training, and stop earning $HONR.</td>
+                          <td>No risk</td>
+                        </tr>
 
-                      <tr>
-                        <td>Leave Training Ground (Unstake)</td>
-                        <td>Training Ground</td>
-                        <td>Leave your training, and stop earning $HONR.</td>
-                        <td>No risk</td>
-                      </tr>
+                        <tr>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                          <td></td>
+                        </tr>
 
-                      <tr>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                        <td></td>
-                      </tr>
+                        <tr>
+                          <td>
+                            Enter{" "}
+                            <span className="text-decoration-underline">
+                              {" "}
+                              Battlefield{" "}
+                            </span>{" "}
+                            (Stake)
+                          </td>
+                          <td>Battlefield</td>
+                          <td>
+                            Accumulate up to 1,000 $HONR/ hour depending on how
+                            your stats compare with the rest of the battlefield.
+                          </td>
+                          <td>
+                            No risk. The better your stats, the more $HONR you
+                            will earn.
+                          </td>
+                        </tr>
 
-                      <tr>
-                        <td>Enter <span className="text-decoration-underline"> Battlefield </span> {" "}(Stake)</td>
-                        <td>Battlefield</td>
-                        <td>
-                          Accumulate up to 1,000 $HONR/ hour depending on how
-                          your stats compare with the rest of the battlefield.
-                        </td>
-                        <td>
-                          No risk. The better your stats, the more $HONR you
-                          will earn.
-                        </td>
-                      </tr>
+                        <tr>
+                          <td>
+                            <span className="text-decoration-underline">
+                              {" "}
+                              Flee
+                            </span>{" "}
+                            for $HONR (Claim)
+                          </td>
+                          <td>Battlefield</td>
+                          <td>
+                            You will receive 85% of your accumulated $HONR
+                          </td>
+                          <td>
+                            Fleeing from the battlefield causes you to drop 15%
+                            of your $HONR which will be distributed amongst the
+                            Samsar.
+                          </td>
+                        </tr>
 
-                      <tr>
-                        <td><span className="text-decoration-underline"> Flee</span> {" "}for $HONR (Claim)</td>
-                        <td>Battlefield</td>
-                        <td>You will receive 85% of your accumulated $HONR</td>
-                        <td>
-                          Fleeing from the battlefield causes you to drop 15% of
-                          your $HONR which will be distributed amongst
-                          the Samsar.
-                        </td>
-                      </tr>
+                        <tr>
+                          <td>
+                            <span className="text-decoration-underline">
+                              {" "}
+                              Fight
+                            </span>{" "}
+                            for $HONR (Take)
+                          </td>
+                          <td>Battlefield</td>
+                          <td>
+                            You have the chance to DOUBLE or NOTHING of your
+                            earned $HONR.
+                          </td>
+                          <td>
+                            Depending on how your stats compare to the rest of
+                            the battlefield, you will have a roughly 50% chance
+                            to defeat the Samsar and leave with DOUBLE your
+                            $HONR! However, if you lose, then the Samsar will
+                            take all your $HONR and leave you with nothing.
+                          </td>
+                        </tr>
 
-                      <tr>
-                        <td><span className="text-decoration-underline"> Fight</span> {" "}for $HONR (Take)</td>
-                        <td>Battlefield</td>
-                        <td>
-                          You have the chance to DOUBLE or NOTHING of your
-                          earned $HONR.
-                        </td>
-                        <td>
-                          Depending on how your stats compare to the rest of the
-                          battlefield, you will have a roughly 50% chance to
-                          defeat the Samsar and leave with DOUBLE your $HONR!
-                          However, if you lose, then the Samsar will take all
-                          your $HONR and leave you with nothing.
-                        </td>
-                      </tr>
-
-                      <tr>
-                        <td>Leave Battlefield (Unstake)</td>
-                        <td>Battlefield</td>
-                        <td>
-                          You will leave the battlefield, but will have to
-                          choose between Flee or Fight to take your $HONR with
-                          you
-                        </td>
-                        <td>See Flee or Fight</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                        <tr>
+                          <td>Leave Battlefield (Unstake)</td>
+                          <td>Battlefield</td>
+                          <td>
+                            You will leave the battlefield, but will have to
+                            choose between Flee or Fight to take your $HONR with
+                            you
+                          </td>
+                          <td>See Flee or Fight</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
                     Your stats will be compared with the other Warriors in the
                     Battlefield, if your stats are better than average, then
@@ -242,74 +307,93 @@ const whitepaper = () => {
                         When supply reaches 2,400,000,000 $HONR earned for
                         staking, the staking “faucet” turns off.
                       </li>
+                      <li>The developers will receive 600,000,000 $HONR</li>
                       <li>
-                        The developers will receive 600,000,000 $HONR
+                        Community Rewards will be allocated 2,000,000,000 $HONR
                       </li>
-                      <li>Community Rewards will be allocated 2,000,000,000 $HONR</li>
                     </ul>
                   </p>
-                  <table class="table text-white">
-                    <thead>
-                      <tr>
-                        <th scope="col">Action</th>
+                  <div className="table-responsive">
+                    <table class="table  text-white">
+                      <thead>
+                        <tr>
+                          <th scope="col">Action</th>
 
-                        <th scope="col">Explanation</th>
-                        <th scope="col">Risk</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Mint a new Gen1 Warrior using $HONR</td>
-                        <td>
-                          There is a 10% chance the new NFT will be a fearsome
-                          Samsar!
-                        </td>
-                        <td>
-                          10% chance that a newly minted Warrior or Samsar is
-                          stolen by a staked Samsar.
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                          <th scope="col">Explanation</th>
+                          <th scope="col">Risk</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>Mint a new Gen1 Warrior using $HONR</td>
+                          <td>
+                            There is a 10% chance the new NFT will be a fearsome
+                            Samsar!
+                          </td>
+                          <td>
+                            10% chance that a newly minted Warrior or Samsar is
+                            stolen by a staked Samsar.
+                          </td>
+                        </tr>
+                      </tbody>
+                    </table>{" "}
+                  </div>
+                  <div className="table-responsive">
+                    <table class="table table-responsive text-white">
+                      <thead>
+                        <tr>
+                          <th scope="col">Token ID</th>
 
-                  <table class="table text-white">
-                    <thead>
-                      <tr>
-                        <th scope="col">Token ID</th>
+                          <th scope="col">Generation</th>
+                          <th scope="col">Minting Cost</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>1 to 9,996</td>
+                          <td>Gen0</td>
+                          <td>
+                            TBA, see{" "}
+                            <a
+                              href="https://discord.gg/kZquzB6Aes"
+                              target="_blank"
+                              rel="noOpener"
+                            >
+                              Discord
+                            </a>{" "}
+                            or{" "}
+                            <a
+                              href="https://twitter.com/ZenCho_NFT"
+                              target="_blank"
+                              rel="noOpener"
+                            >
+                              Twitter
+                            </a>{" "}
+                          </td>
+                        </tr>
+                        <tr>
+                          <td>9,997 to 15,996</td>
+                          <td>Gen1</td>
+                          <td>20,000 $HONR</td>
+                        </tr>
 
-                        <th scope="col">Generation</th>
-                        <th scope="col">Minting Cost</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>1 to 9,996</td>
-                        <td>Gen0</td>
-                        <td>TBA, see <a href="https://discord.gg/kZquzB6Aes" target="_blank" rel="noOpener">Discord</a> or <a href="https://twitter.com/ZenCho_NFT" target="_blank" rel="noOpener">Twitter</a> </td>
-                      </tr>
-                      <tr>
-                        <td>9,997 to 15,996</td>
-                        <td>Gen1</td>
-                        <td>20,000 $HONR</td>
-                      </tr>
+                        <tr>
+                          <td>15,997 to 21,996</td>
+                          <td>Gen1</td>
+                          <td>40,000 $HONR</td>
+                        </tr>
 
-                      <tr>
-                        <td>15,997 to 21,996</td>
-                        <td>Gen1</td>
-                        <td>40,000 $HONR</td>
-                      </tr>
+                        <tr>
+                          <td>21,997 to 27,996</td>
+                          <td>Gen1</td>
+                          <td>80,000 $HONR</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
 
-                      <tr>
-                        <td>21,997 to 27,996</td>
-                        <td>Gen1</td>
-                        <td>80,000 $HONR</td>
-                      </tr>
-                    </tbody>
-                  </table>
-  
-                  <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                  </p>
-  
+                  <p className="text-white-opacity-2 mb-40 max-width dilema font-16"></p>
+
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
                     Whilst 1 $HONR will always = 1 $HONR, we will provide
                     liquidity on Uniswap to allow more users to enter the Shadow
@@ -319,7 +403,7 @@ const whitepaper = () => {
                     The total cost to mint all of the Warriors and Samsar will
                     be 840,000,000 $HONR.
                   </p>
-  
+
                   <h3>Samsar</h3>
 
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
@@ -342,65 +426,83 @@ const whitepaper = () => {
                     Only staked Samsar are able to steal new mints or claim the
                     $HONR drops.
                   </p>
+                  <div class=" table-responsive">
+                    <table class="table text-white">
+                      <thead>
+                        <tr>
+                          <th scope="col">Action</th>
+                          <th scope="col">Location</th>
+                          <th scope="col">Explanation</th>
+                          <th scope="col">Risk</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr>
+                          <td>
+                            Enter{" "}
+                            <span className="text-decoration-underline">
+                              {" "}
+                              Training Ground{" "}
+                            </span>{" "}
+                            (Stake)
+                          </td>
+                          <td>Training Ground</td>
+                          <td>Accumulate 3,000 $HONR / day (prorated)</td>
+                          <td>No risk</td>
+                        </tr>
 
-                  <table class="table text-white">
-                    <thead>
-                      <tr>
-                        <th scope="col">Action</th>
-                        <th scope="col">Location</th>
-                        <th scope="col">Explanation</th>
-                        <th scope="col">Risk</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Enter <span className="text-decoration-underline"> Training Ground </span> {" "}(Stake)</td>
-                        <td>Training Ground</td>
-                        <td>Accumulate 3,000 $HONR / day (prorated)</td>
-                        <td>No risk</td>
-                      </tr>
+                        <tr>
+                          <td>Train for $HONR (Claim)</td>
+                          <td>Training Ground</td>
+                          <td>Retain all your $HONR</td>
+                          <td>No risk</td>
+                        </tr>
 
-                      <tr>
-                        <td>Train for $HONR (Claim)</td>
-                        <td>Training Ground</td>
-                        <td>Retain all your $HONR</td>
-                        <td>No risk</td>
-                      </tr>
+                        <tr>
+                          <td>Leave Training Ground (Unstake)</td>
+                          <td>Training Ground</td>
+                          <td>Leave your training, and stop earning $HONR.</td>
+                          <td>No risk</td>
+                        </tr>
 
-                      <tr>
-                        <td>Leave Training Ground (Unstake)</td>
-                        <td>Training Ground</td>
-                        <td>Leave your training, and stop earning $HONR.</td>
-                        <td>No risk</td>
-                      </tr>
+                        <tr>
+                          <td>
+                            Enter{" "}
+                            <span className="text-decoration-underline">
+                              {" "}
+                              Battlefield
+                            </span>{" "}
+                            (Stake)
+                          </td>
+                          <td>Battlefield</td>
+                          <td>
+                            Earn your share of the dropped $HONR on the
+                            battlefield from the Warriors.
+                          </td>
+                          <td>No risk</td>
+                        </tr>
 
-                      <tr>
-                        <td>Enter <span className="text-decoration-underline"> Battlefield</span> {" "}(Stake)</td>
-                        <td>Battlefield</td>
-                        <td>
-                          Earn your share of the dropped $HONR on the
-                          battlefield from the Warriors.
-                        </td>
-                        <td>No risk</td>
-                      </tr>
+                        <tr>
+                          <td>Leave Battlefield (Unstake)</td>
+                          <td>Battlefield</td>
+                          <td>
+                            Receive all $HONR accrued and stop earning $HONR.
+                          </td>
+                          <td>No risk</td>
+                        </tr>
 
-                      <tr>
-                        <td>Leave Battlefield (Unstake)</td>
-                        <td>Battlefield</td>
-                        <td>
-                          Receive all $HONR accrued and stop earning $HONR.
-                        </td>
-                        <td>No risk</td>
-                      </tr>
-
-                      <tr>
-                        <td>Battle for $HONR (Claim)</td>
-                        <td>Battlefield</td>
-                        <td>Receive all $HONR accrued and remain earning $HONR in the Battlefield. </td>
-                        <td>No risk</td>
-                      </tr>
-                    </tbody>
-                  </table>
+                        <tr>
+                          <td>Battle for $HONR (Claim)</td>
+                          <td>Battlefield</td>
+                          <td>
+                            Receive all $HONR accrued and remain earning $HONR
+                            in the Battlefield.{" "}
+                          </td>
+                          <td>No risk</td>
+                        </tr>
+                      </tbody>
+                    </table>{" "}
+                  </div>
                   <h3>What we’re building</h3>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
                     NFT risk has only started being explored, and we are
@@ -453,13 +555,18 @@ const whitepaper = () => {
                     ShadowQuest contracts on Etherscan after minting. But we
                     will create a custom webpage with an efficient UI so it will
                     be easy for everyone to strategize and make their battle
-                    decisions!. 
+                    decisions!.
                     <br />
                     <br />
-                      Contract Addresses
+                    Contract Addresses
                     <ul>
-                      <li>Warrior / Samsara NFT: To be revealed at minting date</li>
-                      <li>Training Ground / Battlefield Staking: To be revealed at minting date</li>
+                      <li>
+                        Warrior / Samsara NFT: To be revealed at minting date
+                      </li>
+                      <li>
+                        Training Ground / Battlefield Staking: To be revealed at
+                        minting date
+                      </li>
                       <li>$HONR Token: To be revealed at minting date</li>
                     </ul>
                   </p>
@@ -474,7 +581,11 @@ const whitepaper = () => {
                     to earn even more $HONR than ever before!
                     <br />
                     <br />
-                    Whatever your style, we hope you'll enjoy the game, the art, the lore, and the community! We have so much to offer, an awesome roadmap to push the boundaries of what is possible for NFT gaming, and big dreams that we're excited to share with you! Who knows where this journey will take us!
+                    Whatever your style, we hope you'll enjoy the game, the art,
+                    the lore, and the community! We have so much to offer, an
+                    awesome roadmap to push the boundaries of what is possible
+                    for NFT gaming, and big dreams that we're excited to share
+                    with you! Who knows where this journey will take us!
                   </p>
                 </div>
               </div>

@@ -3,8 +3,6 @@ const Archives = () => {
     <div className="about-dilema wf-section">
       <div className="container top2">
         <div className="section-inner dark season dilema">
-          <div className="corner-black large top-right right-dark white dilema" />
-
           <div>
             <div className="div-block-11 flex">
               <h1 className="heading-32">
@@ -44,7 +42,7 @@ const Archives = () => {
               </div>
 
               {/* Kiroh */}
-              <div className="row">
+              <div className="row" id="Kiroh">
                 <div className="col-md-6 col-sm-12 ">
                   <div>
                     <h1 className="gametheorykanji _20bottom">
@@ -74,7 +72,7 @@ const Archives = () => {
               </div>
 
               {/* Midsurin */}
-              <div className="row">
+              <div className="row" id="Midsurin">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
                   <img
                     src="/assets/images/nations/Midsurin.jpeg"
@@ -113,7 +111,7 @@ const Archives = () => {
               </div>
 
               {/* Yama */}
-              <div className="row">
+              <div className="row" id="Yama">
                 <div className="col-md-6 col-sm-12 ">
                   <h1 className="gametheorykanji _20bottom">
                     <a href="#" className="link-3 dilema hide">
@@ -144,7 +142,7 @@ const Archives = () => {
               </div>
 
               {/* Engan */}
-              <div className="row">
+              <div className="row" id="Engan">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
                   <img src="/assets/images/nations/Engan.jpeg" alt="Engan" />
                 </div>
@@ -180,7 +178,7 @@ const Archives = () => {
               </div>
 
               {/* shiryo */}
-              <div className="row">
+              <div className="row" id="Shiryo">
                 <div className="col-md-6 col-sm-12 ">
                   <h1 className="gametheorykanji _20bottom">
                     <a href="#" className="link-3 dilema hide">
@@ -188,13 +186,32 @@ const Archives = () => {
                     </a>
                   </h1>
                   <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                    The Shiryo clan was exiled to the bleak tundra and icy mountains nearly two hundred years ago. In a relentless onslaught from neighbouring clans, they were pushed out of their homes, punishment for their wanton brutality and violence. Depleted in numbers, they struggled to survive in the harsh winters that followed, but their determination drove them on, giving them a strength that few down in the valleys and townships could imagine. 
+                    The Shiryo clan was exiled to the bleak tundra and icy
+                    mountains nearly two hundred years ago. In a relentless
+                    onslaught from neighbouring clans, they were pushed out of
+                    their homes, punishment for their wanton brutality and
+                    violence. Depleted in numbers, they struggled to survive in
+                    the harsh winters that followed, but their determination
+                    drove them on, giving them a strength that few down in the
+                    valleys and townships could imagine.
                     <br />
                     <br />
-                    Generation by generation they have been building strength amongst the cold, unforgiving wilds of the mountains. Undeterred by the obstinate cold, they have found ways to find life amongst the permafrost, building homes that grew into settlements and training grounds and camps to create the toughest, strongest warriors the land has ever seen. Men and women alike train for hours each morning, their skin glistening in the blue ice of the mountain. They can traverse the steepest cliffs, hunt in the most barren landscapes, drag their kill for hours with their hands wrapped in the fur of their prey.  
+                    Generation by generation they have been building strength
+                    amongst the cold, unforgiving wilds of the mountains.
+                    Undeterred by the obstinate cold, they have found ways to
+                    find life amongst the permafrost, building homes that grew
+                    into settlements and training grounds and camps to create
+                    the toughest, strongest warriors the land has ever seen. Men
+                    and women alike train for hours each morning, their skin
+                    glistening in the blue ice of the mountain. They can
+                    traverse the steepest cliffs, hunt in the most barren
+                    landscapes, drag their kill for hours with their hands
+                    wrapped in the fur of their prey.
                     <br />
                     <br />
-                    And now they are ready. They burn with energy, waiting to charge down the slopes of the mountain, to finally take back what was stolen from them two centuries ago.  
+                    And now they are ready. They burn with energy, waiting to
+                    charge down the slopes of the mountain, to finally take back
+                    what was stolen from them two centuries ago.
                     <br />
                   </p>
                 </div>
@@ -204,7 +221,7 @@ const Archives = () => {
               </div>
 
               {/* Samsar */}
-              <div className="row">
+              <div className="row" id="Samsar">
                 <div className="col-md-6 col-sm-12 p-md-0 order-sm-2 order-md-1">
                   <img
                     src="/assets/images/nations/DarkSamsar.jpg"
@@ -482,35 +499,43 @@ const Archives = () => {
               </div>
             </div>
 
-              <h1 className="gametheorykanji _20bottom">
-                <a href="#" className="link-3 dilema hide">
-                  LIMERICKS! <br />
-                </a>
-              </h1>
-              <div className="split flex-v2">
-                <div className="row mt-3">
-                  <div className="col-md-6 col-sm-12 ">
-                    <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                      There was a knight called Rufus,<br />
-                      His squire thought him a dufus.<br />
-                      With his lazy eye,<br />
-                      He held his guard too high -<br />
-                      In battle he was useless.<br />
-                        {"         "}-Maxi
-                      <br />
-                      <br />
-                       There once was a wizard named Rune,<br />
-                       His wand was a special-type spoon,<br />
-                       One day he farted,<br />
-                       So hard he darted,<br />
-                       O'er the trees, and up to the MOON!<br />
-                        {"         "}-Derkizzle
-                      <br />
-                    </p>
-                  </div>
+            <h1 className="gametheorykanji _20bottom">
+              <a href="#" className="link-3 dilema hide">
+                LIMERICKS! <br />
+              </a>
+            </h1>
+            <div className="split flex-v2">
+              <div className="row mt-3">
+                <div className="col-md-6 col-sm-12 ">
+                  <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
+                    There was a knight called Rufus,
+                    <br />
+                    His squire thought him a dufus.
+                    <br />
+                    With his lazy eye,
+                    <br />
+                    He held his guard too high -<br />
+                    In battle he was useless.
+                    <br />
+                    {"         "}-Maxi
+                    <br />
+                    <br />
+                    There once was a wizard named Rune,
+                    <br />
+                    His wand was a special-type spoon,
+                    <br />
+                    One day he farted,
+                    <br />
+                    So hard he darted,
+                    <br />
+                    O'er the trees, and up to the MOON!
+                    <br />
+                    {"         "}-Derkizzle
+                    <br />
+                  </p>
                 </div>
               </div>
-
+            </div>
           </div>
         </div>
       </div>

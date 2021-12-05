@@ -28,7 +28,12 @@ body {
 .font-14 {
   font-size: 14px;
 }
-
+.text-underline {
+  text-decoration:underline !important;
+}
+.table-responsive .text-white {
+  font-size: 14px !important;
+}
 .banner-video {
   position: relative;
   height: 100vh !important;

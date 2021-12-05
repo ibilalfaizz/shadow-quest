@@ -1,5 +1,5 @@
 import { Nav, Accordion } from "react-bootstrap";
-
+import Link from "next/link";
 const NavItem = (props) => {
   return (
     <Nav.Item className="" style={{ borderBottom: "2px solid #151515" }}>
@@ -30,7 +30,12 @@ const NavItem = (props) => {
             </Nav.Link>
           </Accordion.Header>
           <Accordion.Body>
-            <p className="text-transform-none font-14">{props.text}</p>
+            {" "}
+            <Link href={`/lore#${props.title}`}>
+              <p className="text-transform-none font-14 text-underline">
+                {props.text}
+              </p>
+            </Link>
           </Accordion.Body>
         </Accordion.Item>
       </Accordion>
