@@ -3,21 +3,21 @@ import Head from "next/head";
 const HeadCustom = () => {
   return (
     <Head>
-      <title>SHADOW QUEST | シャドウクエスト </title>
+      <title>SHADOW QUEST | 影の探求 </title>
 
       <meta
-        content="SHADOW QUEST | シャドウクエスト - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
+        content="SHADOW QUEST | 影の探求 - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
         name="description"
       />
       <meta content="SHADOW QUEST" property="og:title" />
       <meta
-        content="SHADOW QUEST | シャドウクエスト - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
+        content="SHADOW QUEST | 影の探求 - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
         property="og:description"
       />
       <meta property="og:image" content="/assets/images/meta-image.png" />
       <meta property="twitter:title" content="SHADOW QUEST" />
       <meta
-        content="SHADOW QUEST | シャドウクエスト - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
+        content="SHADOW QUEST | 影の探求 - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
         property="twitter:description"
       />
       <meta content="/assets/images/meta-image.png" property="twitter:image" />
