@@ -160,7 +160,7 @@ const Navbar = () => {
 
               <div className="navbar-container-right">
                 <a
-                  href="https://twitter.com/ZenCho_NFT"
+                  href="https://twitter.com/ShadowQuest_NFT"
                   target="_blank"
                   rel="noOpener"
                   className="div-block-40 w-inline-block"
