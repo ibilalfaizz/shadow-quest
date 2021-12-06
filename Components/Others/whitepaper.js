@@ -122,7 +122,7 @@ const whitepaper = () => {
                             </a>{" "}
                             or{" "}
                             <a
-                              href="https://twitter.com/ZenCho_NFT"
+                              href="https://twitter.com/ShadowQuest_NFT"
                               target="_blank"
                               rel="noOpener"
                             >
@@ -363,7 +363,7 @@ const whitepaper = () => {
                             </a>{" "}
                             or{" "}
                             <a
-                              href="https://twitter.com/ZenCho_NFT"
+                              href="https://twitter.com/ShadowQuest_NFT"
                               target="_blank"
                               rel="noOpener"
                             >
