@@ -27,10 +27,11 @@ const HeroBanner = () => {
                   5 ARMIES <br />
                   <br /> 1 MYSTERIOUS ENEMY <br />
                   <br /> 10K WARRIORS <br />
-                  <br /> 5 BILLION <span className="dollar-sign">
-                    $
-                  </span>HONR <br />
-                  <br /> TO BE WON <br />
+                  <br />{" "}
+                  <span className="color-light-red">
+                    5 BILLION <span className="dollar-sign">$</span>HONR <br />
+                    <br /> TO BE WON <br />{" "}
+                  </span>
                   <br />
                 </h5>
               </div>
@@ -42,8 +43,11 @@ const HeroBanner = () => {
                   A NEW STYLE <br />
                   <br /> OF <br />
                   <br /> STAKING GAME <br />
-                  <br /> WITH STATS, FIGHTS, <br />
-                  <br /> & ANIME ART <br />
+                  <span className="color-light-red">
+                    {" "}
+                    <br /> WITH STATS, FIGHTS, <br />
+                    <br /> & ANIME ART <br />{" "}
+                  </span>
                   <br />{" "}
                 </h5>
               </div>

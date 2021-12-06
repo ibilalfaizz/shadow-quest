@@ -41,11 +41,7 @@ const Nations = () => {
     },
   ];
   return (
-    <div
-      id="basics"
-      className="section-33 wf-section pt-3"
-      style={{ background: "#151515" }}
-    >
+    <div id="basics" className="section-33 wf-section pt-0 pb-0 body-7">
       <div
         id="nations"
         style={{
@@ -54,9 +50,9 @@ const Nations = () => {
             "translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)",
           transformStyle: "preserve-3d",
         }}
-        className="container"
+        className="container dotted-bg pt-5 pb-7"
       >
-        <div className="center-block mb-60 ">
+        <div className="center-block mb-60  mb-5">
           <h2 className="text-white">Warring &nbsp;Nations</h2>
           <h3 className="hero-text mb-20">国家</h3>
           <p className="text-white text-small">

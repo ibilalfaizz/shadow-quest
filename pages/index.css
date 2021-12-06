@@ -29,7 +29,10 @@ body {
   font-size: 14px;
 }
 .text-underline {
-  text-decoration:underline !important;
+  text-decoration: underline !important;
+}
+.pb-7 {
+  padding-bottom: 7rem
 }
 .table-responsive .text-white {
   font-size: 14px !important;
@@ -89,6 +92,9 @@ body {
 
 .color-red {
   color: #600000 !important;
+}
+.color-light-red {
+  color: #f00d0d !important;
 }
 .bg-red {
   background-color: #600000 !important;
@@ -4226,6 +4232,13 @@ body {
 }
 
 .section-inner.dark.season.dilema {
+  background-color: rgba(255, 255, 255, 0.03);
+  background-image: url("/assets/images/dottedbg.png");
+  background-position: 50% 50%;
+  background-size: auto;
+}
+.dotted-bg{
+  
   background-color: rgba(255, 255, 255, 0.03);
   background-image: url("/assets/images/dottedbg.png");
   background-position: 50% 50%;
@@ -11938,7 +11951,7 @@ body {
   position: relative;
   padding-top: 100px;
   padding-bottom: 100px;
-  background-image: none;
+
   background-position: 0px 0px;
 }
 
