@@ -21,7 +21,7 @@ const Navbar = () => {
                 <span className="navbar-brand game w-nav-brand cursor">
                   <h1 className="heading site-title cursor">
                     {" "}
-                    SHADOW QUEST&nbsp; | &nbsp;シャドウクエスト
+                    SHADOW QUEST&nbsp; | &nbsp;影の探求
                   </h1>
                 </span>
               </Link>
