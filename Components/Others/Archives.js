@@ -536,6 +536,114 @@ const Archives = () => {
                 </div>
               </div>
             </div>
+
+
+            <div>
+              <div className="div-block-11 flex mt-5">
+                <h1 className="gametheorykanji _20bottom">
+                  <a href="#" className="link-3 dilema hide">
+                    Of the Past <br />- Avanbach
+                  </a>
+                  <a href="#" className="div-block-40 w-inline-block d-inline">
+                    <svg
+                      className="navbar-icons"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 30 30"
+                      width="30px"
+                      height="30px"
+                    >
+                      {" "}
+                      <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z" />
+                    </svg>
+                  </a>
+                  <a
+                    href="#"
+                    className="div-block-40 w-inline-block d-inline pl-0 ml-0"
+                    style={{ paddingLeft: "0" }}
+                  >
+                    <svg
+                      className="navbar-icons"
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 50 50"
+                      width="30px"
+                      height="30px"
+                    >
+                      <path d="M 41.625 10.769531 C 37.644531 7.566406 31.347656 7.023438 31.078125 7.003906 C 30.660156 6.96875 30.261719 7.203125 30.089844 7.589844 C 30.074219 7.613281 29.9375 7.929688 29.785156 8.421875 C 32.417969 8.867188 35.652344 9.761719 38.578125 11.578125 C 39.046875 11.867188 39.191406 12.484375 38.902344 12.953125 C 38.710938 13.261719 38.386719 13.429688 38.050781 13.429688 C 37.871094 13.429688 37.6875 13.378906 37.523438 13.277344 C 32.492188 10.15625 26.210938 10 25 10 C 23.789063 10 17.503906 10.15625 12.476563 13.277344 C 12.007813 13.570313 11.390625 13.425781 11.101563 12.957031 C 10.808594 12.484375 10.953125 11.871094 11.421875 11.578125 C 14.347656 9.765625 17.582031 8.867188 20.214844 8.425781 C 20.0625 7.929688 19.925781 7.617188 19.914063 7.589844 C 19.738281 7.203125 19.34375 6.960938 18.921875 7.003906 C 18.652344 7.023438 12.355469 7.566406 8.320313 10.8125 C 6.214844 12.761719 2 24.152344 2 34 C 2 34.175781 2.046875 34.34375 2.132813 34.496094 C 5.039063 39.605469 12.972656 40.941406 14.78125 41 C 14.789063 41 14.800781 41 14.8125 41 C 15.132813 41 15.433594 40.847656 15.621094 40.589844 L 17.449219 38.074219 C 12.515625 36.800781 9.996094 34.636719 9.851563 34.507813 C 9.4375 34.144531 9.398438 33.511719 9.765625 33.097656 C 10.128906 32.683594 10.761719 32.644531 11.175781 33.007813 C 11.234375 33.0625 15.875 37 25 37 C 34.140625 37 38.78125 33.046875 38.828125 33.007813 C 39.242188 32.648438 39.871094 32.683594 40.238281 33.101563 C 40.601563 33.515625 40.5625 34.144531 40.148438 34.507813 C 40.003906 34.636719 37.484375 36.800781 32.550781 38.074219 L 34.378906 40.589844 C 34.566406 40.847656 34.867188 41 35.1875 41 C 35.199219 41 35.210938 41 35.21875 41 C 37.027344 40.941406 44.960938 39.605469 47.867188 34.496094 C 47.953125 34.34375 48 34.175781 48 34 C 48 24.152344 43.785156 12.761719 41.625 10.769531 Z M 18.5 30 C 16.566406 30 15 28.210938 15 26 C 15 23.789063 16.566406 22 18.5 22 C 20.433594 22 22 23.789063 22 26 C 22 28.210938 20.433594 30 18.5 30 Z M 31.5 30 C 29.566406 30 28 28.210938 28 26 C 28 23.789063 29.566406 22 31.5 22 C 33.433594 22 35 23.789063 35 26 C 35 28.210938 33.433594 30 31.5 30 Z" />
+                    </svg>
+                  </a>
+                </h1>
+              </div>
+              <div className="split flex-v2">
+                <div className="row mt-3">
+                  <div className="col-md-6 col-sm-12 ">
+                    <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
+                      The moon was full that night. It had begun to snow the day before but it already lay heavy upon the village and also on the thin branches of the surrounding forest trees.
+                      <br />
+                      <br />
+                      It was a quiet night. The houses were shut and dark. The place appeared as if abandoned. One would think there should be at least some windows emitting the welcoming glow of fireplaces but there weren't any. None other than those of the tavern, which was at the only entrance to the village (or exit depending on whether one comes or goes). The mountain range prevents access from all other directions. One can only visit this settlement when taking the route north from Skyhill onward. Orient yourself to the west when exiting Skyhill. Ascend to the small but famous Surin with its mysterious trees that never bloom but branch. There turn north until you surpass the tree line. At the Rune 'Remembrance' take the leftmost route. The path from there only has junctions that lead to dead ends in the forest, it will eventually lead you here. 
+                      <br />
+                      <br />
+                      Normally no foreigner would make it that far into the mountains at this time of the year. The small community is about to go into three months of solitude. Some tell stories of how winter solves as many problems as it causes. One has to set their affairs in order. In a winter like this one is all the more dependent on others. Many years fierce conflicts between grim men were settled for good, during the harsh season.
+                      <br />
+                      <br />
+                      This crystal cold night they began their ritual 'Of the Past'. The celebration 'Of the Present' will take place in thirty days exact and 'Of the Future' will begin another 30 days later.
+                      <br />
+                      <br />
+                      A shadow approached the village on the long winding trail. In a few minutes it would pass the tavern. The figure was huge but that could be due to the coat and fur against the cold. It leaned on a cane with every second step. Were they hurt?
+                      <br />
+                      <br />
+                      Every resident was in the tavern that evening. Although there was a solemn aura to the air in the tavern, there was a very sober demeanor among the villagers. No drunken laughter, no tales told to bright eyes, no drinks. Maybe this is not a tavern at all? In a small back room a man speaks to a woman very confidentially. They have neither a domestic nor a business conversation. "I don't know how this will ever end in good terms." "It can't be like this for much longer, I know it won't. - Have you seen him yet?" She shook her head very slightly.
+                      <br />
+                      <br />
+                      The air in the taverns guestroom became unbearably, not outright nervous but even quieter still, thick. A Child, a girl who would soon turn 5 years old, could not bear to sit any longer. She turned quickly to stand upon the chair she had been sitting on, she reached for the handle of the window, saw the shadow on the up-winding road approaching, with confidence but slowly. She halted, then shrieked: "He is here!" They all gasped in unison. Some reached for a lucky charm or an item that made them feel safe, secure and empowered. (Not few reached where they are used to finding their swords and knifes.)
+                      <br />
+                      <br />
+                      The man in the back room got to his feet, the women spun around, they both hasted for the guestroom. "Shit!"
+                      <br />
+                      <br />
+                      The tavern door flung open. Fresh air immediately vented into every corner of the room. The figure stood in the doorway for a second, head bowed. He mumbled something. (A spell?) Then he looked up. He was a man of unknown age, not very young, not very old but his eyes had seen a lot. He appeared to be a stranger to this region. His eyebrows not as thick as those of the villagers, his mouth a little broader, his cheeks not as highlighted.
+                      <br />
+                      <br />
+                      After a split second he turned to look directly at the child who had stood at the window. "Hello little Akira." She looked to her mother than back to the visitor. "Good evening." She was shy.
+                      <br />
+                      "Good evening." He nodded and looked at the community, greeting all. 
+                      <br />
+                      Someone closed the door. Someone else put the rest of the firewood into the fireplace.
+                      <br />
+                      <br />
+                      The visitor blew into a little whistle, he had worn around his neck and everyone in the room began a chant. Then they formed a circle around the center of the room and another slightly larger circle around the first and then another until the whole group was in formation. The visitor sat down at the centre and the first person sat down opposite him. The whistle lay between them next to a candle that had been lighted, it smelled faintly of honey, mushroom and something else
+                      <br />
+                      <br />
+                      A good while passed and no one moved. Their murmurs rose and faded and rose again. The pair at the centre exchanged a few words that no one overheard, for it was not part of the ritual Of The Past to hear about the past of others. It will be all night and until the early morning, then everyone will have glimpsed a fraction of the visitor's past and everyone will have passed on a bit of their own past to him. 
+                      <br />
+                      <br />
+                      When Namio, who was the first to sit across from the shaman, got up to leave the center, the Sourcerer whistled briefly three times. In a compassionate voice, he said: "Namio spoke of his past - Namio, Tree Whisperer.", thereby breaking the trance of the community just enough to enable the next person to sit.
+                      <br />
+                      <br />
+                      Namio blushed a little, but only his bride-to-be noticed it, as she had been particularly nervous at the beginning of this ritual. She glanced at Namio again and then fell back into the murmur.
+                      <br />
+                      <br />
+                      tbc...
+                      <br />
+                      <br />
+                
+
+                    </p>
+                  </div>
+                  <div className="col-md-6 col-sm-12 p-md-0">
+                    {" "}
+                    <img
+                      src="/assets/images/AvanbachSourcerer.png"
+                      alt="AvanbachSourcerer"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
           </div>
         </div>
       </div>
