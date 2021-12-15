@@ -293,7 +293,11 @@ const Archives = () => {
               </h1>
               <div className="split flex-v2">
                 <div className="row mt-3">
-                  <div className="col-md-6 col-sm-12 ">
+                  <div className="col-sm-12 ">
+                    <div className="image-wrapped-left">
+                      {" "}
+                      <img src="/assets/images/Derkizzle.jpeg" alt="Kiroh" />
+                    </div>
                     <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
                       A low red mist clears outside the window of the train
                       carriage that I call home. Very much stationary train, I
@@ -352,10 +356,6 @@ const Archives = () => {
                       <br />
                     </p>
                   </div>
-                  <div className="col-md-6 col-sm-12 p-md-0">
-                    {" "}
-                    <img src="/assets/images/Derkizzle.jpeg" alt="Kiroh" />
-                  </div>
                 </div>
               </div>
             </div>
@@ -397,7 +397,13 @@ const Archives = () => {
               </div>
               <div className="split flex-v2">
                 <div className="row mt-3">
-                  <div className="col-md-6 col-sm-12 ">
+                  <div className=" col-sm-12 ">
+                    <div className="image-wrapped-left">
+                      <img
+                        src="/assets/images/HarutoKaiba.png"
+                        alt="HarutoKaiba"
+                      />
+                    </div>
                     <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
                       Story narrated by an old villager ‘old man Akito ’
                       <br />
@@ -488,13 +494,6 @@ const Archives = () => {
                       him a monster. But to me he was a friend and a hero.”
                     </p>
                   </div>
-                  <div className="col-md-6 col-sm-12 p-md-0">
-                    {" "}
-                    <img
-                      src="/assets/images/HarutoKaiba.png"
-                      alt="HarutoKaiba"
-                    />
-                  </div>
                 </div>
               </div>
             </div>
@@ -537,7 +536,6 @@ const Archives = () => {
               </div>
             </div>
 
-
             <div>
               <div className="div-block-11 flex mt-5">
                 <h1 className="gametheorykanji _20bottom">
@@ -575,75 +573,153 @@ const Archives = () => {
               </div>
               <div className="split flex-v2">
                 <div className="row mt-3">
-                  <div className="col-md-6 col-sm-12 ">
+                  <div className=" col-sm-12 ">
+                    <div className="image-wrapped-left">
+                      <img
+                        src="/assets/images/AvanbachSourcerer.png"
+                        alt="AvanbachSourcerer"
+                      />
+                    </div>
                     <p className="text-white-opacity-2 mb-40 max-width dilema font-16">
-                      The moon was full that night. It had begun to snow the day before but it already lay heavy upon the village and also on the thin branches of the surrounding forest trees.
+                      The moon was full that night. It had begun to snow the day
+                      before but it already lay heavy upon the village and also
+                      on the thin branches of the surrounding forest trees.
                       <br />
                       <br />
-                      It was a quiet night. The houses were shut and dark. The place appeared as if abandoned. One would think there should be at least some windows emitting the welcoming glow of fireplaces but there weren't any. None other than those of the tavern, which was at the only entrance to the village (or exit depending on whether one comes or goes). The mountain range prevents access from all other directions. One can only visit this settlement when taking the route north from Skyhill onward. Orient yourself to the west when exiting Skyhill. Ascend to the small but famous Surin with its mysterious trees that never bloom but branch. There turn north until you surpass the tree line. At the Rune 'Remembrance' take the leftmost route. The path from there only has junctions that lead to dead ends in the forest, it will eventually lead you here. 
+                      It was a quiet night. The houses were shut and dark. The
+                      place appeared as if abandoned. One would think there
+                      should be at least some windows emitting the welcoming
+                      glow of fireplaces but there weren't any. None other than
+                      those of the tavern, which was at the only entrance to the
+                      village (or exit depending on whether one comes or goes).
+                      The mountain range prevents access from all other
+                      directions. One can only visit this settlement when taking
+                      the route north from Skyhill onward. Orient yourself to
+                      the west when exiting Skyhill. Ascend to the small but
+                      famous Surin with its mysterious trees that never bloom
+                      but branch. There turn north until you surpass the tree
+                      line. At the Rune 'Remembrance' take the leftmost route.
+                      The path from there only has junctions that lead to dead
+                      ends in the forest, it will eventually lead you here.
                       <br />
                       <br />
-                      Normally no foreigner would make it that far into the mountains at this time of the year. The small community is about to go into three months of solitude. Some tell stories of how winter solves as many problems as it causes. One has to set their affairs in order. In a winter like this one is all the more dependent on others. Many years fierce conflicts between grim men were settled for good, during the harsh season.
+                      Normally no foreigner would make it that far into the
+                      mountains at this time of the year. The small community is
+                      about to go into three months of solitude. Some tell
+                      stories of how winter solves as many problems as it
+                      causes. One has to set their affairs in order. In a winter
+                      like this one is all the more dependent on others. Many
+                      years fierce conflicts between grim men were settled for
+                      good, during the harsh season.
                       <br />
                       <br />
-                      This crystal cold night they began their ritual 'Of the Past'. The celebration 'Of the Present' will take place in thirty days exact and 'Of the Future' will begin another 30 days later.
+                      This crystal cold night they began their ritual 'Of the
+                      Past'. The celebration 'Of the Present' will take place in
+                      thirty days exact and 'Of the Future' will begin another
+                      30 days later.
                       <br />
                       <br />
-                      A shadow approached the village on the long winding trail. In a few minutes it would pass the tavern. The figure was huge but that could be due to the coat and fur against the cold. It leaned on a cane with every second step. Were they hurt?
+                      A shadow approached the village on the long winding trail.
+                      In a few minutes it would pass the tavern. The figure was
+                      huge but that could be due to the coat and fur against the
+                      cold. It leaned on a cane with every second step. Were
+                      they hurt?
                       <br />
                       <br />
-                      Every resident was in the tavern that evening. Although there was a solemn aura to the air in the tavern, there was a very sober demeanor among the villagers. No drunken laughter, no tales told to bright eyes, no drinks. Maybe this is not a tavern at all? In a small back room a man speaks to a woman very confidentially. They have neither a domestic nor a business conversation. "I don't know how this will ever end in good terms." "It can't be like this for much longer, I know it won't. - Have you seen him yet?" She shook her head very slightly.
+                      Every resident was in the tavern that evening. Although
+                      there was a solemn aura to the air in the tavern, there
+                      was a very sober demeanor among the villagers. No drunken
+                      laughter, no tales told to bright eyes, no drinks. Maybe
+                      this is not a tavern at all? In a small back room a man
+                      speaks to a woman very confidentially. They have neither a
+                      domestic nor a business conversation. "I don't know how
+                      this will ever end in good terms." "It can't be like this
+                      for much longer, I know it won't. - Have you seen him
+                      yet?" She shook her head very slightly.
                       <br />
                       <br />
-                      The air in the taverns guestroom became unbearably, not outright nervous but even quieter still, thick. A Child, a girl who would soon turn 5 years old, could not bear to sit any longer. She turned quickly to stand upon the chair she had been sitting on, she reached for the handle of the window, saw the shadow on the up-winding road approaching, with confidence but slowly. She halted, then shrieked: "He is here!" They all gasped in unison. Some reached for a lucky charm or an item that made them feel safe, secure and empowered. (Not few reached where they are used to finding their swords and knifes.)
+                      The air in the taverns guestroom became unbearably, not
+                      outright nervous but even quieter still, thick. A Child, a
+                      girl who would soon turn 5 years old, could not bear to
+                      sit any longer. She turned quickly to stand upon the chair
+                      she had been sitting on, she reached for the handle of the
+                      window, saw the shadow on the up-winding road approaching,
+                      with confidence but slowly. She halted, then shrieked: "He
+                      is here!" They all gasped in unison. Some reached for a
+                      lucky charm or an item that made them feel safe, secure
+                      and empowered. (Not few reached where they are used to
+                      finding their swords and knifes.)
                       <br />
                       <br />
-                      The man in the back room got to his feet, the women spun around, they both hasted for the guestroom. "Shit!"
+                      The man in the back room got to his feet, the women spun
+                      around, they both hasted for the guestroom. "Shit!"
                       <br />
                       <br />
-                      The tavern door flung open. Fresh air immediately vented into every corner of the room. The figure stood in the doorway for a second, head bowed. He mumbled something. (A spell?) Then he looked up. He was a man of unknown age, not very young, not very old but his eyes had seen a lot. He appeared to be a stranger to this region. His eyebrows not as thick as those of the villagers, his mouth a little broader, his cheeks not as highlighted.
+                      The tavern door flung open. Fresh air immediately vented
+                      into every corner of the room. The figure stood in the
+                      doorway for a second, head bowed. He mumbled something. (A
+                      spell?) Then he looked up. He was a man of unknown age,
+                      not very young, not very old but his eyes had seen a lot.
+                      He appeared to be a stranger to this region. His eyebrows
+                      not as thick as those of the villagers, his mouth a little
+                      broader, his cheeks not as highlighted.
                       <br />
                       <br />
-                      After a split second he turned to look directly at the child who had stood at the window. "Hello little Akira." She looked to her mother than back to the visitor. "Good evening." She was shy.
+                      After a split second he turned to look directly at the
+                      child who had stood at the window. "Hello little Akira."
+                      She looked to her mother than back to the visitor. "Good
+                      evening." She was shy.
                       <br />
-                      "Good evening." He nodded and looked at the community, greeting all. 
+                      "Good evening." He nodded and looked at the community,
+                      greeting all.
                       <br />
-                      Someone closed the door. Someone else put the rest of the firewood into the fireplace.
-                      <br />
-                      <br />
-                      The visitor blew into a little whistle, he had worn around his neck and everyone in the room began a chant. Then they formed a circle around the center of the room and another slightly larger circle around the first and then another until the whole group was in formation. The visitor sat down at the centre and the first person sat down opposite him. The whistle lay between them next to a candle that had been lighted, it smelled faintly of honey, mushroom and something else
-                      <br />
-                      <br />
-                      A good while passed and no one moved. Their murmurs rose and faded and rose again. The pair at the centre exchanged a few words that no one overheard, for it was not part of the ritual Of The Past to hear about the past of others. It will be all night and until the early morning, then everyone will have glimpsed a fraction of the visitor's past and everyone will have passed on a bit of their own past to him. 
-                      <br />
-                      <br />
-                      When Namio, who was the first to sit across from the shaman, got up to leave the center, the Sourcerer whistled briefly three times. In a compassionate voice, he said: "Namio spoke of his past - Namio, Tree Whisperer.", thereby breaking the trance of the community just enough to enable the next person to sit.
+                      Someone closed the door. Someone else put the rest of the
+                      firewood into the fireplace.
                       <br />
                       <br />
-                      Namio blushed a little, but only his bride-to-be noticed it, as she had been particularly nervous at the beginning of this ritual. She glanced at Namio again and then fell back into the murmur.
+                      The visitor blew into a little whistle, he had worn around
+                      his neck and everyone in the room began a chant. Then they
+                      formed a circle around the center of the room and another
+                      slightly larger circle around the first and then another
+                      until the whole group was in formation. The visitor sat
+                      down at the centre and the first person sat down opposite
+                      him. The whistle lay between them next to a candle that
+                      had been lighted, it smelled faintly of honey, mushroom
+                      and something else
+                      <br />
+                      <br />
+                      A good while passed and no one moved. Their murmurs rose
+                      and faded and rose again. The pair at the centre exchanged
+                      a few words that no one overheard, for it was not part of
+                      the ritual Of The Past to hear about the past of others.
+                      It will be all night and until the early morning, then
+                      everyone will have glimpsed a fraction of the visitor's
+                      past and everyone will have passed on a bit of their own
+                      past to him.
+                      <br />
+                      <br />
+                      When Namio, who was the first to sit across from the
+                      shaman, got up to leave the center, the Sourcerer whistled
+                      briefly three times. In a compassionate voice, he said:
+                      "Namio spoke of his past - Namio, Tree Whisperer.",
+                      thereby breaking the trance of the community just enough
+                      to enable the next person to sit.
+                      <br />
+                      <br />
+                      Namio blushed a little, but only his bride-to-be noticed
+                      it, as she had been particularly nervous at the beginning
+                      of this ritual. She glanced at Namio again and then fell
+                      back into the murmur.
                       <br />
                       <br />
                       tbc...
                       <br />
                       <br />
-                
-
                     </p>
-                  </div>
-                  <div className="col-md-6 col-sm-12 p-md-0">
-                    {" "}
-                    <img
-                      src="/assets/images/AvanbachSourcerer.png"
-                      alt="AvanbachSourcerer"
-                    />
                   </div>
                 </div>
               </div>
             </div>
-
-
-
-
           </div>
         </div>
       </div>

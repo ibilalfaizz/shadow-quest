@@ -14,6 +14,11 @@
 body {
   font-family: Chakra Petch !important;
 }
+.image-wrapped-left {
+  max-width: 550px;
+  float: right;
+  padding: 0 2rem 2rem 2rem;
+}
 .dollar-sign {
   font-family: Trincha !important;
   font-size: 40px;
@@ -1015,6 +1020,10 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 767px) {
+  .image-wrapped-left {
+    max-width: 100%;
+    padding: 0 0 2rem 0;
+  }
   .subtitles h5 {
     font-size: 25px;
   }
@@ -1086,6 +1095,7 @@ textarea.w-select {
   }
 }
 @media screen and (max-width: 479px) {
+ 
   .w-container {
     max-width: none;
   }
