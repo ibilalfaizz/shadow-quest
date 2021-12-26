@@ -6,18 +6,18 @@ const HeadCustom = () => {
       <title>SHADOW QUEST | 影の探求 </title>
 
       <meta
-        content="SHADOW QUEST | 影の探求 - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
+        content="SHADOW QUEST | 影の探求 - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching January."
         name="description"
       />
       <meta content="SHADOW QUEST" property="og:title" />
       <meta
-        content="SHADOW QUEST | 影の探求 - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
+        content="SHADOW QUEST | 影の探求 - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching January."
         property="og:description"
       />
       <meta property="og:image" content="/assets/images/meta-image.png" />
       <meta property="twitter:title" content="SHADOW QUEST" />
       <meta
-        content="SHADOW QUEST | 影の探求 - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching December."
+        content="SHADOW QUEST | 影の探求 - Battle 9,996 epic hand-drawn warriors in this strategic staking game to win precious $HONR and glorious rewards! Launching January."
         property="twitter:description"
       />
       <meta content="/assets/images/meta-image.png" property="twitter:image" />
